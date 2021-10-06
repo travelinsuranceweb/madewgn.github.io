@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jekyll on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/tags/jekyll/</link>
+    <description>Recent content in jekyll on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 04:06:19 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Artikel Di Jekyll</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</link>
+      <pubDate>Fri, 01 Oct 2021 04:06:19 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</guid>
+      <description>Halo selamat datang kembali di Made Wiguna project disini saya akan membahas bagaimana sih caranya membuat artikel jekyll
+   (adsbygoogle = window.adsbygoogle || []).push({});  Buat yang belum tahu cara membuat blog dengan jekyll bisa di baca di sini ya https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/
+Btw ada dua cara nih untuk menulis di jekyll, yang pertama menulis langsung dari github / gitlab yang kedua menulis secara offline di text editor. Sekarang saya akan membahas dua-duanya nih, tapi yang pertama akan saya bahas adalah cara menulis artikel langsung dari github</description>
+    </item>
+    
+    <item>
+      <title>Cara Menambahkan Google Analytics Pada Hugo</title>
+      <link>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</guid>
+      <description>Ketika kita mengelola sebuah website baik itu website pribadi, kantor, event, dll., pastinya kita ingin bisa memantau traffic dari website tersebut. Salah satu layanan gratis dari Google yang dapat membantu kita melakukan hal tersebut adalah Google Analytics.
+Dengan Google Analytics, kita bisa mendapatkan informasi dari mulai halaman mana yang dikunjungi visitor, negara asal visitor, sumber dan kata kunci yang merujuk ke website kita, hingga pembuatan report tentang traffic dari website kita.</description>
+    </item>
+    
+    <item>
+      <title>how to make blog with jekyll</title>
+      <link>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</guid>
+      <description>Creating a Blog on GitHub Using Jekyll Jekyll is a website generator designed to create static blogs to host on GitHub Pages. Tom Preston-Werner created Jekyll to allow people to blog using a simple static HTML site, with all content hosted and version-controlled on GitHub. The goal is to remove the hassle of blogging platforms by creating workflows that enable blogging in a simpler way.
+How Does Jekyll Work? Quoted from its official website, Jekyll allows us to create blogs easily and without using a database.</description>
+    </item>
+    
+    <item>
+      <title>cara memasang kode adsense di jekyll</title>
+      <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</guid>
+      <description>gambar 
+bagai mana cara memasang kode google adsense di jekyll? sebebar nya memasang kode ads di jekyll itu mudah karena hanya perlu menaruh kode nya di dalam _includes tanpa basabasi lagi langsung saja kita ke tutorial nya&amp;hellip;
+tambahkan situs baru di Adsense  gambar1 
+untuk cara menambahkan situs baru silakan buka halaman situs, setelah itu langsung tambahkan situs baru
+kemudian kamu akan mendapat kan kode sepeti ini</description>
+    </item>
+    
+    <item>
+      <title>cara nge blog dengan jekyll</title>
+      <link>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</guid>
+      <description>Membuat Blog di GitHub Menggunakan Jekyll Jekyll adalah generator situs web yang dirancang untuk membuat blog statis untuk di-hosting di Halaman GitHub. Tom Preston-Werner menciptakan Jekyll untuk memungkinkan orang untuk blog menggunakan situs HTML statis sederhana, dengan semua konten yang di-host dan dikendalikan oleh versi di GitHub. Tujuannya adalah untuk menghilangkan kerumitan platform blog dengan membuat alur kerja yang memungkinkan blogging dengan cara yang lebih sederhana.
+Bagaimana Cara Kerja Jekyll? Dikutip dari situs resmi nya, Jekyll memungkinkan kita untuk membuat blog dengan mudah dan tanpa menggunakan database.</description>
+    </item>
+    
+  </channel>
+</rss>

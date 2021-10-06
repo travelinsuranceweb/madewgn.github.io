@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/tags/css/</link>
+    <description>Recent content in css on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara membuat Widget Status COVID 19 Indonesia</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</guid>
+      <description>Cara pemasangannya cukup simple, saya coba menjelaskan cara pemasangan di wordpress dan blogspot.
+Pasang widget kawal corona di WordPress Untuk website yang dibangun dengan wordpress, kita dapat masuk ke halaman Tampilan, lalu masuk ke menu Widget.
+Setelah itu, kita tambahkan widget HTML Khusus kedalam sidebar. Lalu pada kolom isi di widget HTML Khusus kita tambahkan script dibawah ini
+Pasang widget kawal corona di Blogger / Blogspot Untuk memasang widget kawal corona di Blogger/Blogspot kalian dapat masuk ke halaman Tata Letak, lalu klik tombol &amp;ldquo;Tambahkan Widget&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

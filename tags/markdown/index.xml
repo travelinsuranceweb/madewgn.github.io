@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Oct 2021 10:46:30 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>panduan menulis mengunakan markdowns</title>
+      <link>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</link>
+      <pubDate>Fri, 01 Oct 2021 10:46:30 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({});  Bagi yang sering bermain di Github dan web serupa, pasti sering melihat markdown. Biasanya markdown digunakan untuk menuliskan dokumentasi.
+Pada dasarnya markdown sama seperti HTML. Namun, lebih sederhana dan mudah dibaca.
+Saat ini markdown sudah digunakan untuk:
+  Dokumentasi;
+  SSG (Static Site Generator);
+  CMS seperti Ghost, Wordpress, Tumblr, dll.;
+  Penulisan Buku;
+  Format teks pada chat: Telegram, WA, Facebook;</description>
+    </item>
+    
+  </channel>
+</rss>

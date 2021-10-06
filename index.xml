@@ -1,0 +1,2593 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Made Wiguna Blogger</title>
+        <link>https://madewgn.github.io/</link>
+        <description>Recent content on Made Wiguna Blogger</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 05 Oct 2021 10:17:25 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cara Memasang Kode Adsense Di Hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</link>
+        <pubDate>Tue, 05 Oct 2021 10:17:25 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</guid>
+        <description>&lt;img src="https://telegra.ph/file/4c0ccf68d91c3fbb93565.jpg" alt="Featured image of post Cara Memasang Kode Adsense Di Hugo" /&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://telegra.ph/file/4c0ccf68d91c3fbb93565.jpg&#34; &gt;
+		&lt;img src=&#34;https://telegra.ph/file/4c0ccf68d91c3fbb93565.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;ads&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;ads&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Halo selamat datang kembali di Made Wiguna Bloggers, kali ini saya akan memberikan tutorial singkat cara memasang kode AdSense di  hugo, tapi sebelum itu pastikan kamu sudah mempunyai akun adsense nya dulu ya !! :D&lt;/p&gt;
+&lt;p&gt;Btw ada 2 cara nih untuk menampilkan iklan AdSense di hugo&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pasang script AdSense di &lt;code&gt;head.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Menggunakan shortcode&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Yang pertama akan saya bahas ada cara menambahkan script AdSense di &lt;code&gt;head.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Silakan login ke akun AdSense kalian, setelah itu salin kode AdSense nya&lt;/p&gt;
+&lt;p&gt;Contoh kode :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&amp;lt;!-- google adsense --&amp;gt;
+&amp;lt;script async &lt;span class=&#34;nv&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX&amp;#34;&lt;/span&gt;
+     &lt;span class=&#34;nv&#34;&gt;crossorigin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;anonymous&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kemudian buka direktori &lt;code&gt;themes/[NAMA TEMA MU]/layouts/partials/head.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Sekarang tinggal paste aja script nya di sana.&lt;/p&gt;
+&lt;p&gt;Metode ke 2
+Cara memasang kode AdSense dengan shortcode,
+Dengan menggunakan cheat kode kayan bisa mengatur sendiri di mana keinginan kalian meletakkan iklannya (di dalam artikel)&lt;/p&gt;
+&lt;p&gt;Contoh nya saya akan menaruh iklan tepat di bawah tulisan ini&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Gimana ada kan?😄&lt;/p&gt;
+&lt;p&gt;Untuk cara membuat nya pun sangat mudah,&lt;/p&gt;
+&lt;p&gt;Silakan buat shortcode baru dengan nama &lt;code&gt;ads.html&lt;/code&gt; dalam direktori &lt;code&gt;themes/[NAMA TEMA MU]/layouts/shortcode/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Untuk mendapatkan kode nya silahkan login ke akun AdSense kalian, setelah itu pilih menu &lt;code&gt;iklan&lt;/code&gt; , lalu buka &lt;code&gt;menurut unit iklan&lt;/code&gt; , dan buat &lt;code&gt;iklan dalam artikel&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Copy semua kode yang di berikan dan paste kan di &lt;code&gt;ads.html (dalam shortcode)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Nah sekarang tinggal tinggal tambahkan kode
+Dalam artikel mu&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://telegra.ph/file/5435fc67f7b7ae50145c9.jpg&#34; &gt;
+		&lt;img src=&#34;https://telegra.ph/file/5435fc67f7b7ae50145c9.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;ads&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;ads&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Hasilnya akan seperti ini&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Nah seperti itu, dengan shortcode iklan AdSense bisa kamu taruh sesuai selera
+Selamat mencoba&lt;/p&gt;
+&lt;p&gt;Jika mengalami kesulitan silahkan hubungi saya di Telegram&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Deploy Hugo ke github</title>
+        <link>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</link>
+        <pubDate>Mon, 04 Oct 2021 22:28:20 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</guid>
+        <description>&lt;img src="https://telegra.ph/file/ae891af3c31582bb1891e.jpg" alt="Featured image of post Cara Deploy Hugo ke github" /&gt;&lt;p&gt;Melanjutkan tulisan sebelumnya mengenai cara membuat blog dengan Hugo, sekarang kita akan menghostingkan static site yang kita buat ke Github. Dengan fitur Github Pages yang disediakan oleh Github, kita bisa menghostingkan file-file yang digenerate oleh Hugo.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pertama, buat terlebih dahulu sebuah repository di Github.&lt;/p&gt;
+&lt;p&gt;Sebagai contoh, saya sudah membuat repository dengan alamat berikut:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/madewgn/madewgn.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/madewgn/madewgn.github.io/&lt;/a&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Kemudian, buatlah 2 branch, yaitu main dan pages.&lt;/p&gt;
+&lt;p&gt;Branch main nantinya akan digunakan sebagai menyimpan source dari file-file Hugo kita. Sedangkan branch pages digunakan untuk menyimpan hasil static site dari Hugo.&lt;/p&gt;
+&lt;p&gt;Push terlebih dahulu source project dari Hugo ke branch &lt;code&gt;main.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Setelah itu generate static site dari Hugo dengan command &lt;code&gt;hugo.&lt;/code&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pindah ke directori public, kemudian buat repo untuk dimasukkan ke Github dengan branch pages dengan cara berikut.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; cd public 
+&amp;gt; git init 
+&amp;gt; git add . 
+&amp;gt; git commit -m &amp;quot;first commit&amp;quot; 
+&amp;gt; git branch -m pages 
+&amp;gt; git remote add origin https://github.com/&amp;lt;username&amp;gt;/&amp;lt;project&amp;gt;.git
+&amp;gt; git push -u origin pages 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Langkah terakhir yaitu mengaktifkan fitur Pages di Github
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Untuk mengaktifkan fitur Github Pages cukup mudah.&lt;/p&gt;
+&lt;p&gt;Pertama, kalian cukup buka menu Settings yang ada di bagian kanan repositori kalian.&lt;/p&gt;
+&lt;p&gt;Kemudian, di bagian bawah akan ada sub-menu dengan nama Github Pages.&lt;/p&gt;
+&lt;p&gt;Pilih branch pages yang merupakan HTML dari static site yang ter-generate.&lt;/p&gt;
+&lt;p&gt;Lalu Save
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://www.kangsunu.com/cara-hosting-deploy-hugo-di-github/3-enable-github-pages.gif&#34; &gt;
+		&lt;img src=&#34;https://www.kangsunu.com/cara-hosting-deploy-hugo-di-github/3-enable-github-pages.gif&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;aktif kan github pages&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;aktif kan github pages&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Sekarang blog yang dibuat dengan Hugo sudah bisa diakses dengan alamat &lt;strong&gt;&lt;strong&gt;https://&lt;!-- raw HTML omitted --&gt;.github.io/&lt;!-- raw HTML omitted --&gt;.&lt;/strong&gt;&lt;/strong&gt; Pada tulisan ini, maka contoh blog yang saya buat diakses melalui &lt;strong&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://madewgn.github.io/&lt;/a&gt;.&lt;/strong&gt;&lt;/strong&gt; Bila ingin menggunakan domain root dari Github, maka nama repositori yang dibuat harus &lt;strong&gt;&lt;strong&gt;&lt;!-- raw HTML omitted --&gt;.github.io.&lt;/strong&gt;&lt;/strong&gt; Untuk akun Github saya jadinya &lt;strong&gt;&lt;strong&gt;madewgn.github.io.&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Membuat Privacy Policy</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-privacy-policy/</link>
+        <pubDate>Sun, 03 Oct 2021 23:01:51 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-privacy-policy/</guid>
+        <description>&lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3kvXzptOrxnzGMEXAvi6UbXK9pOJLBgePNA&usqp=CAU" alt="Featured image of post Cara Membuat Privacy Policy" /&gt;&lt;h2 id=&#34;apa-itu-privacy-policy&#34;&gt;Apa Itu Privacy Policy?&lt;/h2&gt;
+&lt;p&gt;Privacy policy adalah halaman pernyataan terkait seberapa jauh kita menggunakan informasi yang terkumpul dari pengunjung.&lt;/p&gt;
+&lt;p&gt;Baik secara sebagian maupun secara keseluruhan. Informasi yang biasa di ambil website biasanya berupa cookies yang saat ini digunakan sebagai salah satu data distribusi iklan.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Keberadaan halaman privacy policy yang menjelaskan setiap persetujuan tentu sangat dibutuhkan sebagai salah satu syarat agar blog bisa di-approve oleh Google Adsense.&lt;/p&gt;
+&lt;p&gt;Jadi, fungsi halaman Privacy Policy sendiri sangat penting dalam melengkapi elemen sebuah website agar semakin disukai oleh mesin pencari.&lt;/p&gt;
+&lt;h2 id=&#34;privacy-policy-generator&#34;&gt;Privacy Policy Generator&lt;/h2&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Ada banyak website privacy policy generator for adsense yang bisa Anda gunakan untuk membuat konten privacy policy yang menarik di mata pegunjung.&lt;/p&gt;
+&lt;p&gt;Sebagian website privacy policy generator bahkan bisa digunakan secara gratis tanpa perlu mendaftar biaya berlanggan.&lt;/p&gt;
+&lt;p&gt;Anda cukup mengisi form nama website, URL website, dan nama pemilik website untuk lebih menunjukkan bahwa konten privacy policy.&lt;/p&gt;
+&lt;p&gt;Daftar website Privacy Policy Generator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;privacypolicyonline.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;termsfeed.com/privacy-policy-generator&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;privacypolicies.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;shopify.co.id/tools/policy-generator&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cara-membuat-privacy-policy-di-blog&#34;&gt;Cara Membuat Privacy Policy di Blog&lt;/h2&gt;
+&lt;p&gt;Pada dasarnya membuat privacy policy di blog bisa dilakukan oleh siapa saja dengan merangkai kata-kata yang sebelumnya sudah ada.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Namun, sayangnya masih ada beberapa blogger pemula atau orang yang tidak punya waktu luang sehingga kesulitan dalam menghasilkan karya dalam bentuk konten privacy policy.&lt;/p&gt;
+&lt;p&gt;Cara membuat privacy policy bahasa indonesia sendiri sangat simpel dan sederhana.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Terlebih saat ini Anda juga bisa memanfaatkan privacy policy generator yang bisa digunakan untuk membuat konten privacy policy hanya dalam beberapa klik saja.&lt;/p&gt;
+&lt;p&gt;Bagi para pengguna platform blogger, cara membuat privacy policy di blogspot relatif lebih sederhana.&lt;/p&gt;
+&lt;p&gt;Yakni Anda tinggal menuju ke situs privacy policy generator kemudian menambahkan konten kedalam halaman pages.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Cara ini hampir mirip seperti ketika Anda menambahkan halaman kontak, tentang kami, atau halaman Disclaimer. Berikut panduan langkah-langkah selengkapnya:&lt;/p&gt;
+&lt;p&gt;1. Kunjungi situs https://www.privacypolicyonline.com/&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Arahkan kursor ke bagian menu paling atas bertuliskan “Free Generator”. Anda bisa melihat pada gambar di bawah ini.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Isi kolom nama website dan URL website yang ingin dibuat Privacy Policynya, kemudian klik tombol Next.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Contoh:&lt;/p&gt;
+&lt;p&gt;Nama website: Made Wiguna Bloggers&lt;/p&gt;
+&lt;p&gt;URL: &lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://madewgn.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4.Selanjutnya Anda akan di arahkan untuk menjawab beberapa butir pertanyaan terkait website Anda&lt;/p&gt;
+&lt;p&gt;Misalnya seperti apakah website Anda menyimpan cookies pengguna, menampilkan iklan dari Google AdSense, dll.&lt;/p&gt;
+&lt;p&gt;Isi sesuai website Anda masing-masing karena informasi ini bisa berbeda-beda.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Klik Next setelah selesai mengisi semua pertanyaan yang ada.&lt;/p&gt;
+&lt;p&gt;5.Pada tahap ini Anda diminta untuk memasukkan alamat email sebagai kontak atau penanggung jawab ketika pengunjung memiliki keluhan dan pertanyaan.&lt;/p&gt;
+&lt;p&gt;Jangan lupa klik tombol “Create Privacy Online” jika sudah selesai mengisi kolom tersebut.&lt;/p&gt;
+&lt;p&gt;6.Konten Privacy Policy atau kebijakan privasi untuk websit Anda sudah selesai. Ada dua pilihan yang diberikan layanan Privacy Policy Generator untuk menampilkan konten kebijakan privasi di website Anda.&lt;/p&gt;
+&lt;p&gt;Pertama melalui link eksternal yang bisa di-embed ke menu navigasi website. Sementara yang kedua merupakan konten HTML yangperlu Anda masukkan sendiri kedalam pages baru.&lt;/p&gt;
+&lt;p&gt;7.Selesai
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Konfigurasi Git</title>
+        <link>https://madewgn.github.io/artikel/konfigurasi-git/</link>
+        <pubDate>Sun, 03 Oct 2021 11:45:50 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/konfigurasi-git/</guid>
+        <description>&lt;p&gt;Konfigurasi Awal yang Harus Dilakukan
+Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Silahkan lakukan konfigurasi dengan perintah berikut ini.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;MadeWgn&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git config --global user.email contoh@madewgn.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Silakan ganti username dan email sesuai dengan yang kalian punya ya
+Kemudian periksa konfigurasinya dengan perintah:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git config --list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Inatall Git Di Linux</title>
+        <link>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</link>
+        <pubDate>Sat, 02 Oct 2021 23:12:56 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</guid>
+        <description>&lt;p&gt;Cara Install Git di Linux&lt;/p&gt;
+&lt;p&gt;Instalasi Git pada Distro keluarga Debian dapat menggunakan perintah apt.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt install git 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;atau&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo apt-get install git 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Pada Fedora:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yum install git 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Setelah itu, coba perika versi yang terinstal dengan perintah:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git --vers
+&lt;/code&gt;&lt;/pre&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Selanjutnya : &lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/konfigurasi-git/&#34; &gt;konfigurasi git yang harus dilakukan&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Install Git Windows</title>
+        <link>https://madewgn.github.io/artikel/cara-install-git-windows/</link>
+        <pubDate>Sat, 02 Oct 2021 09:02:56 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-install-git-windows/</guid>
+        <description>&lt;img src="https://telegra.ph/file/0efda4f3977474c37274c.jpg" alt="Featured image of post Cara Install Git Windows" /&gt;&lt;h2 id=&#34;cara-install-git-di-windows&#34;&gt;Cara Install Git di Windows&lt;/h2&gt;
+&lt;p&gt;Instalasi Git di Windows memang tidak seperti di Linux yang ketik perintah langsung terinstal.&lt;/p&gt;
+&lt;p&gt;Kita harus men-download dulu, kemudian melakukan ritual next&amp;gt;next&amp;gt;finish.&lt;/p&gt;
+&lt;p&gt;Tapi dalam ritual tersebut, ada pilihan yang harus diperhatikan agar perintah &lt;code&gt;git&lt;/code&gt; dapat dikenali di CMD.&lt;/p&gt;
+&lt;h2 id=&#34;download-git&#34;&gt;Download Git&lt;/h2&gt;
+&lt;p&gt;Silahkan buka website resminya Git ( &lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;git-scm.com&lt;/a&gt;). Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.&lt;/p&gt;
+&lt;p&gt;Langkah-langkah Install Git di Windows&lt;/p&gt;
+&lt;p&gt;Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://3.bp.blogspot.com/-GJG55D0dDUE/WJyvgHq7V6I/AAAAAAAAD0Y/1eNFR16HwmoDXixtJfQ5HRMZ_hCelqD0gCPcB/s1600/1.%2BBuka%2Bfile%2Binstaler%2BGit.JPG&#34; &gt;
+		&lt;img src=&#34;https://3.bp.blogspot.com/-GJG55D0dDUE/WJyvgHq7V6I/AAAAAAAAD0Y/1eNFR16HwmoDXixtJfQ5HRMZ_hCelqD0gCPcB/s1600/1.%2BBuka%2Bfile%2Binstaler%2BGit.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;File Git&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;File Git&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Maka akan muncul infomasi lisensi Git, klik Next &amp;gt; untuk melanjutkan.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://3.bp.blogspot.com/-NzbswuR4CgU/WJyvgMeY3cI/AAAAAAAAD0Y/aa_6vg_W7Q0l7cf20FkatIkU0dXGAJXtACPcB/s1600/2.%2BInformasi%2Btentang%2Bgit.JPG&#34; &gt;
+		&lt;img src=&#34;https://3.bp.blogspot.com/-NzbswuR4CgU/WJyvgMeY3cI/AAAAAAAAD0Y/aa_6vg_W7Q0l7cf20FkatIkU0dXGAJXtACPcB/s1600/2.%2BInformasi%2Btentang%2Bgit.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;informasi tentang git&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;informasi tentang git&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next &amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://2.bp.blogspot.com/-Ye-09zmjGXY/WJyvgKQWTxI/AAAAAAAAD0Y/hbIXryc1LBkUOaXOOlP92ynIwdVGAZs9gCPcB/s1600/3.%2BLokasi%2Binstal.JPG&#34; &gt;
+		&lt;img src=&#34;https://2.bp.blogspot.com/-Ye-09zmjGXY/WJyvgKQWTxI/AAAAAAAAD0Y/hbIXryc1LBkUOaXOOlP92ynIwdVGAZs9gCPcB/s1600/3.%2BLokasi%2Binstal.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;lokasi Install git&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;lokasi Install git&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pemilihan komoponen, biarkan saja seperti ini kemudian klik Next &amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://2.bp.blogspot.com/-ywOWK8HlXtY/WJyvgBmH9YI/AAAAAAAAD0Y/IoJbYkEjw0oIQYxLR3Jf7AvbDhwbDneoQCPcB/s1600/4.%2BPemilihan%2Bkomponen.JPG&#34; &gt;
+		&lt;img src=&#34;https://2.bp.blogspot.com/-ywOWK8HlXtY/WJyvgBmH9YI/AAAAAAAAD0Y/IoJbYkEjw0oIQYxLR3Jf7AvbDhwbDneoQCPcB/s1600/4.%2BPemilihan%2Bkomponen.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;memilih komponen&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;memilih komponen&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pemlilihan direktori start menu, klik Next &amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://3.bp.blogspot.com/-iGNC1QrWtDg/WJyvgHelUtI/AAAAAAAAD0Y/fJKy0-mD6MgikbyjrjD4FDabTfPynbCiwCPcB/s1600/5.%2Bpembuatan%2Bstart%2Bmenu.JPG&#34; &gt;
+		&lt;img src=&#34;https://3.bp.blogspot.com/-iGNC1QrWtDg/WJyvgHelUtI/AAAAAAAAD0Y/fJKy0-mD6MgikbyjrjD4FDabTfPynbCiwCPcB/s1600/5.%2Bpembuatan%2Bstart%2Bmenu.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pembuatan start menu&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pembuatan start menu&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah &lt;code&gt;git&lt;/code&gt; dapat di kenali di Command Prompt (CMD). Setelah itu klik Next &amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://4.bp.blogspot.com/-79ZG8B-IzCA/WJyvgLBQbjI/AAAAAAAAD0Y/u87asmJOm9UcFAT0Q87pM8xgcW82kkOOwCPcB/s1600/6.%2BPath%2Benvironment.JPG&#34; &gt;
+		&lt;img src=&#34;https://4.bp.blogspot.com/-79ZG8B-IzCA/WJyvgLBQbjI/AAAAAAAAD0Y/u87asmJOm9UcFAT0Q87pM8xgcW82kkOOwCPcB/s1600/6.%2BPath%2Benvironment.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Menentukan Path Environment&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Menentukan Path Environment&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next &amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://3.bp.blogspot.com/-3ZL1Ea4exvo/WJyvgLEi3NI/AAAAAAAAD0Y/3jSy13aPLkAqkaZ5CrFQbmfCNb6m8kniQCPcB/s1600/7.%2Bkonversi%2Bline%2Bending.JPG&#34; &gt;
+		&lt;img src=&#34;https://3.bp.blogspot.com/-3ZL1Ea4exvo/WJyvgLEi3NI/AAAAAAAAD0Y/3jSy13aPLkAqkaZ5CrFQbmfCNb6m8kniQCPcB/s1600/7.%2Bkonversi%2Bline%2Bending.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Konversi line ending yang akan digunakan&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Konversi line ending yang akan digunakan&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next &amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://4.bp.blogspot.com/-wuVBFyFlmjo/WJyvgNkAcvI/AAAAAAAAD0Y/UDKA-JsD3UIuv2sDOEkdwd_X_gRG8uX3QCPcB/s1600/8.%2BPemilihan%2Bemulator%2Bterminal.JPG&#34; &gt;
+		&lt;img src=&#34;https://4.bp.blogspot.com/-wuVBFyFlmjo/WJyvgNkAcvI/AAAAAAAAD0Y/UDKA-JsD3UIuv2sDOEkdwd_X_gRG8uX3QCPcB/s1600/8.%2BPemilihan%2Bemulator%2Bterminal.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pilih Terminal emulator&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pilih Terminal emulator&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pemilihan opsi ekstra. Klik saja Next &amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://1.bp.blogspot.com/-5oq7fAHTb7Q/WJyvgMQFc6I/AAAAAAAAD0Y/-5KmjFlMrsMkIsrPjoja277tQDaA_nr5ACPcB/s1600/9.%2BKonfigurasi%2BOpsi%2BEkstra.JPG&#34; &gt;
+		&lt;img src=&#34;https://1.bp.blogspot.com/-5oq7fAHTb7Q/WJyvgMQFc6I/AAAAAAAAD0Y/-5KmjFlMrsMkIsrPjoja277tQDaA_nr5ACPcB/s1600/9.%2BKonfigurasi%2BOpsi%2BEkstra.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;opsi ekstra&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;opsi ekstra&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://2.bp.blogspot.com/-lrAn-7lh7jY/WJyvgMm0PiI/AAAAAAAAD0Y/sEhM1irdMPkvv3v615R5JhIcIDNUJxArQCPcB/s1600/10.%2BOpsi%2Bekperimental.JPG&#34; &gt;
+		&lt;img src=&#34;https://2.bp.blogspot.com/-lrAn-7lh7jY/WJyvgMm0PiI/AAAAAAAAD0Y/sEhM1irdMPkvv3v615R5JhIcIDNUJxArQCPcB/s1600/10.%2BOpsi%2Bekperimental.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Sedang di install&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Sedang di install&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Setelah selesai, kita bisa langsung klik Finish.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://1.bp.blogspot.com/-lCGee-56K5Y/WJyvgAbeLGI/AAAAAAAAD0Y/fNaJIaZKf2cqMFuV_5occ6y4oAi7_vaawCPcB/s1600/12.%2BFinish.JPG&#34; &gt;
+		&lt;img src=&#34;https://1.bp.blogspot.com/-lCGee-56K5Y/WJyvgAbeLGI/AAAAAAAAD0Y/fNaJIaZKf2cqMFuV_5occ6y4oAi7_vaawCPcB/s1600/12.%2BFinish.JPG&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;selesai&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;selesai&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah git &amp;ndash;version.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Pasang Kamera Di Toilet Siswi Guru Sd Di Metropolis Tokyo Ditangkap</title>
+        <link>https://madewgn.github.io/berita/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</link>
+        <pubDate>Sat, 02 Oct 2021 05:27:20 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/berita/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</guid>
+        <description>&lt;img src="https://telegra.ph/file/b1518bddb0cb2a7ffcb4e.jpg" alt="Featured image of post Pasang Kamera Di Toilet Siswi Guru Sd Di Metropolis Tokyo Ditangkap" /&gt;&lt;p&gt;Seorang guru SD berusia 33 tahun ditangkap Kepolisian Distrik Adachi, Metropolitan Tokyo atas dugaan tindakan voyeurism menggunakan kamera. Tempat kejadian berada di toilet perempuan di Sekolah Dasar yang juga menjadi tempat pria ini mengajar. Pria berinisial KN ini diancam dengan pasal pelanggaran pornografi anak.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Menurut penuturan dari pihak kepolisian, guru SD ini memasang kamera di bagian lantai toilet siswi perempuan di sekolah tempatnya mengajar. Tindakan bejatnya diketahui oleh salah satu siswi setelah ia melihat sebuah kamera tersembunyi di antara celah lantai.&lt;/p&gt;
+&lt;p&gt;Siswi yang mendapati kamera tersebut langsung melapor ke kepala sekolah. Hingga terbongkarlah tindakan dari KN pasca dilakukan pemeriksaan. Dari ponsel milik KN yang disita, ditemukan banyak video pornografi anak yang tampak diambil di toilet perempuan sekolah pada waktu lalu. Detail terkait kasus ini kini masih ditelusuri lebih jauh.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;KN diketahui sudah mengajar di SD tersebut selama lima tahun. Ia juga ditempatkan sebagai guru pengajar kelas tambahan saat waktu kejadian. Pasca interogasi dari pihak berwajib, KN mengaku bahwa ia ingin mendokumentasikan bagian bawah tubuh siswi sekolahnya demi memuaskan hasrat birahinya.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Terkait dengan penangkapan guru SD di distrik wilayahnya, pihak Badan Pendidikan Kota Adachi menegaskan, “Kami dengan sangat mendalam memohon maaf atas tindakan yang tak bisa dimaafkan yang melukai anak-anak, orang tua, dan semuanya dalam komunitas. Kami akan bekerja keras untuk mencegah hal ini terjadi kembali, dan terus menjaga anak-anak.”&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Migrasi WordPress Ke Hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</link>
+        <pubDate>Sat, 02 Oct 2021 02:23:34 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</guid>
+        <description>&lt;img src="https://d33wubrfki0l68.cloudfront.net/a061f480415247b6d2d7f82c798dbf895670e7a5/85d79/assets/fromwordpresstohugo.png.webp" alt="Featured image of post Cara Migrasi WordPress Ke Hugo" /&gt;&lt;h2 id=&#34;cara-migrasi-wordpress-ke--hugo&#34;&gt;cara migrasi WordPress ke  Hugo&lt;/h2&gt;
+&lt;p&gt;Selamat datang lagi di blog madewgn dulu saya sudah pernah membahas bagaimana caranya migrasi blogger ke hugo tapi sekarang saya akan memberikan tutorial singkat bagaimana sih caranya migrasi dari wordpress ke hugo.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pertama - tama silakan Install python terlebih dahulu&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install python-yaml python-bs4 python-html2text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Langkah kedua silakan clone dulu repository nya&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/wooni005/exitwp-for-hugo.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Silakan taruh file &lt;code&gt;.xml&lt;/code&gt; wordpress nya di dalam direktori &lt;code&gt;wordpress-xml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Lalu kitik kan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo pip install --upgrade -r pip_requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt-get install libyaml-dev python-dev build-essential
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Untuk menjalankan kode nya cukup  ketikkan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;./exitwp.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dokumentasi selengkapnya : &lt;a class=&#34;link&#34; href=&#34;https://github.com/wooni005/exitwp-for-hugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/wooni005/exitwp-for-hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/tutorial-hugo-lengkap/&#34; &gt;Tutorial hugo lainnya&lt;/a&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara NgeBlog di HP dengan hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</link>
+        <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</guid>
+        <description>&lt;img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" alt="Featured image of post Cara NgeBlog di HP dengan hugo" /&gt;&lt;h2 id=&#34;memang-bisa-ngeblog-pakai-termux&#34;&gt;Memang bisa ngeblog pakai Termux?&lt;/h2&gt;
+&lt;p&gt;Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.&lt;/p&gt;
+&lt;p&gt;Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.&lt;/p&gt;
+&lt;p&gt;Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.&lt;/p&gt;
+&lt;p&gt;Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).&lt;/p&gt;
+&lt;p&gt;Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Namun, sekarang sudah ada alat yang jauh lebih canggih untuk membangun website statis, salah satunya static site generator.&lt;/p&gt;
+&lt;p&gt;Sehingga tidak perlu lagi mengedit satu per satu file HTML, CSS, dan JavaScrip untuk mengubah website.&lt;/p&gt;
+&lt;p&gt;Cara kerja static site generator, yaitu dengan membuat file statis (HTML, CSS, dan JavaScript) dari template dan konten.&lt;/p&gt;
+&lt;p&gt;Saat ini sudah ada banyak sekali static site generator, yaitu Jekyll, Hugo, Hexo, GatsbyJS, dsb.&lt;/p&gt;
+&lt;p&gt;Dalam pembahasan kali ini, aku memakai Hugo.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;##Instalasi Hugo di Termux&lt;/p&gt;
+&lt;p&gt;Jalankan perintah ini untuk menginstal hugo dan git di Termux&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;pkg install hugo git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah semuanya terinstal, mari mulai ngeblog dengan Hugo pakai Termux!&lt;/p&gt;
+&lt;p&gt;Membuat blog dengan Hugo
+Pertama, buatlah blog dengan hugo seperti contoh berikut ini.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kedua, masuk ke direktori namablog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, unduh tema dan pasang ke blog kalian.&lt;/p&gt;
+&lt;p&gt;Temanya bisa kalian unduh dari Hugo Themes.&lt;/p&gt;
+&lt;p&gt;Baca dulu dokumentasi temanya karena di sana ada konfigurasi yang harus diikuti supaya tema bisa digunakan.&lt;/p&gt;
+&lt;p&gt;Sebagai contoh, aku menggunakan tema hugo-theme-terminal.&lt;/p&gt;
+&lt;p&gt;Maka konfigurasi config.toml yang diperlukan seperti berikut ini.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+baseurl = &amp;quot;/&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+theme = &amp;quot;terminal&amp;quot;
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = &amp;quot;posts&amp;quot;
+
+  # [&amp;quot;orange&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;, &amp;quot;pink&amp;quot;]
+  themeColor = &amp;quot;orange&amp;quot;
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = &amp;quot;favicon.ico&amp;quot;
+
+  # set all headings to their default size (depending on browser settings)
+  # it&#39;s set to `true` by default
+  # oneHeadingSize = false
+
+[languages]
+  [languages.en]
+    languageName = &amp;quot;English&amp;quot;
+    title = &amp;quot;Aditya Phra Blog&amp;quot;
+    subtitle = &amp;quot;Seorang penulis dan penggemar Linux&amp;quot;
+    keywords = &amp;quot;&amp;quot;
+    copyright = &amp;quot;&amp;quot;
+    menuMore = &amp;quot;Show more&amp;quot;
+    readMore = &amp;quot;Read more&amp;quot;
+    readOtherPosts = &amp;quot;Read other posts&amp;quot;
+
+    [languages.en.params.logo]
+      logoText = &amp;quot;Aditya Phra Blog&amp;quot;
+      logoHomeLink = &amp;quot;/&amp;quot;
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = &amp;quot;about&amp;quot;
+        name = &amp;quot;About&amp;quot;
+        url = &amp;quot;/about&amp;quot;
+      [[languages.en.menu.main]]
+        identifier = &amp;quot;showcase&amp;quot;
+        name = &amp;quot;Showcase&amp;quot;
+        url = &amp;quot;/showcase&amp;quot;
+        
+        
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;untuk mengubah config.toml kamu hanya perlu memberikan perintah
+&lt;code&gt;nano config.toml&lt;/code&gt;
+dan ganti semua kode nya, untuk menyimpan takan crlt + x terus Y lalu enter&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Kloning tema terminal ke direktori themes blog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/panr/hugo-theme-terminal themes/terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, uji coba blogmu dengan hugo server.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Terakhir, akses alamat blog (http://localhost:1313) melalui bbrowser&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pic&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pic&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;menulis-artikel-di-hugo&#34;&gt;Menulis artikel di Hugo&lt;/h2&gt;
+&lt;p&gt;Pertama, buatlah sebuah artikel.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new posts/judul-artikel.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, edit artikel menggunakan teks editor.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nano content/posts/judul-artikel.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kalian bisa menggunakan markdown sebagai format penulisan artikel.&lt;/p&gt;
+&lt;p&gt;Setelah mengeditnya, jalankan&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;untuk melihat artikel.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pic2&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pic2&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Selamat Blog kamu dengan hugo sudah jadi !&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara mendaftar blog ke Google News</title>
+        <link>https://madewgn.github.io/artikel/cara-mendaftar-blog-ke-google-news/</link>
+        <pubDate>Fri, 01 Oct 2021 22:06:46 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-mendaftar-blog-ke-google-news/</guid>
+        <description>&lt;img src="https://kawula.id/wp-content/uploads/2020/11/daftar-google-news.jpg" alt="Featured image of post Cara mendaftar blog ke Google News" /&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Daftar Google News untuk blog merupakan cara terbaik untuk mendatangkan pengunjung organik, dan membantu meningkatkan penghasilan adsense.&lt;/p&gt;
+&lt;p&gt;Google News merupakan layanan dari Google yang memberikan informasi terkini dalam bentuk berita dari berbagai website di seluruh dunia, termasuk Indonesia.&lt;/p&gt;
+&lt;p&gt;Google News tidak hanya bermanfaat bagi pembaca semata, tetapi juga menjadi andalan bagi pemilik website atau blog. Karena itulah setiap pemilik website menginginkan artikel mereka tampil di Google News.&lt;/p&gt;
+&lt;p&gt;Agar website bisa tampil di Google News, maka harus tahu dulu cara mendaftar Google News dengan benar, sehingga setiap artikel yang telah dibuat juga tampil di Google News, dan besar kemungkinan traffic organic akan meningkat.&lt;/p&gt;
+&lt;h2 id=&#34;apa-itu-google-news&#34;&gt;Apa Itu Google News?&lt;/h2&gt;
+&lt;p&gt;Secara umum, Google News sangat memudahkan pembaca dalam memperoleh informasi yang diinginkan, dan bisa diakses melalui gawai dan komputer. Hebatnya lagi, layanan Google News bisa dinikmati secara gratis. Bahkan saat ini satu juta pengguna telah mengunduh Google News di Play Store atau Google Play.&lt;/p&gt;
+&lt;p&gt;Bagi pengguna, Google News menjadi pilihan yang tepat dalam memperoleh informasi atau berita berdasarkan topik, lokasi, hingga sumber berita. Dengan kata lain, pengguna bisa mempersonalisasikan konten sesuai keinginan&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Perlu diketahui, layanan Google News diciptakan bukan hanya bagi pengguna saja. Bagi pemilik website, mendaftarkan website ke Google News adalah pilihan terbaik. Karena, ada keuntungan yang diperoleh jika artikel mendapatkan tempat di layanan Google satu ini.&lt;/p&gt;
+&lt;p&gt;Setiap bulan Google News mendapatkan kunjungan 494 juta dari seluruh dunia. Artinya, dampak postif  yang diberikan Google News untuk kepentingan website patut diperjuangkan.&lt;/p&gt;
+&lt;p&gt;Kenapa demikian? Pasalnya, Google News diciptakan bukan hanya untuk media berita online yang populer semata. Website berbasis Blogspot dan WordPress, juga bisa didaftarkan ke Google News.&lt;/p&gt;
+&lt;p&gt;Ringkasnya, tak menutup kemungkinan konten yang dipubilkasikan di website bisa menjadi berita utama (direkomendasikan) di Google News, jika itu memang layak dan menarik dipublikasikan oleh Google News.&lt;/p&gt;
+&lt;p&gt;Manfaat Daftar Google News&lt;/p&gt;
+&lt;p&gt;Banyak manfaat yang bisa diperoleh apabila blog didaftarkan ke Google News apabila sebuah website berhasil menjadi bagian dari layanan Google ini, seperti:&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;1-masuk-ke-halaman-mesin-pencari-lebih-mudah&#34;&gt;1. Masuk ke Halaman Mesin Pencari Lebih Mudah&lt;/h2&gt;
+&lt;p&gt;Jika sudah berhasil mendaftarkan website ke Google News, tugas selanjutnya adalah membuat konten sebagus dan seunik mungkin. Dengan demikian, Google News dengan tak akan segan dan berbesar hati akan menjadikannya Berita Utama.&lt;/p&gt;
+&lt;p&gt;Artinya, konten atau berita yang telah dibuat barusan memang layak mendapatkan posisi teratas di mesin pencari Google. Google News termasuk salah satu jurus jitu untuk mendapatkan peluang masuk ke halaman pertama Google, tanpa harus melakukan optimasi SEO (Search Engine Optimization).&lt;/p&gt;
+&lt;h2 id=&#34;2-meningkatkan-jumlah-pengunjung-organik&#34;&gt;2. Meningkatkan Jumlah Pengunjung Organik&lt;/h2&gt;
+&lt;p&gt;Kelebihan lain dari Google News, yaitu meningkatkan pengunjung organik. Semakin mudah orang-orang menemukan konten yang mereka cari di mesin telusur, termasuk konten yang telah kamu buat, maka semakin besar pula peluang kamu untuk mendapatkan pengujung organik.&lt;/p&gt;
+&lt;p&gt;Adanya fitur personalized content punya pengaruh besar terhadap traffic yang berkualitas tinggi. Pengguna yang mengunjungi website kamu akan merasa senang bahwa topik yang kamu miliki relevan dengan apa yang mereka perlukan atau mereka cari.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;3-sebagai-media-branding-yang-efektif&#34;&gt;3. Sebagai Media Branding yang Efektif&lt;/h2&gt;
+&lt;p&gt;Jika wesbiet kamu menawarkan konten yang bagus, dampaknya akan sangat positif. Pengunjung akan sering datang ke website kamu lagi. Selain itu, ulasan-ulasan yang kamu bikin tentang topik tertentu,  website kamu akan dianggap ahli di bidang tersebut. Di sinilah letak kaitannya dengan membantu sekaligus membangun brand untuk website melalui Google News.&lt;/p&gt;
+&lt;h2 id=&#34;4-berpeluang-mendapatkan-banyak-backlink&#34;&gt;4. Berpeluang Mendapatkan Banyak Backlink&lt;/h2&gt;
+&lt;p&gt;Salah satu optimasi SEO Off Page, yaitu dengan mendapatkan backlink berkualitas. Sebagai blogger, tentu kamu mengetahui secara umum fungsi backlink dalam meningkatkan “kepercayaan” pengunjung terhadap sebuah situs.&lt;/p&gt;
+&lt;p&gt;Kredibilitas website itu bisa didapatkan dari Google News. Ketikan konten atauartikel kamu dijadikan rekomendasi oleh Google, maka konten tersebut juga dijadikan referensi bagi orang lain sebagai sumber tepercaya. Boleh jadi, salah satu sumber itu adalah konten atau artikel dari website kamu.&lt;/p&gt;
+&lt;p&gt;Semakin banyak backlink yang diperoleh, maka besar kepercayaan pengguna terhadap website kamu.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;5-alternatif-iklan-gratis&#34;&gt;5. Alternatif Iklan Gratis&lt;/h2&gt;
+&lt;p&gt;Kenapa Google News menjadi alternatif iklan gratis? Seperti yang telah disinggung di atas, Google News bisa meningkatkan branding secara efektif.&lt;/p&gt;
+&lt;p&gt;Jika kebetulan kamu ingin mengiklankan website kamu, itu bukanlah masalah besar selama kamu mampu memprosikan konten yang kamu buat dengan sejumlah biaya yang harus dikeluarkan.&lt;/p&gt;
+&lt;p&gt;Akan tetapi, jika ada cara meningkatkan branding tanpa perlu mengeluarkan biaya sepeser pun, kenapa tidak mencoba untuk menempuh jalan tersebut. Iya, kan?&lt;/p&gt;
+&lt;p&gt;Google News berpotensi mendatangkan organic traffic ke website kamu. Organic traffic merupakan kunjungan yang berasal dari mesin pencari dan kamu tidak perlu mengeluarkan biaya sedikit pun untuk mendapatkannya&lt;/p&gt;
+&lt;p&gt;Syarat Daftar Google Berita&lt;/p&gt;
+&lt;p&gt;Supaya kamu bisa mendapatkan semua manfaat Google News seperti yang telah diuraikan di atas, maka perlu untuk mendaftarkan website ke Google News terlebih dahulu.&lt;/p&gt;
+&lt;p&gt;Syarat mendaftarkan website ke Googel News sebenarnya cukup mudah. Berikut di antaranya:&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;ol&gt;
+&lt;li&gt;Buat Website Berita&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Banyak yang beranggapan, bahwa salah satu syarat untuk mendaftarkan website ke Google News adalah dengan membuat website berita. Namun, tak hanya website berita saja yang bisa daftar Google News. Blog biasa pun dengan subdomain bisa bergabung dalam layanan Google satu ini.&lt;/p&gt;
+&lt;p&gt;Tidak percaya? silakan ketik kata kunci: cara mendaftarkan blogspot ke Google News. Maka, kamu akan mendapatkan jawabannya.&lt;/p&gt;
+&lt;p&gt;Intinya adalah proses seleksi setelah mendaftar Google News akan dilakukan secara manual oleh pihak Google. Pihak Google lebih selektif dalam memastikan sebuah website atau blog sesuai dengan tujuan mereka, yaitu menyediakan berita terbaru dan penting.&lt;/p&gt;
+&lt;p&gt;Jadi, jangan pernah berhenti mencoba untuk mendaftarkan blog ke Google News, meskipun website kamu bukan website berita. Ringkasnya, buatlah konten yang berkualitas yang dibutuhkan dan dibaca oleh manusia.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+2. Ciptakan Konten Berkualitas&lt;/p&gt;
+&lt;p&gt;Konten berkualitas merupakan kunci utama untuk mendapatkan peringkat teratas di halaman pertama mesin pencari. Hal ini juga berlaku jika kamu ingin mendaftarkan blog kamu ke Google News.&lt;/p&gt;
+&lt;p&gt;Apakah yang dimaksud dengan konten berkualitas itu untuk website?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Jangan menjiplak kontent orang lain&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upayakan fokus ke satu jenis konten saja. Misal:Konten bisnis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selalu berikan informasi baru (update)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jangan buat konten yang dilarang oleh Google&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Memperhartikan struktur blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Menggunakan permalink unik, dan tidak berubah&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tampilan website menarik, dan responsif&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Buatlah navigasi yang memudahkan pengguna&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Terangkan identitas website dengan baik&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Poin-poin di atas, agaknya tidak perlu diterangkan lebih jauh. Karena saya berasumsi, pembaca sudah mengetahuinya secara umum&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;cara-daftar-google-news&#34;&gt;Cara Daftar Google News&lt;/h2&gt;
+&lt;p&gt;Setelah beberapa syarat di atas sudah Anda penuhi, langkah selanjutnya adalah mendaftarkan blog ke Google News.&lt;/p&gt;
+&lt;p&gt;Berikut ini cara yang bisa Anda lakukan:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Masuk dengan Akun Google&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Silakan masuk ke publisher center google dengan melakukan log in terlebih dahulu dengan menggunakan akun Gmail kamu.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+2. Verifikasi Kepemilikan Website&lt;/p&gt;
+&lt;p&gt;Selajutnya, kamu perlu melakukan verifikasi website menggunakan Google Search Console (GSC). Sebab, Google News memiliki mesin crawler tersendiri, pastikan kamu mengisi dan menambhakan sitemap xml di wesbite atau blog. Hal ini bertujuan untuk Google News, yang selalu memperbarui perubahan yang terjadi di website.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Masuk ke Google News Publisher Center&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Masuk ke publihser center google news, untuk mendaftarkan website. Ikuti langkah selanjutnya.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Menambahkan Wesbite/Blog&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Silakan menambahkan blog Anda pada pilihan “Want to suggest a website for Google News? Click here.”&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Isi Informasi Blog&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Beberapa informasi yang diperlukan diminta untuk proses kurasi oleh pihak Google. Silakan isi informasi yang diminta dengan benar.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;General Information
+
+About your news site: Detail informasi tentang blog berita yang didaftarkan
+
+Site Information
+
+Source URL: Alamat website.
+
+Source Name: Nama website.
+
+Site Language: Bahasa yang digunakan di website. Ingat, Google News tidak memperkenankan penggunaan lebih dari satu bahasa.
+
+City, State/Province dan Region: Alamat lengkap.
+
+Select All Categories that Apply to the Content of Your Site
+
+Opinion content: Jika publikasi website tentang konten opini
+
+User generated content: jika konten buatan pengguna telah melalui proses penyuntingan di blog
+
+Blog: silakan centang opsi ini
+
+Press release: Hal ini berlaku jika website kamu juga menerbitkan siaran pers
+
+Satire: jika website bertema satire
+
+News Section Information
+
+URL: Nama domain maupun beberapa subdomain yang ingin ditambahkan
+
+Labels: jenis konten yang ditampilkan
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Selesai&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Setelah data terisi dengan benar, klik Submit.&lt;/p&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;Menunggu Review Google News&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Jika semua proses telah dilakukan dengan benar, makan proses terakhir adalah menunggu review dari Google News dengan rentang waktu review 1-3 minggu lamanya.&lt;/p&gt;
+&lt;p&gt;Jika proses dilakukan dengan baik dan benar, maka saya asumsikan blog atau website kamu bisa diterima Google News.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Tutorial Hugo lengkap</title>
+        <link>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</link>
+        <pubDate>Fri, 01 Oct 2021 11:20:11 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</guid>
+        <description>&lt;img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" alt="Featured image of post Tutorial Hugo lengkap" /&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h1 id=&#34;tutorial-belajar-hugo-pemula&#34;&gt;tutorial belajar hugo pemula&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/persiapan-hugo/&#34; &gt;Persiapan hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/&#34; &gt;Membuat blog &amp;amp; membuat artikel baru di hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/&#34; &gt;panduan menulis mengunakan markdowns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/&#34; &gt;Cara deploy hugo di Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h1 id=&#34;tutorial-tingkat-lanjutan&#34;&gt;tutorial tingkat lanjutan&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/&#34; &gt;Cara Inport Artikel blogger Ke Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/&#34; &gt;Cara migrasi WordPress ke hugo &lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;sedang-di-buat-&#34;&gt;sedang di buat ⚠️⚠️&lt;/h1&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Tutorial deploy / hosting hugo di netlify&lt;/li&gt;
+&lt;li&gt;Cara costume domain hugo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>panduan menulis mengunakan markdowns</title>
+        <link>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</link>
+        <pubDate>Fri, 01 Oct 2021 10:46:30 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</guid>
+        <description>&lt;img src="https://telegra.ph/file/2f5e8397e1586b42d262b.jpg" alt="Featured image of post panduan menulis mengunakan markdowns" /&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Bagi yang sering bermain di Github dan web serupa, pasti sering melihat markdown. Biasanya markdown digunakan untuk menuliskan dokumentasi.&lt;/p&gt;
+&lt;p&gt;Pada dasarnya markdown sama seperti HTML. Namun, lebih sederhana dan mudah dibaca.&lt;/p&gt;
+&lt;p&gt;Saat ini markdown sudah digunakan untuk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Dokumentasi;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SSG (Static Site Generator);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CMS seperti Ghost, Wordpress, Tumblr, dll.;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Penulisan Buku;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Format teks pada chat: Telegram, WA, Facebook;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dll.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pada kesempatan ini, kita akan belajar dasar-dasar format markdown hingga format tingkat lanjut.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apa itu Markdown?&lt;/p&gt;
+&lt;p&gt;Markdown adalah (lightweight markup language) bahasa markup yang lebih ringan dari HTML untuk formatting teks.&lt;/p&gt;
+&lt;p&gt;Markdown bisa dikonversi ke dalam HTML menggunakan beberapa aplikasi. Biasanya menggunakan markdown editor itu sendiri.&lt;/p&gt;
+&lt;p&gt;Markdown dibuat pada tahun 2004 oleh John Gruber. Tujuannya untuk mempermudah penulisan dokumen web—mudah ditulis dan mudah dibaca—Karena menulis langsung HTML terasa melelahkan dan susah dibaca.&lt;/p&gt;
+&lt;p&gt;Contoh:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Aku *sedang* belajar **menulis** dengan &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;markdown&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;https://en.wikipedia.org/wiki/Markdown&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teks ini akan dikonversi ke HTML menjadi seperti ini:&lt;/p&gt;
+&lt;p&gt;Aku sedang belajar menulis dengan markdown.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Aku &amp;lt;em&amp;gt;sedang&amp;lt;/em&amp;gt; belajar &amp;lt;strong&amp;gt;menulis&amp;lt;/strong&amp;gt; dengan &amp;lt;a &lt;span class=&#34;nv&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://en.wikipedia.org/wiki/Markdown&amp;#34;&lt;/span&gt;&amp;gt;markdown&amp;lt;/a&amp;gt;. 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Menurutmu mana yang lebih mudah ditulis?&lt;/p&gt;
+&lt;p&gt;Pasti banyak yang akan menjawab markdown.&lt;/p&gt;
+&lt;p&gt;Saya sendiri sudah merasakan perbedaannya.&lt;/p&gt;
+&lt;p&gt;Waktu menulis di Blogger, saya menulis langsung HTML di setiap artikel. Rasanya melelahkan 😫…&lt;/p&gt;
+&lt;p&gt;Ketika sudah mirgrasi ke Hugo, saya menulis dengan markdown dan terasa lebih cepat dan produktif dibandingkan HTML.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+File Markdown
+File markdown dapat kita simpan dengan ekstensi .markdown atau .md.&lt;/p&gt;
+&lt;p&gt;Contoh: belajar-menulis.md atau belajar-menulis.markdown&lt;/p&gt;
+&lt;p&gt;Format dasar Markdown
+Sekarang mari kita coba menulis format-format dasar markdown. Pertama, mari kita mulai dari:&lt;/p&gt;
+&lt;p&gt;Membuat Heading
+Heading atau judul di markdown dapat dibuat dengan tanda pagar #.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Contoh:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Heading 1&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;## Heading 2&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;### Heading 3&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Maka akan menghasilkan:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&amp;lt;h1&amp;gt;Heading 1&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;Heading 2&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;Heading 3&amp;lt;/h3&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Heading ini sampai level 6 seperti pada HTML. Jumlah tanda pagar di depannya menandakan levelnya.&lt;/p&gt;
+&lt;p&gt;Selain menggunakan tanda pagar, ada juga yang menggunakan simbol minus (-) dan samadengan (=) seperti ini:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Ini Headeing Level &lt;span class=&#34;nv&#34;&gt;1&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;====================&lt;/span&gt;
+
+ini paragraf, bla bla bla...
+
+Ini heading level &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+-------------------
+
+ini paragraf, bla bla bla...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;format-teks&#34;&gt;Format Teks&lt;/h2&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Format Teks&lt;/p&gt;
+&lt;p&gt;Jika kamu ingin menulis teks tebal, miring, dan strikeline, maka bisa dilakukan seperti ini:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;**Tebal** *miring* ~~strikeline~~ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selain menggunakan tanda bintang, untuk teks tebal dan miring bisa juga menggunakan garis bawah (underscore) seperti ini:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;__teks tebal__ _teks miring_ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Membuat Link&lt;/p&gt;
+&lt;p&gt;Link dapat kita buat dengan tanda kurung seperti ini:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Made Wiguna project&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;https://madewgn.github.io/&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hasilnya:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Made Wiguna project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Kita juga bisa menambahkan title untuk tooltips:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Made Wiguna project&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;https://madewgn.github.io/ &lt;span class=&#34;s2&#34;&gt;&amp;#34;Pergi ke made Wiguna project&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hasilnya:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/&#34;  title=&#34;Pergi ke made Wiguna project&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Made Wiguna project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Selain menggunakan tanda kurung, kita juga bisa membuat link langsung dengan menuliskan URL lengkapnya.&lt;/p&gt;
+&lt;p&gt;Contoh:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://en.wikipedia.org/wiki/Markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maka akan menghasilkan:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://en.wikipedia.org/wiki/Markdown&lt;/a&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Membuat Blog Di Hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</link>
+        <pubDate>Fri, 01 Oct 2021 10:22:48 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</guid>
+        <description>&lt;img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" alt="Featured image of post Cara Membuat Blog Di Hugo" /&gt;&lt;p&gt;Sebelumnya sudah saya buat persiapan ngeblog di hugo sekarang akan saya buatkan tutorial cara membuat blog di hugo lengkap dengan cara membuat artikelnya&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Membuat blog dengan Hugo
+Pertama, buatlah blog dengan hugo seperti contoh berikut ini.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kedua, masuk ke direktori namablog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, unduh tema dan pasang ke blog kalian.&lt;/p&gt;
+&lt;p&gt;Temanya bisa kalian unduh dari Hugo Themes.&lt;/p&gt;
+&lt;p&gt;Baca dulu dokumentasi temanya karena di sana ada konfigurasi yang harus diikuti supaya tema bisa digunakan.&lt;/p&gt;
+&lt;p&gt;Sebagai contoh, aku menggunakan tema hugo-theme-terminal.&lt;/p&gt;
+&lt;p&gt;Maka konfigurasi config.toml yang diperlukan seperti berikut ini.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;
+&lt;span class=&#34;nv&#34;&gt;baseurl&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;languageCode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;en-us&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;theme&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;nv&#34;&gt;paginate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;
+
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;params&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;c1&#34;&gt;# dir name of your blog content (default is `content/posts`)&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;contentTypeName&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;posts&amp;#34;&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# [&amp;#34;orange&amp;#34;, &amp;#34;blue&amp;#34;, &amp;#34;red&amp;#34;, &amp;#34;green&amp;#34;, &amp;#34;pink&amp;#34;]&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;themeColor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;orange&amp;#34;&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# if you set this to 0, only submenu trigger will be visible&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;showMenuItems&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# show selector to switch language&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;showLanguageSelector&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# set theme to full screen width&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;fullWidthTheme&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# center theme with default width&lt;/span&gt;
+  &lt;span class=&#34;nv&#34;&gt;centerTheme&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# set a custom favicon (default is a `themeColor` square)&lt;/span&gt;
+  &lt;span class=&#34;c1&#34;&gt;# favicon = &amp;#34;favicon.ico&amp;#34;&lt;/span&gt;
+
+  &lt;span class=&#34;c1&#34;&gt;# set all headings to their default size (depending on browser settings)&lt;/span&gt;
+  &lt;span class=&#34;c1&#34;&gt;# it&amp;#39;s set to `true` by default&lt;/span&gt;
+  &lt;span class=&#34;c1&#34;&gt;# oneHeadingSize = false&lt;/span&gt;
+
+&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;languages&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;languages.en&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;languageName&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;English&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Aditya Phra Blog&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;subtitle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Seorang penulis dan penggemar Linux&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;keywords&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;copyright&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;menuMore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Show more&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;readMore&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Read more&amp;#34;&lt;/span&gt;
+    &lt;span class=&#34;nv&#34;&gt;readOtherPosts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Read other posts&amp;#34;&lt;/span&gt;
+
+    &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;languages.en.params.logo&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+      &lt;span class=&#34;nv&#34;&gt;logoText&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Aditya Phra Blog&amp;#34;&lt;/span&gt;
+      &lt;span class=&#34;nv&#34;&gt;logoHomeLink&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;
+
+    &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;languages.en.menu&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+      &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt;languages.en.menu.main&lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;identifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;about&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;About&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/about&amp;#34;&lt;/span&gt;
+      &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt;languages.en.menu.main&lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;identifier&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;showcase&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Showcase&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/showcase&amp;#34;&lt;/span&gt;
+        
+        
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;untuk mengubah config.toml kamu hanya perlu memberikan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nano config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;selain dengan nano kamu juga dapat mengedit nya dengan teks Editor.
+dan ganti semua kode nya, langsung simpan&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Kloning tema terminal ke direktori themes blog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/panr/hugo-theme-terminal themes/terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, uji coba blogmu dengan hugo server.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Terakhir, akses alamat blog (http://localhost:1313) melalui bbrowser&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;baru selesai di buat&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;baru selesai di buat&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;menulis-artikel-di-hugo&#34;&gt;Menulis artikel di Hugo&lt;/h2&gt;
+&lt;p&gt;Pertama, buatlah sebuah artikel.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new post/judul-artikel.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, edit artikel menggunakan teks editor.
+Setelah mengeditnya, jalankan&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;untuk melihat artikel.&lt;/p&gt;
+&lt;p&gt;Hasilnya akan terlihat seperti ini&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;hasil akhir &#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;hasil akhir&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Apa selanjutnya?
+Selanjutnya adalah &lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/&#34; &gt;belajar penulisan markdowns yang benar&lt;/a&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Persiapan Hugo</title>
+        <link>https://madewgn.github.io/artikel/persiapan-hugo/</link>
+        <pubDate>Fri, 01 Oct 2021 09:30:38 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/persiapan-hugo/</guid>
+        <description>&lt;p&gt;Saya punya blog nih&lt;/p&gt;
+&lt;p&gt;CMS-nya menggunakan Blogger&lt;/p&gt;
+&lt;p&gt;tapi tidak pernah terurus.&lt;/p&gt;
+&lt;p&gt;Mungkin saya malas, karena koneksi internet yang kurang cepat.&lt;/p&gt;
+&lt;p&gt;Maklum tinggal di desa, sinyalnya tidak stabil 😄.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Kendala yang saya alami:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tidak bisa ngedit artikel secara offline.&lt;/li&gt;
+&lt;li&gt;Kurang aman. (Takut nya ke ban, dll)
+dan masih banyak lagi.
+Karena itu, sekarang saya lebih suka ngeblog dari teks editor menggunakan SSG (Satatic Site Generator) daripada CMS seperti Wordpress dan blogger&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;SSG yang saya pilih adalah Hugo.&lt;/p&gt;
+&lt;p&gt;Kenapa Hugo?&lt;/p&gt;
+&lt;p&gt;Menurut klaim mereka (developer Hugo), Hugo lebih cepat daripada SSG yang lain seperti Jekyll, Middleman, Octopress, dll.&lt;/p&gt;
+&lt;p&gt;Selain cepat, Hugo juga mudah dipelajari.&lt;/p&gt;
+&lt;p&gt;Walaupun saya bukan seorang programmer tapi menurut saya hugo itu hampir sama seperti menggunakan blogspot / wordpress, karena saya suka mencoba hal hal yang belum saya ketahui..&lt;/p&gt;
+&lt;h2 id=&#34;apa-itu-hugo-&#34;&gt;apa itu hugo ?&lt;/h2&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;em&gt;Hugo adalah generator web statis yang ditulis dalam bahasa pemrograman Go. Hugo dikembangkan oleh Bjørn Erik Pedersen, Steve Francia, dan kontributor lainnya. Hugo adalah sebuah proyek sumber terbuka di bawah Lisensi Apache 2.0.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;apa-yang-harus-dipersiapkan-untuk-memulai-ngeblog-di-hugo&#34;&gt;apa yang harus dipersiapkan untuk memulai ngeblog di Hugo?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Instalasi Git, Go, dan Hugo&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Pertama:&lt;/p&gt;
+&lt;p&gt;“Mari kita persiapkan semua alat-alat yang diperlukan”&lt;/p&gt;
+&lt;p&gt;Diantaranya:&lt;/p&gt;
+&lt;p&gt;Git — untuk upload dan deploy Hugo ke repositori git.&lt;/p&gt;
+&lt;p&gt;Go — bahasa pemrograman Go.&lt;/p&gt;
+&lt;p&gt;Hugo — Mesin SSG untuk membuat blog.&lt;/p&gt;
+&lt;p&gt;Berikut cara menginstalnya:&lt;/p&gt;
+&lt;h2 id=&#34;install-git&#34;&gt;Install Git&lt;/h2&gt;
+&lt;p&gt;Untuk menginstal Git di Linux, silahkan ketik perintah berikut.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;apt install git 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, periksa versi yang terinstal dengan perintah:&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git --version 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-go-di&#34;&gt;Install Go di&lt;/h2&gt;
+&lt;p&gt;Untuk menginstal melalui apt, silahkan ketik perintah berukut:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;apt install go 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu periksa versi yang terinstal dengan perintah:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;go version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h2&gt;
+&lt;p&gt;Btw hugo dapet di install lewat APT nih jadi tinggal ketik perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;apt install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nah, sekian persiapan untuk ngeblog dengan Hugo&lt;/p&gt;
+&lt;p&gt;Tutorial selanjutnya : &lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/&#34; &gt;Cara membuat blog dengan hugo&lt;/a&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Membuat Artikel Di Jekyll</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</link>
+        <pubDate>Fri, 01 Oct 2021 04:06:19 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</guid>
+        <description>&lt;img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwjrAEEhW_HD6FLnHtacdVvbRAXdYaw01qYw&usqp=CAU" alt="Featured image of post Cara Membuat Artikel Di Jekyll" /&gt;&lt;p&gt;Halo selamat datang kembali di &lt;strong&gt;Made Wiguna  project&lt;/strong&gt; disini saya akan membahas bagaimana sih caranya membuat artikel jekyll&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Buat yang belum tahu cara membuat blog dengan jekyll bisa di baca di sini ya
+&lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Btw ada dua cara nih untuk menulis di jekyll, yang pertama menulis langsung dari github / gitlab yang kedua menulis secara offline di text editor. Sekarang saya akan membahas dua-duanya nih, tapi yang pertama akan saya bahas adalah cara menulis artikel langsung dari github&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;cara-menulis-langsung-dari-github&#34;&gt;cara menulis langsung dari github&lt;/h2&gt;
+&lt;p&gt;Jika kalian sudah login ke akun github kalian sekarang silakan dipilih nama repository blog kalian (contoh &lt;strong&gt;github.com/[username]/[username].github.io&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;Jika sudah login sekarang buka folder &lt;code&gt;_post&lt;/code&gt; pada repository kalian.&lt;/p&gt;
+&lt;p&gt;Setelah itu buat file baru dengan format&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;2014-3-12-Hello-World.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Keterangan :
+           - &lt;span class=&#34;nv&#34;&gt;2014&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Tahun artikel di buat
+           - &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; adalah bulan saat artikel nya di buat
+           - &lt;span class=&#34;m&#34;&gt;12&lt;/span&gt; adalah tanggal saat artikel nya di buat
+           -  Hello-World adalah judul artikel nya
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jangan lupa di akhiri dengan .md karena file nya berformat markdowns&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Sekaran kita akan belajar struktur post di jekyll&lt;/p&gt;
+&lt;p&gt;Contoh :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;
+---
+layout: post
+title: saya sedang belajar membuat post di jekyll
+---
+
+Ini adalah isi artikel nya
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nah seperti itu. Untuk menambah kan foto / gif nya juga cukup mudah, lebih mudah dari html&lt;/p&gt;
+&lt;p&gt;Contoh&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;!&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Contoh gambar&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt; di sini isi link gambar&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Dan hasilnya akan seperti ini
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwjrAEEhW_HD6FLnHtacdVvbRAXdYaw01qYw&amp;amp;usqp=CAU&#34; &gt;
+		&lt;img src=&#34;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwjrAEEhW_HD6FLnHtacdVvbRAXdYaw01qYw&amp;amp;usqp=CAU&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;contoh&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;contoh&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cara-nulis-artikel-offline&#34;&gt;cara nulis artikel offline&lt;/h2&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Langkah pertama pastikan di komputer kalian sudah terinstall git&lt;/p&gt;
+&lt;p&gt;Jika belum silahkan di install dulu, saya sarankan untuk ngeblog offline buat yang jaringan internet nya kurang lancar 😅&lt;/p&gt;
+&lt;p&gt;Saya sendiri nge blog nya di HP, tapi saya menggunakan, hugo.&lt;/p&gt;
+&lt;p&gt;Pertama silahkan clone repo github kalian, dengan cara&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;
+git clone https://github/&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;username&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;/&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;username&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;.github.io/
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setalah itu buka text editor dan buat file baru dengan format markdowns (.md)&lt;/p&gt;
+&lt;p&gt;Untuk struktur dan cara membuat artikelnya tetap sama seperti yang di atas sekian tutorial dari saya semoga bermanfaat jika ada yang ditanyakan bisa dm saya di telegram &lt;a class=&#34;link&#34; href=&#34;t.me/madewgn&#34; &gt;@madewgn&lt;/a&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Inport Artikel blogger Ke Hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</link>
+        <pubDate>Thu, 30 Sep 2021 22:20:29 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</guid>
+        <description>&lt;img src="https://1.bp.blogspot.com/-z2_QdrUKmfE/WHx5QoVkwRI/AAAAAAAADok/AtwB9HQYNV4cxVuOFLlwgYCch_gi41rjQCK4B/s1600/tulisartikel-blogger-dan-hugo.jpg" alt="Featured image of post Cara Inport Artikel blogger Ke Hugo" /&gt;&lt;p&gt;Dalam rangka migrasi blog saya yang sebelumnya di blogspot ke hugo, saya harus melakukan impor artikel dari Blogger ke Hugo.&lt;/p&gt;
+&lt;p&gt;Untungnya Hugo sudah menyediakan skrip untuk impor konten dari blogger ke Hugo.&lt;/p&gt;
+&lt;p&gt;Proses impor ini memakan waktu cukup cepat. Saya kira, tidak sampai 15 menit.&lt;/p&gt;
+&lt;p&gt;Mungkin anda bisa melakukannya lebih cepat.&lt;/p&gt;
+&lt;p&gt;Begini caranya…&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;pastikan telah menginstal Go (Golang) dan Git.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install git golang
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kemudian lakukan langkah-langkah berikut ini.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;1-ekspor-blog&#34;&gt;1. Ekspor Blog&lt;/h2&gt;
+&lt;p&gt;Pertama, kita perlu mengekspor dulu konten yang ada di blogger. Masuk ke Settings&amp;gt;Other kemudian klik Back up Content&lt;/p&gt;
+&lt;p&gt;Kita akan mendapatkan file .xml, nah file ini nanti yang akan kita ekstrak isinya menjadi format markdown.&lt;/p&gt;
+&lt;h2 id=&#34;2-download-skrip&#34;&gt;2. Download skrip&lt;/h2&gt;
+&lt;p&gt;Selanjutnya kita membutuhkan skrip untuk melakukan ekstrak terhadap file .xml tadi. Silahkan klon skripnya di github.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/natefinch/blogimport
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;3-impor-konten&#34;&gt;3. Impor Konten&lt;/h2&gt;
+&lt;p&gt;Setelah kita mendapatkan skripnya, sekarang kita harus mengekstrak isi dari file .xml menjadi file markdown. Pertama, masuk dulu ke direktori skripnya.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; blogimpor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Setelah itu buat direktori baru sebagai tempat menampung hasil ekstraksi.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mkdir artikel 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jalankan skrip:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;go run main.go ~/Downloads/blog-2017-01-13.xml artikel 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, coba periksa direktori artikel.&lt;/p&gt;
+&lt;p&gt;Selanjutnya, kita bisa pindahkan semua file markdown ini ke direktori content di Hugo&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>cara mudah membuat shortlink dengan heroku</title>
+        <link>https://madewgn.github.io/artikel/cara-mudah-membuat-shortlink-dengan-heroku/</link>
+        <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-mudah-membuat-shortlink-dengan-heroku/</guid>
+        <description>&lt;img src="https://telegra.ph/file/32df589acdbc0f0de1e62.jpg" alt="Featured image of post cara mudah membuat shortlink dengan heroku" /&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://camo.githubusercontent.com/2249283c453222458352ad91edb3e43753f0451d26701965af1d1686400b2f09/687474703a2f2f692e696d6775722e636f6d2f72446b4f6438652e706e67&#34; &gt;
+		&lt;img src=&#34;https://camo.githubusercontent.com/2249283c453222458352ad91edb3e43753f0451d26701965af1d1686400b2f09/687474703a2f2f692e696d6775722e636f6d2f72446b4f6438652e706e67&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;demo&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;demo&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Baru-baru ini banyak sekali situs-situs Shorten URL yang memberikan layanan untuk memperpendek URL, dari situs yang tidak memberikan apa-apa untuk kita sampai ada yang memberikan feedback seperti uang kepada kita untuk setiap URL yang dikunjungi oleh pengunjung.&lt;/p&gt;
+&lt;p&gt;Dari banyaknya situs untuk memperpendek URL, situs mana yang pernah kamu coba? apakah adf.ly? shorte.st? de.tk? atau mungkin situs milik saya pendk.tk? :D. Dari situs-situs tersebut mungkin ada kekurangan dan kelebihannya masing-masing ya.&lt;/p&gt;
+&lt;p&gt;Apa kamu pernah berpikir untuk membuat situs Shorten URL milik sendiri? mungkin banyak dari kita pernah berpikir seperti itu dan mungkin kamu juga pernah berpikir kalau membuat sebuah situs untuk memperpendek URL itu sulit. Sebenarnya untuk membuat situs seperti itu tidaklah sulit, hanya saja kita butuh sedikit niat, iya bro cuma butuh niat aja. &lt;/p&gt;
+&lt;p&gt;jadi yang kita butuhkan di sini adalah&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;akun github&lt;/li&gt;
+&lt;li&gt;akun heroku&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;jika kamu belum punya ke dua dua nya silakan di buat dulu, karena kita akan menggunakan hosting atau server dari heroku.&lt;/p&gt;
+&lt;p&gt;langsung aja ke tutorial nya ya !!!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;buka link &lt;a class=&#34;link&#34; href=&#34;https://github.com/MADEWGN/fast-url&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/MADEWGN/fast-url&lt;/a&gt; lalu langsung fork agar tersalin ke akun github mu, setelah itu silakan buka tombol &lt;code&gt;deploy&lt;/code&gt; nya di tab baru&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;silakan beri nama app nya setelah itu langsung tekan &lt;code&gt;deploy&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://telegra.ph/file/bb7e5eed8925cee277473.jpg&#34; &gt;
+		&lt;img src=&#34;https://telegra.ph/file/bb7e5eed8925cee277473.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pic&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pic&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;seperti ini saya menggunakan nama &lt;code&gt;fast-links&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;langsung saja deploy dan tunggu hinga proses nya selesai.&lt;/p&gt;
+&lt;p&gt;jika sudah selesai buka &lt;code&gt;Manage app&lt;/code&gt; dan langkah terakhir &lt;code&gt;tinggal open app&lt;/code&gt; selesai.&lt;/p&gt;
+&lt;p&gt;nanti nya setelah di buka akan terlihat seperti ini&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://camo.githubusercontent.com/2249283c453222458352ad91edb3e43753f0451d26701965af1d1686400b2f09/687474703a2f2f692e696d6775722e636f6d2f72446b4f6438652e706e67&#34; &gt;
+		&lt;img src=&#34;https://camo.githubusercontent.com/2249283c453222458352ad91edb3e43753f0451d26701965af1d1686400b2f09/687474703a2f2f692e696d6775722e636f6d2f72446b4f6438652e706e67&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;demo&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;demo&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;live demo : &lt;a class=&#34;link&#34; href=&#34;https://fast-links.herokuapp.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://fast-links.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Menambahkan Google Analytics Pada Hugo</title>
+        <link>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</link>
+        <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</guid>
+        <description>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Google_Analytics_Logo_2015.png" alt="Featured image of post Cara Menambahkan Google Analytics Pada Hugo" /&gt;&lt;p&gt;Ketika kita mengelola sebuah website baik itu website pribadi, kantor, event, dll., pastinya kita ingin bisa memantau traffic dari website tersebut. Salah satu layanan gratis dari Google yang dapat membantu kita melakukan hal tersebut adalah Google Analytics.&lt;/p&gt;
+&lt;p&gt;Dengan Google Analytics, kita bisa mendapatkan informasi dari mulai halaman mana yang dikunjungi visitor, negara asal visitor, sumber dan kata kunci yang merujuk ke website kita, hingga pembuatan report tentang traffic dari website kita. Berbagai fungsi dari Google Analytics dibahas pada tautan berikut.&lt;/p&gt;
+&lt;p&gt;Hugo merupakan static website generator yang memungkinkan web developer untuk mengintegrasikan websitenya dengan Google Analytics. Jika sebelumnya Anda menggunakan Wordpress, Anda mungkin familiar dengan JetPack Plugin yang juga dapat diintegrasikan dengan Google Analytics. Pada Hugo, developer hanya perlu mengubah configuration file dari website untuk dapat menggunakan fungsi tersebut.&lt;/p&gt;
+&lt;p&gt;Berikut adalah tutorial untuk mengintegrasikan Hugo dengan Google Analytics.&lt;/p&gt;
+&lt;p&gt;Mendapatkan Tracking ID&lt;/p&gt;
+&lt;p&gt;Kunjungi https://analytics.google.com/.&lt;/p&gt;
+&lt;p&gt;Login dengan Google Account atau Gmail Account (@gmail.com). Jika belum memiliki Google Account, klik “Sign Up”.&lt;/p&gt;
+&lt;p&gt;Ikuti instruksi selanjutnya meliputi pembuatan akun Google Analytics, pemilihan layanan (Website, Apps, atau Apps dan Web, pilih Website), dan pendaftaran data website.&lt;/p&gt;
+&lt;p&gt;Setelah setup selesai, Anda akan mendapatkan Tracking ID dengan format &lt;code&gt;UA-XXXXXXXXX-X.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Mengubah Configuration File Hugo&lt;/p&gt;
+&lt;p&gt;Buka configuration file. Umumnya configuration file dapat ditemukan di root folder website Anda dengan nama &lt;code&gt;config.toml.&lt;/code&gt; Akan tetapi, jika Anda menggunakan tema tertentu misalnya hugo-academic, config file tersimpan di &lt;code&gt;config/_default/config.toml.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Copy &amp;amp; paste Tracking ID seperti contoh berikut dengan Tracking-ID &lt;code&gt;UA-XXXXXXXXX-X.&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;marketing&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;google_analytics&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;UA-XXXXXXXXX-X&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;google_tag_manager&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jika Anda menggunakan hugo-academic, copy &amp;amp; paste Tracking ID seperti contoh berikut.&lt;/p&gt;
+&lt;p&gt;googleAnalytics = &lt;code&gt;&amp;quot;UA-XXXXXXXXX-X&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Save file tersebut kemudian lakukan commit dan push.&lt;/p&gt;
+&lt;p&gt;Final Check&lt;/p&gt;
+&lt;p&gt;Kunjungi website Anda dengan perangkat lain.&lt;/p&gt;
+&lt;p&gt;Kunjungi https://analytics.google.com/analytics/web/.&lt;/p&gt;
+&lt;p&gt;Buka bagian Reports - Realtime. Jika berhasil, seharusnya akan ditampilkan jumlah visitor yang sedang mengunjungi website Anda (minimal 1). Jika tidak, periksa kembali apakah ada langkah yang terlewat atau tunggu beberapa saat hingga website telah terupdate dengan &lt;code&gt;config.toml&lt;/code&gt; yang terbaru.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>how to make blog with jekyll</title>
+        <link>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</link>
+        <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</guid>
+        <description>&lt;img src="https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/github-jekyll.png" alt="Featured image of post how to make blog with jekyll" /&gt;&lt;h2 id=&#34;creating-a-blog-on-github-using-jekyll&#34;&gt;Creating a Blog on GitHub Using Jekyll&lt;/h2&gt;
+&lt;p&gt;Jekyll is a website generator designed to create static blogs to host on GitHub Pages. Tom Preston-Werner created Jekyll to allow people to blog using a simple static HTML site, with all content hosted and version-controlled on GitHub. The goal is to remove the hassle of blogging platforms by creating workflows that enable blogging in a simpler way.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-jekyll-work&#34;&gt;How Does Jekyll Work?&lt;/h2&gt;
+&lt;p&gt;Quoted from its official website, Jekyll allows us to create blogs easily and without using a database. All pages and posts will be converted to Static HTML so that it speeds up loading because there is no need to call the database.&lt;/p&gt;
+&lt;p&gt;Jekyll takes our content written in Markdown, delivers it via templates and deploys it as a static website, ready to serve. GitHub Pages easily serves websites directly from our GitHub repository, so you don&amp;rsquo;t have to deal with any hosting.&lt;/p&gt;
+&lt;p&gt;In this article, we will learn how to create a blog on Github Pages using Jekyll. The process this time will be a little simpler than the others, because we will only do 4 steps, including:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a blog from Jekyll.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2.Host our Jekyll blog for free on GitHub.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Edit/custom blog such as name, avatar and social media links.
+Publish our first post!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Publish our first post!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;creating-a-blog-on-github-using-jekyll-1&#34;&gt;Creating a Blog on GitHub Using Jekyll&lt;/h2&gt;
+&lt;p&gt;note: if you don&amp;rsquo;t have a github account, please create one first.&lt;/p&gt;
+&lt;p&gt;Visit &lt;a class=&#34;link&#34; href=&#34;http://www.github.com/barryclark/jekyll-now&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Jekyll Now&lt;/a&gt;, and hit the “Fork” button in the upper right corner of the repository to copy a copy of the blog theme to your GitHub account.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i0.wp.com/cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cddcf942-6cc7-4a1f-bf1b-5066b5e553ec/step1.gif&#34; &gt;
+		&lt;img src=&#34;https://i0.wp.com/cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cddcf942-6cc7-4a1f-bf1b-5066b5e553ec/step1.gif&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;contoh&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;contoh&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;As GitHub users, we are entitled to a free “user” website, which will be live at &lt;code&gt;http://usernamegithub.github.io.&lt;/code&gt; This space is ideal for hosting a Jekyll blog! Next we need to rename the repository that we forked earlier to &lt;code&gt;usernamegithub.github.io.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.12.45-PM.png&#34; &gt;
+		&lt;img src=&#34;https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.12.45-PM.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Your website will be live soon. You can check by going to your &lt;code&gt;http://usernamegithub.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i0.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.15.18-PM.png&#34; &gt;
+		&lt;img src=&#34;https://i0.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.15.18-PM.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;hasil&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;hasil&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;customize-jekyll-blog&#34;&gt;Customize Jekyll Blog&lt;/h2&gt;
+&lt;p&gt;Now you can change the website name, description, avatar and other options by editing the file &lt;code&gt;_config.yml.&lt;/code&gt; This custom variable has been set for convenience when your website is created.&lt;/p&gt;
+&lt;p&gt;Making changes to &lt;code&gt;_config.yml&lt;/code&gt; (or any file in your repository) will force GitHub Pages to rebuild your website with Jekyll. The rebuilt website will be viewable a few seconds later at &lt;code&gt;http://usernamegithub.github.io.&lt;/code&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>cara memasang kode adsense di jekyll</title>
+        <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</link>
+        <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</guid>
+        <description>&lt;img src="https://telegra.ph/file/369faf8da03456041200a.jpg" alt="Featured image of post cara memasang kode adsense di jekyll" /&gt;&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://telegra.ph/file/369faf8da03456041200a.jpg&#34; &gt;
+		&lt;img src=&#34;https://telegra.ph/file/369faf8da03456041200a.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bagai-mana-cara-memasang-kode-google-adsense-di-jekyll&#34;&gt;bagai mana cara memasang kode google adsense di jekyll?&lt;/h2&gt;
+&lt;p&gt;sebebar nya memasang kode ads di jekyll itu mudah karena hanya perlu menaruh kode nya di dalam &lt;code&gt;_includes&lt;/code&gt; tanpa basabasi lagi langsung saja kita ke tutorial nya&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;tambahkan-situs-baru-di-adsense&#34;&gt;tambahkan situs baru di Adsense&lt;/h2&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://ncona.com/images/posts/adsense-add-site.png&#34; &gt;
+		&lt;img src=&#34;https://ncona.com/images/posts/adsense-add-site.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar1&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar1&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;untuk cara menambahkan situs baru silakan buka halaman situs, setelah itu langsung tambahkan situs baru&lt;/p&gt;
+&lt;p&gt;kemudian kamu akan mendapat kan kode sepeti ini&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&amp;lt;script data-ad-client&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;ca-pub-12345678987654321&amp;#34;&lt;/span&gt; async &lt;span class=&#34;nv&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;sekaran anda hanya perlu menaruh kode tersebut di bagian ````/_includes/head.html```&lt;/p&gt;
+&lt;p&gt;sekian tutorial dari saya, jika ada yang ingin di tanya kan silakan berkomentar ya&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>cara nge blog dengan jekyll</title>
+        <link>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</link>
+        <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</guid>
+        <description>&lt;img src="https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/github-jekyll.png" alt="Featured image of post cara nge blog dengan jekyll" /&gt;&lt;h2 id=&#34;membuat-blog-di-github-menggunakan-jekyll&#34;&gt;Membuat Blog di GitHub Menggunakan Jekyll&lt;/h2&gt;
+&lt;p&gt;Jekyll adalah generator situs web yang dirancang untuk membuat blog statis untuk di-hosting di Halaman GitHub. Tom Preston-Werner menciptakan Jekyll untuk memungkinkan orang untuk blog menggunakan situs HTML statis sederhana, dengan semua konten yang di-host dan dikendalikan oleh versi di GitHub. Tujuannya adalah untuk menghilangkan kerumitan platform blog dengan membuat alur kerja yang memungkinkan blogging dengan cara yang lebih sederhana.&lt;/p&gt;
+&lt;h2 id=&#34;bagaimana-cara-kerja-jekyll&#34;&gt;Bagaimana Cara Kerja Jekyll?&lt;/h2&gt;
+&lt;p&gt;Dikutip dari situs resmi nya, Jekyll memungkinkan kita untuk membuat blog dengan mudah dan tanpa menggunakan database. Semua halaman dan post akan diubah menjadi HTML Statis sehingga mempercepat loading karena tidak perlu memanggil database.&lt;/p&gt;
+&lt;p&gt;Jekyll mengambil konten kita yang ditulis dalam Markdown, memberikannya melalui template dan menerapkannya sebagai situs web statis, siap untuk disajikan. GitHub Pages dengan mudah melayani situs web langsung dari repositori GitHub kita, sehingga kita tidak perlu berurusan dengan hosting apa pun.&lt;/p&gt;
+&lt;p&gt;Pada artikel kali ini kita akan belajar membuat blog di Github Pages menggunakan Jekyll. Proses kali ini akan sedikit lebih sederhana daripada yang lain, karena kita hanya akan melakukan 4 step, diantaranya adalah:&lt;/p&gt;
+&lt;p&gt;1.Membuat blog dari Jekyll.&lt;/p&gt;
+&lt;p&gt;2.Meng-hostingkan blog Jekyll kita secara gratis di GitHub.&lt;/p&gt;
+&lt;p&gt;3.Mengedit/mengcustom blog seperti nama, avatar dan link social media.
+Publikasikan post pertama kita!&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Publikasikan post pertama kita!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;membuat-blog-di-github-menggunakan-jekyll-1&#34;&gt;Membuat Blog di GitHub Menggunakan Jekyll&lt;/h2&gt;
+&lt;p&gt;note : jika belum punya akun github silakan di buat dulu.&lt;/p&gt;
+&lt;p&gt;Kunjungi &lt;a class=&#34;link&#34; href=&#34;http://www.github.com/barryclark/jekyll-now&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Jekyll Now&lt;/a&gt;, dan tekan tombol “Fork” di sudut kanan atas repositori untuk menyalin salinan tema blog ke akun GitHub kalian.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i0.wp.com/cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cddcf942-6cc7-4a1f-bf1b-5066b5e553ec/step1.gif&#34; &gt;
+		&lt;img src=&#34;https://i0.wp.com/cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/cddcf942-6cc7-4a1f-bf1b-5066b5e553ec/step1.gif&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;contoh&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;contoh&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Sebagai pengguna GitHub, kita berhak atas satu situs web “pengguna” gratis, yang akan ditayangkan di &lt;code&gt;http://usernamegithub.github.io.&lt;/code&gt; Ruang ini sangat ideal untuk hosting blog Jekyll! Selanjutnya kita perlu mengganti nama repository yang sudah kita Fork tadi menjadi &lt;code&gt;usernamegithub.github.io.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.12.45-PM.png&#34; &gt;
+		&lt;img src=&#34;https://i1.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.12.45-PM.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Situs web kalian akan segera ditayangkan. Kalian dapat memeriksa dengan membuka &lt;code&gt;http://usernamegithub.github.io&lt;/code&gt; kalian&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://i0.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.15.18-PM.png&#34; &gt;
+		&lt;img src=&#34;https://i0.wp.com/codelatte.org/wp-content/uploads/2018/11/Screen-Shot-2018-11-01-at-8.15.18-PM.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;hasil&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;hasil&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;kustomisasi-blog-jekyll&#34;&gt;Kustomisasi Blog Jekyll&lt;/h2&gt;
+&lt;p&gt;Sekarang kalian dapat mengubah nama situs web, deskripsi, avatar, dan opsi lainnya dengan mengedit file &lt;code&gt;_config.yml.&lt;/code&gt; Variabel khusus ini telah sudah untuk kenyamanan saat situs web Anda dibuat.&lt;/p&gt;
+&lt;p&gt;Membuat perubahan ke &lt;code&gt;_config.yml&lt;/code&gt; (atau file apa pun dalam repositori kalian) akan memaksa Halaman GitHub untuk membangun kembali situs web kalian dengan Jekyll. Situs web yang dibangun kembali akan dapat dilihat beberapa detik kemudian di &lt;code&gt;http://usernamegithub.github.io.&lt;/code&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>cara install railway cli</title>
+        <link>https://madewgn.github.io/artikel/cara-install-railway-cli/</link>
+        <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-install-railway-cli/</guid>
+        <description>&lt;h2 id=&#34;cara-install-railway-cli&#34;&gt;Cara Install Railway Cli&lt;/h2&gt;
+&lt;p&gt;Install railway Cli railway sangat bagus untuk mendeploy aplikasi buatan sobat, agar nantinya aplikasi buatan sobat dapat di akses secara online, dan cara install nya juga cukup mudahapt updatebtw ada 3 cara nih untuk install railway cli nya, dengan curl, npm dan juga :)&lt;/p&gt;
+&lt;p&gt;Brew
+&lt;code&gt;brew tap railwayapp/railway brew install railway&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;NPM
+&lt;code&gt;npm i -g @railway/cli&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;curl
+&lt;code&gt;curl sh -c (curl -sSL https://raw.githubusercontent.com/railwayapp/cli/master/install.sh)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;sekian tutorial install railway cli nya ~&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara kompres video dengan ffmpeg</title>
+        <link>https://madewgn.github.io/artikel/cara-kompres-video-dengan-ffmpeg/</link>
+        <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-kompres-video-dengan-ffmpeg/</guid>
+        <description>&lt;p&gt;Tutorial Compress Video Dengan FFMPEG
+Pada kesempatan kali ini saya akan memberikan tutorial compress video menggunakan ffmpeg, ffmpeg ini biasanya program yang digunakan aplikasi untuk compress video, salah satunya handbrake. Tutorial ini bisa dipakai di sistem operasi Linux dan Windows (disini saya menggunakan Linux, tetapi perintah nya sama saja mau Linux ataupun Windows)&lt;/p&gt;
+&lt;p&gt;Kalian install ffmpeg terlebih dahulu
+Untuk Windows kalian bisa download di gyan.dev
+untuk sistem operasi Linux saya sarankan menginstall ffmpeg dari snap, karena sudah support Hardware Accelerated, tetapi jika GPU kalian belum support NVENC kalian bisa menggunakan perintah&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo pacman -S ffmpeg (Arc based)&lt;/code&gt;
+&lt;code&gt;sudo apt install ffmpeg (Debian based)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Jika kalian menggunakan snap bisa menggunakan perintah&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;snap install ffmpeg&lt;/code&gt;
+Jika ffmpeg nya sudah terinstall kalian bisa cek menggunakan powershell atau terminal dengan perintah &lt;code&gt;ffmpeg&lt;/code&gt; jika tidak muncul &lt;code&gt;error&lt;/code&gt; berarti installasi selesai, jika muncul command not found berarti kalian belum setting PATH untuk ffmpeg nya,
+Untuk setting PATH di Windows bisa kalian kunjungi sulhi.id
+Untuk setting PATH di Linux kalian bisa kunjungi thread di stackoverflow
+Sekarang kita mulai compress video nya dengan perintah
+&lt;code&gt;ffmpeg -i input.mp4 -vcodec h264 -acodec aac output.mp4&lt;/code&gt;
+Jika kalian ingin menggunakan Hardware Accelerated, kalian bisa gunakan perintah
+&lt;code&gt;ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -c:v h264_nvenc -cq 19 -c:a copy output.mp4&lt;/code&gt;
+input.mp4 ini adalah nama dan extensi video yang akan di compress sedangkan output.mp4 adalah video yang sudah selesai di compress
+-cq 19 0 itu auto 19 rekomendasi 51 lossless, kalian bisa pilih 1-51.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>cara embed pesan Telegram ke website</title>
+        <link>https://madewgn.github.io/artikel/cara-embed-pesan-telegram-ke-website/</link>
+        <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-embed-pesan-telegram-ke-website/</guid>
+        <description>&lt;p&gt;kini Telegram kian berkembang. Tidak lagi semata menjadi sarana perpesanan teks, namun juga banyak kegunaan lain. Misalnya saja, kini Telegram bisa digunakan untuk penyimpan atau berbagi berkas, pemutar musik, panggilan suara dan banyak lagi.&lt;/p&gt;
+&lt;p&gt;Dan di antara banyak pembaruan pada rilis Telegram teranyar, mereka menyuguhkan fitur yang sungguh sama sekali tidak pernah saya duga; kini kita bisa melekatkan (embed) pesan dari kanal atau grup publik ke situs web. Wow&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;Artinya kini siapapun, walau tanpa memiliki akun telegram, bisa membaca pesan yang kita kirim ke kanal atau grup publik cukup dengan memasukkan tautan dari pesan Telegram ke bilah alamat (address bar) peramban web.&lt;/p&gt;
+&lt;p&gt;Salin tautan pesan Telegram yang hendak dibaca.&lt;/p&gt;
+&lt;p&gt;Menyalin tautan pesan di Telegram Android: klik pada pesan ➜ Copy Link.
+Pada client resmi Telegram Android, hanya administrator grup atau kanal yang memiliki pilihan untuk menyalin tautan pesan.
+Menyalin tautan pesan di Telegram Desktop: klik kanan pada pesan dalam kanal ➜ Copy Post Link, atau klik kanan pada pesan dalam grup ➜ Copy Link.
+Siapapun bisa menyalin tautan pesan dengan menggunakan Telegram Desktop.
+Tautan pesan akan menyerupai bentuk berikut: &lt;a class=&#34;link&#34; href=&#34;https://t.me/[USERNAME-GROUP-ATAU-KANAL]/[NOMOR-PESAN]&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://t.me/[USERNAME-GROUP-ATAU-KANAL]/[NOMOR-PESAN]&lt;/a&gt;. Misalnya &lt;a class=&#34;link&#34; href=&#34;https://t.me/MadeAdiWiguna/19&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://t.me/MadeAdiWiguna/19&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Masukkan tautan pesan Telegram dari kanal atau grup Publik ke bilah alamat peramban ini.
+Klik tombol &amp;lt;&amp;gt; EMBED untuk mendapatkan kode yang bisa dilekatkan ke laman HTML (misal artikel blog).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Klik tombol COPY untuk menyalin embeddable code di atasnya.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lalu paste kan scripts nya di postingan blog&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;live demo :&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara mendapatkan thumbnail YouTube dengan bot Telegram</title>
+        <link>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</link>
+        <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</guid>
+        <description>&lt;h2 id=&#34;pertama-pastikan-kamu-sudah-punya-telegram&#34;&gt;Pertama Pastikan kamu sudah punya Telegram&lt;/h2&gt;
+&lt;p&gt;selanjutnya buka Telegram&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;cari di pencarian &lt;code&gt;@YT_Thumbnail_generator_bot&lt;/code&gt; atau bida langsung kamu klik di  &lt;a class=&#34;link&#34; href=&#34;https://t.me/YT_Thumbnail_generator_bot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;@YT_Thumbnail_generator_bot&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;langsung berikan link&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;langsung berikan link&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;langsung berikan link YouTube nya dan thumbnail nya pun akan langsung di kirim&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara deploy userge di termux</title>
+        <link>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</link>
+        <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</guid>
+        <description>&lt;h1 id=&#34;panduan-termux-untuk-pengguna&#34;&gt;Panduan Termux untuk Pengguna&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;prasyarat&#34;&gt;Prasyarat&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Aplikasi &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.termux&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Termux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Setidaknya penyimpanan perangkat &lt;strong&gt;750MB&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pengaturan-cepat&#34;&gt;Pengaturan Cepat&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Buka Termux dan jalankan &lt;code&gt;bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Tunggu beberapa saat (&lt;code&gt;hingga 10 menit&lt;/code&gt;) &amp;hellip; (beberapa kali mungkin meminta input).&lt;/li&gt;
+&lt;li&gt;Ini akan mengarahkan ke &lt;code&gt;config.env&lt;/code&gt; dan meminta untuk mengisi.&lt;/li&gt;
+&lt;li&gt;Isi, simpan (&lt;code&gt;ctrl+s&lt;/code&gt;) dan tutup (&lt;code&gt;ctrl+x&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Sekarang, Instalasi selesai dan waktu untuk menjalankan userge.&lt;/li&gt;
+&lt;li&gt;Tapi pertama-tama lakukan &lt;code&gt;termux-chroot&lt;/code&gt; untuk memperbaiki masalah DNS Resolver.&lt;/li&gt;
+&lt;li&gt;Bagus, Sekarang Anda berada di root jadi &lt;code&gt;cd Userge &amp;amp;&amp;amp; bash run&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Menikmati :)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;selangkah-demi-selangkah&#34;&gt;Selangkah demi selangkah:&lt;/h2&gt;
+&lt;p&gt;Pertama-tama, Perbarui paket dan Instal Repositori root&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pembaruan pkg &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; peningkatan pkg
+pkg instal root-repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Instal Python dan paket yang diperlukan&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pkg instal python
+pip install -U pip wheel setuptools
+pkg instal git jq proot resolv-conf libxml2 libxslt libjpeg-turbo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pasang Bantal&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;-L/system/lib/&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;CFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;-I/data/data/com.termux/files/usr/include/&amp;#34;&lt;/span&gt; pip install Bantal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kemudian Klon &lt;code&gt;Pengguna&lt;/code&gt; dan Buka direktori kloning&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;git clone https://github.com/UsergeTeam/Userge Userge &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; Userge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Persyaratan Instal&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nv&#34;&gt;CFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;-O0&amp;#34;&lt;/span&gt; pip install -r requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hasilkan dan Isi &lt;code&gt;config.env&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cp config.env.contoh config.env
+nano config.env
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selesai. Sekarang jalankan Userge&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;termux-chroot
+&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; pengguna
+lari bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://madewgn.github.io/artikel/</link>
+        <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/</guid>
+        <description>&lt;p&gt;PUNYA Radio Online Streaming alias Radio Internet di My Radio Stream? Mau pasang alias &amp;ldquo;tempel&amp;rdquo; (embed) playernya di blog blogspot Anda?&lt;/p&gt;
+&lt;p&gt;Oh, blom punya? Bikin dong, gratis kok! Ini dia Cara Membuat Radio Online.&lt;/p&gt;
+&lt;p&gt;Kalau sudah punya, untuk memasang playernya di blog, Anda tinggal COPY kode berikut ini dan PASTE di Halaman Statis atau di Sidebar (Widget).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cara memasang Player Radio Online di Halaman Statis (Static Page):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pages &amp;gt; New Page &amp;gt; Klik mode &amp;ldquo;HTML&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;COPAS kode berikut ini:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;live-demo&#34;&gt;live demo&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://madewgn.github.io/artikel/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/</guid>
+        <description>&lt;h2 id=&#34;cara-membuat-tv-online-trans-7-di-blog-atau-website&#34;&gt;cara membuat TV online trans 7 di blog atau website&lt;/h2&gt;
+&lt;p&gt;Cara Mudah Memasang Script Streaming TV Online di Blog – Tutorial kali ini saya akan membagikan bagaimana cara memasang script streaning TV Online di blog.&lt;/p&gt;
+&lt;p&gt;Sebenarnya cara memasangnya cukup mudah, yang perlu anda lakukan adalah mencari embed TV Online itu sendiri kemudian anda pasangkan di blog anda.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anda tidak perlu pusing untuk mencarinya, dibawah ini sudah saya sertakan script embednya, jadi anda tinggal memasangnya saja di Blog anda.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Streaming TV Online ini sangat cocok untuk anda yang suka nonton tv dari internet dan memudahkan orang lain ketika dalam perjalanan di kendaraan umum untuk menonton acara favoritnya di tv.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Online TV Streaming&lt;/p&gt;
+&lt;p&gt;Jika sudah banyak orang yang tahu bahwa dalam blog anda terdapat Streaming TV Online, pasti mereka akan kembali lagi ke blog anda jika ingin menonton tv, sehingga akan menambah pengunjung tetap di blog anda.&lt;/p&gt;
+&lt;p&gt;Lalu bagaimana cara membuat blog TV Online di platform Blogger atau blogspot? saya akan memberikan sedikit tutorial mengenai cara memasang embed/script streaming tv online :&lt;/p&gt;
+&lt;p&gt;Panduan Memasang Embed/Script Streaming TV Online&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Pertama login terlebih dahulu ke akun blogger anda&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Buat postingan baru atau bisa juga pada halaman statis (Page) blog anda&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selanjutnya Buat Judul berdasarkan stasiun tv, misal kita akan Membuat channel RCTI, maka anda bisa menamainya dengan “RCTI Live Streaming”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pada kolom postingan pilih tab HTML, ingat HTML bukan Compose ya!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Selanjutnya pilih salahsatu script dibawah ini, paste ke dalam postingan anda :&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Embed/Script Streaming TV Online&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;live-demo&#34;&gt;live demo&lt;/h1&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>Template Blogger AMP HTML Gratis Terbaik</title>
+        <link>https://madewgn.github.io/artikel/template-blogger-amp-html-gratis-terbaik/</link>
+        <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/template-blogger-amp-html-gratis-terbaik/</guid>
+        <description>&lt;h1 id=&#34;apa-itu-amp-&#34;&gt;Apa itu AMP ?&lt;/h1&gt;
+&lt;p&gt;AMP (Accelerated Mobile Pages) atau sering disebut dengan AMP HTML merupakan salah satu project yang dikembangkan oleh Google.&lt;/p&gt;
+&lt;p&gt;AMP HTML memiliki struktur yang meminimalisir penggunaan JavaScript, CSS, HTML. Jadi ada aturan tertentu dalam penulisan tag atau baris kode pada website AMP HTML.&lt;/p&gt;
+&lt;p&gt;Tujuan dari AMP HTML yaitu untuk meningkatkan kecepatan akses sebuah website, khususnya akses website dari device smartphone.&lt;/p&gt;
+&lt;p&gt;Jadi untuk teman-teman yang mungkin pengunjung situsnya kebanyakan dari smartphone, menggunakan AMP HTML adalah salah satu alternatif untuk meningkatkan user experience pada situs Anda. Bahkan Google pun bisa dibilang lebih mengutamakan website dengan AMP pada pencarian mobile yang artinya disini dapat meningkatkan SEO pada perangkat mobile.&lt;/p&gt;
+&lt;h2 id=&#34;apakah-blogspot-bisa-menggunakan-amp-html&#34;&gt;Apakah blogspot bisa menggunakan AMP HTML?&lt;/h2&gt;
+&lt;p&gt;Mungkin muncul banyak pertanyaan seperti diatas. Jawabannya bisa.&lt;/p&gt;
+&lt;p&gt;Pada sekitar tahun 2015 salah satu suhu di dunia blogger yaitu kang ismet mencoba mengotak-atik blogspot sedemikian rupa dan menjadikannya valid AMP.&lt;/p&gt;
+&lt;p&gt;Dengan mengubah struktur template blogger dan mengedit tag pada postingan sesuai ketentuan AMP HTML akhirnya beliau berhasil membuat blogspot valid AMP.&lt;/p&gt;
+&lt;p&gt;Seiring berjalannya waktu banyak yang mulai membuat template blogger valid AMP, baik yang dibagikan gratis maupun berbayar. Nah, dipostingan kali ini saya akan membagikan kumpulan template blogger valid AMP gratis yang pastinya memiliki fitur dan tampilan yang keren.&lt;/p&gt;
+&lt;h2 id=&#34;amp-html-blogger-template&#34;&gt;AMP HTML Blogger Template&lt;/h2&gt;
+&lt;p&gt;template blogger amp html gratis&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Diurutan yang pertama ada template blogspot AMP buatan kang ismet. Seperti yang sudah saya singgung diatas tadi, kang ismet bisa dibilang orang indonesia pertama yang mencoba membuat template blogger valid AMP (setau saya).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Template ini dibagikan secara gratis di blognya dan pada saat ini banyak dijadikan referensi untuk membuat template blogger valid amp.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://amphtmlproject.blogspot.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DEMO&lt;/a&gt; |
+&lt;a class=&#34;link&#34; href=&#34;http://disafelink.com/m/JNrC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Download&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara membuat Widget Status COVID 19 Indonesia</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</link>
+        <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</guid>
+        <description>&lt;p&gt;Cara pemasangannya cukup simple, saya coba menjelaskan cara pemasangan di wordpress dan blogspot.&lt;/p&gt;
+&lt;p&gt;Pasang widget kawal corona di WordPress
+Untuk website yang dibangun dengan wordpress, kita dapat masuk ke halaman Tampilan, lalu masuk ke menu Widget.&lt;/p&gt;
+&lt;p&gt;Setelah itu, kita tambahkan widget HTML Khusus kedalam sidebar. Lalu pada kolom isi di widget HTML Khusus kita tambahkan script dibawah ini&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Pasang widget kawal corona di Blogger / Blogspot
+Untuk memasang widget kawal corona di Blogger/Blogspot kalian dapat masuk ke halaman Tata Letak, lalu klik tombol &amp;ldquo;Tambahkan Widget&amp;rdquo;. Saat muncul popup, kalian pilih menu HTML/JavaScript&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara membuat teks Editor dengan HTML dan java script</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</link>
+        <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</guid>
+        <description>&lt;p&gt;Cara Memasukkan Teks Editor di HTML dengan Javascript&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Teks Editor merupakan sebuah form khusus yang memiliki fitur-fitur seperti membuat sebuah teks menjadi bold, italic, underline, dan lain-lain, secara sederhananya, ketika kamu membuat sebuah artikel baru di blogspot / wordpress, terdapat sebuah form khusus untuk menempatkan isi artikelnya, form itu merupakan sebuah Teks Editor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;kode-lengkap&#34;&gt;kode lengkap&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara membuat Bot Radio di Telegram</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</link>
+        <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</guid>
+        <description>&lt;h1 id=&#34;pemutar-radio-telegram-v3&#34;&gt;Pemutar Radio Telegram V3&lt;/h1&gt;
+&lt;p&gt;Bot Telegram untuk Memutar Radio/Musik/YouTube Live di Saluran atau Obrolan Suara Grup.&lt;/p&gt;
+&lt;p&gt;Ini juga merupakan kode sumber bot yang digunakan untuk bermain
+Radio di &lt;a class=&#34;link&#34; href=&#34;https://t.me/AsmSafone&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AsmSafone&lt;/a&gt; Saluran &amp;amp; Musik di Grup &lt;a class=&#34;link&#34; href=&#34;https://t.me/safothebot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SafoTheBot&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;fitur-spesial&#34;&gt;Fitur spesial&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Daftar putar, antrean, aliran radio 24x7&lt;/li&gt;
+&lt;li&gt;Mendukung streaming langsung dari youtube&lt;/li&gt;
+&lt;li&gt;Mulai Radio setelah jika tidak ada lagu dalam daftar putar&lt;/li&gt;
+&lt;li&gt;Pemutaran otomatis bahkan jika heroku dimulai ulang&lt;/li&gt;
+&lt;li&gt;Tampilkan posisi pemutaran audio saat ini&lt;/li&gt;
+&lt;li&gt;Kontrol dengan tombol dan perintah&lt;/li&gt;
+&lt;li&gt;Unduh lagu dari youtube sebagai audio&lt;/li&gt;
+&lt;li&gt;Secara otomatis mengunduh audio untuk dua trek pertama dalam daftar putar untuk memastikan pemutaran yang lancar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;terapkan-ke-heroku-cara-mudah&#34;&gt;Terapkan ke Heroku (Cara Mudah)&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayer/tree/V3.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://www.herokucdn.com/deploy/button.svg&#34; &gt;
+		&lt;img src=&#34;https://www.herokucdn.com/deploy/button.svg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Deploy&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Deploy&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/a&gt;
+CATATAN: Pastikan Anda Telah Memulai Obrolan Suara Di Saluran/Grup Anda Sebelum Menyebarkan!&lt;/p&gt;
+&lt;h2 id=&#34;heroku-vars&#34;&gt;Heroku Vars:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;API_ID&lt;/code&gt; : Dapatkan Dari my.telegram.org&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;API_HASH&lt;/code&gt; : Dapatkan Dari my.telegram.org&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BOT_TOKEN&lt;/code&gt; : Dapatkan Dari @Botfather&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SESSION_STRING&lt;/code&gt; : Hasilkan Dari &lt;a class=&#34;link&#34; href=&#34;http://t.me/genStr_robot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;@genStr robot&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CHAT&lt;/code&gt; : ID Channel/Grup tempat bot memutar Musik/Radio.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LOG_GROUP&lt;/code&gt; : Grup untuk mengirim Daftar Putar, jika CHAT adalah Grup.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ADMINS&lt;/code&gt; : ID pengguna yang dapat menggunakan perintah admin.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;STREAM_URL&lt;/code&gt; : URL streaming stasiun radio atau video langsung youtube untuk streaming saat bot dimulai atau dengan perintah /radio.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MAXIMUM_DURATION&lt;/code&gt; : Durasi maksimum lagu untuk diputar. (Opsional)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;REPLY_MESSAGE&lt;/code&gt; : Balasan kepada mereka yang mengirim pesan ke akun USER di PM. Biarkan kosong jika Anda tidak membutuhkan fitur ini.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ADMIN_ONLY&lt;/code&gt; : Pass Y Jika Anda ingin membuat perintah /play hanya untuk admin CHAT. Secara default /play tersedia untuk semua.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Aktifkan pekerja setelah menyebarkan proyek ke Heroku.&lt;/li&gt;
+&lt;li&gt;Bot akan memulai radio secara otomatis di &lt;code&gt;CHAT&lt;/code&gt; yang diberikan dengan &lt;code&gt;STREAM_URL&lt;/code&gt; yang diberikan setelah penerapan.&lt;/li&gt;
+&lt;li&gt;Musik 24x7 bahkan jika heroku dimulai ulang, aliran radio dimulai ulang secara otomatis.&lt;/li&gt;
+&lt;li&gt;Untuk memutar lagu gunakan /play sebagai balasan file audio atau link youtube atau gunakan /play [nama lagu].&lt;/li&gt;
+&lt;li&gt;Untuk mengunduh audio, Anda dapat menggunakan perintah &lt;a class=&#34;link&#34; href=&#34;http://t.me/SafoneMusicBot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;@SafoneMusicBot&lt;/a&gt; atau &lt;code&gt;/song&lt;/code&gt; ke bot.&lt;/li&gt;
+&lt;li&gt;Gunakan &lt;code&gt;/help&lt;/code&gt; untuk mengetahui tentang perintah lain &amp;amp; penggunaannya.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;persyaratan&#34;&gt;Persyaratan&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.6 atau lebih tinggi.&lt;/li&gt;
+&lt;li&gt;SEBUAH
+&lt;a class=&#34;link&#34; href=&#34;https://docs.pyrogram.org/intro/quickstart#enjoy-the-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Kunci API Telegram&lt;/a&gt;
+dan akun Telegram.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ffmpeg.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;FFmpeg Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Telegram &lt;a class=&#34;link&#34; href=&#34;http://t.me/genStr_robot&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sesi String&lt;/a&gt; dari akun.&lt;/li&gt;
+&lt;li&gt;Userbot Harus Menjadi Admin Di Channel atau Grup.&lt;/li&gt;
+&lt;li&gt;Harus Memulai Obrolan Suara Di Saluran / Grup Sebelum Menjalankan Bot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;jalankan-di-vps-jalan-sulit&#34;&gt;Jalankan Di VPS (Jalan Sulit)&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ git clone -b V3.0 https://github.com/AsmSafone/RadioPlayer
+&lt;span class=&#34;nv&#34;&gt;$cd&lt;/span&gt; RadioPlayer
+$ sudo apt-get install python3-pip ffmpeg
+$ pip3 instal -U pip
+$ pip3 install -r requirements.txt
+&lt;span class=&#34;c1&#34;&gt;# &amp;lt;buat variabel dengan tepat&amp;gt;&lt;/span&gt;
+$ python3 main.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;lisensi&#34;&gt;Lisensi&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;RadioPlayer, Bot Obrolan Suara Telegram
+Hak Cipta &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;c&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2021&lt;/span&gt; Asm Safone
+
+Program ini adalah perangkat lunak gratis: Anda dapat mendistribusikannya kembali dan/atau memodifikasi
+itu di bawah ketentuan Lisensi Publik Umum GNU Affero sebagaimana diterbitkan oleh
+Free Software Foundation, baik versi &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; dari Lisensi, atau
+&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;sesuai pilihan Anda&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; versi yang lebih baru.
+
+Program ini disebarluaskan dengan harapan dapat bermanfaat,
+tapi TANPA JAMINAN APAPUN&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; bahkan tanpa jaminan tersirat dari
+DAGANG atau KESESUAIAN UNTUK TUJUAN TERTENTU. Lihat
+Lisensi Publik Umum GNU Affero untuk lebih jelasnya.
+
+Anda seharusnya telah menerima salinan dari GNU Affero General Public License
+bersama dengan program ini. Jika tidak, lihat &amp;lt;https://www.gnu.org/licenses/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Flake it till you make it</title>
+        <link>https://madewgn.github.io/artikel/flake-it-till-you-make-it/</link>
+        <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/flake-it-till-you-make-it/</guid>
+        <description>&lt;p&gt;Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?&lt;/p&gt;
+&lt;p&gt;The truth is that no one else can definitively know the path we are here to walk. It’s tempting to listen—many of us long for the omnipotent other—but unless they are genuine psychic intuitives, they can’t know. All others can know is their own truth, and if they’ve actually done the work to excavate it, they will have the good sense to know that they cannot genuinely know anyone else’s. Only soul knows the path it is here to walk. Since you are the only one living in your temple, only you can know its scriptures and interpretive structure.&lt;/p&gt;
+&lt;p&gt;At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.&lt;/p&gt;
+&lt;p&gt;A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tema on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/tags/tema/</link>
+    <description>Recent content in tema on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 04:26:53 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/tema/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lazy Bloggers</title>
+      <link>https://madewgn.github.io/dokumentasi/lazy-bloggers/</link>
+      <pubDate>Thu, 07 Oct 2021 04:26:53 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/dokumentasi/lazy-bloggers/</guid>
+      <description>Halo kawan - kawan, selamat datang di blog saya, kali ini saya akan memberikan sebuah tema Hugo buatan saya sendiri 😂
+Saya memberikan nama &amp;ldquo;Lazy-bloggers&amp;rdquo; Karena saya bukan seorang yang rajin:v
+Tanpa basa-basi lagi langsung saya di pemasangan tema nya
+Pertama silahkan buat dulu blog baru Hugo
+hugo new site [nama web] -f yml cd [nama web] git clone https://github.com/MADEWGN/Lazy-bloggers themes/Lazy-bloggers Simple Config.yml
+ baseurl: &#39;https://www.made-wiguna.web.app&#39; title: Lazy Bloggers theme: Lazy-bloggers googleAnalytics: UA-XXXXXX disqusShortname: xxxxx permalinks: post: &#39;/blog/:slug/&#39; page: &#39;/:slug/&#39; params: author: admin description: &#39;Hello, Blog ini belum jadi.</description>
+    </item>
+    
+  </channel>
+</rss>

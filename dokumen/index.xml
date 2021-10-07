@@ -14,7 +14,7 @@
       
       <guid>https://madewgn.github.io/dokumentasi/lazy-bloggers/</guid>
       <description>Halo kawan - kawan, selamat datang di blog saya, kali ini saya akan memberikan sebuah tema Hugo buatan saya sendiri 😂
-Saya memberikan nama &amp;ldquo;Lazy-bloggers&amp;rdquo; Karena saya bukan seorang yang rajin:v
+DEMO Saya memberikan nama &amp;ldquo;Lazy-bloggers&amp;rdquo; Karena saya bukan seorang yang rajin:v
 Tanpa basa-basi lagi langsung saya di pemasangan tema nya
 Pertama silahkan buat dulu blog baru Hugo
 hugo new site [nama web] -f yml cd [nama web] git clone https://github.com/MADEWGN/Lazy-bloggers themes/Lazy-bloggers Simple Config.yml

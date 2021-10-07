@@ -15,6 +15,17 @@
         <description>&lt;img src="https://telegra.ph/file/eb406a9ab6f0ab494813b.jpg" alt="Featured image of post Lazy Bloggers Hugo themes" /&gt;&lt;p&gt;Halo kawan - kawan, selamat datang di blog saya, kali ini saya akan memberikan sebuah &lt;strong&gt;tema Hugo&lt;/strong&gt; buatan saya sendiri 😂&lt;/p&gt;
 &lt;h2 id=&#34;demohttpsmade-wigunawebapp&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://made-wiguna.web.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DEMO&lt;/a&gt;&lt;/h2&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 &lt;p&gt;Saya memberikan nama &lt;strong&gt;&amp;ldquo;Lazy-bloggers&amp;rdquo;&lt;/strong&gt;
 Karena saya bukan seorang yang rajin:v&lt;/p&gt;
 &lt;p&gt;Tanpa basa-basi lagi langsung saya di pemasangan tema nya&lt;/p&gt;
@@ -22,7 +33,18 @@ Karena saya bukan seorang yang rajin:v&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;nama web&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; -f yml
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;nama web&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/MADEWGN/Lazy-bloggers themes/Lazy-bloggers
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Simple &lt;code&gt;Config.yml&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Simple &lt;code&gt;Config.yml&lt;/code&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
 baseurl: &#39;https://www.made-wiguna.web.app&#39;
 title: Lazy Bloggers
@@ -74,7 +96,18 @@ menu:
       weight: 4
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Untuk membuat post baru&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new post/judul-post.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selamat mencoba 😄👋&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selamat mencoba 😄👋
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

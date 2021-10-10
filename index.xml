@@ -320,8 +320,124 @@ Masuk ke post editor, isi Title, Date, Tags, Categories, dan isi dari konten. Op
         <pubDate>Sat, 09 Oct 2021 11:37:31 +0000</pubDate>
         
         <guid>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</guid>
-        <description>&lt;p&gt;Yo halo, welcome back 😄👋
-Kali ini saya mencoba tema Hugo baru nih yang saya beri nama &amp;ldquo;pejuang&amp;rdquo; ya pejuang sangat cocok buat kalian yang sedang berjuang di dunia blogging&amp;hellip;&lt;/p&gt;
+        <description>&lt;img src="https://telegra.ph/file/92fc86006b35daf828bd1.jpg" alt="Featured image of post Pejuang Hugo Themes" /&gt;&lt;p&gt;Yo halo, welcome back 😄👋
+Kali ini saya mencoba tema Hugo baru nih yang saya beri nama &amp;ldquo;pejuang&amp;rdquo; ya pejuang sangat cocok buat kalian yang sedang berjuang di dunia blogging&amp;hellip;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Tema cocok bua kalian yang suka blog dengan tampilan sederhana, btw tema hugo satu ini sangat muda untuk di modif, jadi sangat mudah jika kamu ingin nambahin beberapa kode di tema ini
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Btw di tema ini saya tambahin fitur list artikel terbaru,jadi nya kaya blogspot
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://telegra.ph/file/85995665a8b9f8a042cc1.jpg&#34; &gt;
+		&lt;img src=&#34;https://telegra.ph/file/85995665a8b9f8a042cc1.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;demo&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;demo&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;demohttpspejuang-hugonetlifyapp&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://pejuang-hugo.netlify.app&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DEMO&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Cara menggunakan themes nya&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;nama web&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;nama web&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;/themes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/MadeWGN-GIT/pejuang-hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Simple &lt;code&gt;Config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title = &amp;quot;MADE WIGUNA&amp;quot;
+baseurl = &amp;quot;https://madewgn.github.io/&amp;quot;
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = &amp;quot;yaml&amp;quot;
+
+# untuk apply temanya
+themesDir = &amp;quot;themes&amp;quot;
+theme = &amp;quot;pejuang-hugo&amp;quot;
+
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = &amp;quot;XXX&amp;quot;
+
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = &amp;quot;UA-XXXXXXXX&amp;quot;
+
+# Untuk deskripsi tag meta di homepage
+description = &amp;quot;Blog pengguna HP&amp;quot;
+
+# Biodata Author
+[author]
+    name = &amp;quot;Made Wiguna&amp;quot;
+    homepage = &amp;quot;https:t.me/madewgn/&amp;quot;
+    bio = &amp;quot;Pengamat Langit&amp;quot;
+    image = &amp;quot;https://telegra.ph/file/3a7fbe5e09b173a369511.jpg&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Untuk membuat post baru&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new post/judul-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selamat mencoba 😄👋&lt;/p&gt;
+&lt;blockquote class=mt-5&gt;
+&lt;b&gt;🚧 bantu donasi 🚧&lt;/b&gt;
+&lt;hr&gt;
+&lt;p&gt;
+jika kamu suka konten yang saya buat bantu doa kan agar saya sehat selalu dan tiap hari update artikel ya. 🙏
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Kamu juga bisa memberikan dukungan dengan &lt;img src=https://www.petanikode.com/img/trakteer-icon.svg data-src=https://www.petanikode.com/img/trakteer-icon.svg class=lazyload width=16&gt; &lt;a href=https://trakteer.id/madewgn target=_blank&gt;mentrakteer cendol&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 </description>
         </item>
         <item>

@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Made Wiguna Blogger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Oct 2021 10:17:25 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 03:30:39 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cara membuat CMS hugo dengan  Forestry.io</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</link>
+      <pubDate>Sun, 10 Oct 2021 03:30:39 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
+      <description>Cara Setting Forestry.io Sebagai Post Editor Hugo
+   (adsbygoogle = window.adsbygoogle || []).push({});  Forestry.io adalah sebuah layanan software as a service (SaaS) yang berfungsi sebagai post editor untuk static site generator. Untuk menambah post (artikel) di static site generator hanya memakai text editor dan ditulis dalam syntax Markdown. Nah, dengan Forestry.io, menambah post tidak perlu lagi menggunakan text editor, melainkan editor dari Forestry.io atau biasa disebut dengan istilah WYSIWYG Editor.</description>
+    </item>
+    
     <item>
       <title>Cara Memasang Kode Adsense Di Hugo</title>
       <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</link>

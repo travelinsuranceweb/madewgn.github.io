@@ -2,22 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://madewgn.github.io/dokumen/</loc>
-    <lastmod>2021-10-07T04:26:53+00:00</lastmod>
+    <loc>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</loc>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</loc>
-    <lastmod>2021-10-07T04:26:53+00:00</lastmod>
+    <loc>https://madewgn.github.io/tags/cms/</loc>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/tags/hugo/</loc>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://madewgn.github.io/</loc>
-    <lastmod>2021-10-07T04:26:53+00:00</lastmod>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/post/</loc>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://madewgn.github.io/tags/</loc>
+    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/dokumen/</loc>
+    <lastmod>2021-10-09T11:37:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</loc>
+    <lastmod>2021-10-09T11:37:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</loc>
     <lastmod>2021-10-07T04:26:53+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -28,16 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</loc>
-    <lastmod>2021-10-05T10:17:25+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/tags/hugo/</loc>
-    <lastmod>2021-10-05T10:17:25+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/post/</loc>
     <lastmod>2021-10-05T10:17:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

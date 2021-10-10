@@ -6,7 +6,325 @@
         <description>Recent content on Made Wiguna Blogger</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 07 Oct 2021 04:26:53 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Oct 2021 03:30:39 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>cara membuat CMS hugo dengan  Forestry.io</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</link>
+        <pubDate>Sun, 10 Oct 2021 03:30:39 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
+        <description>&lt;img src="https://telegra.ph/file/c24b769e9fd69ea43b037.jpg" alt="Featured image of post cara membuat CMS hugo dengan  Forestry.io" /&gt;&lt;p&gt;Cara Setting Forestry.io Sebagai Post Editor Hugo&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Forestry.io adalah sebuah layanan software as a service (SaaS) yang berfungsi sebagai post editor untuk static site generator. Untuk menambah post (artikel) di static site generator hanya memakai text editor dan ditulis dalam syntax Markdown. Nah, dengan Forestry.io, menambah post tidak perlu lagi menggunakan text editor, melainkan editor dari Forestry.io atau biasa disebut dengan istilah WYSIWYG Editor.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Forestry.io mendukung static site generator Hugo, Jekyll, VuePress, dan Gatsby. Layanan dari Forestry.io ini berbayar, namun tersedia juga paket Personal yang bisa digunakan tanpa biaya, selain itu kita dapat menambahkan website statis sebanyak mungkin (Unlimited sites).&lt;/p&gt;
+&lt;p&gt;Tutorial ini membahas tentang bagaimana cara setting atau menghubungkan Forestry.io dengan website Hugo yang sebelumnya sudah saya deploy ke GitLab Pages.&lt;/p&gt;
+&lt;p&gt;Menghubungkan Forestry.io dengan Hugo
+Buat akun terlebih dahulu di Forestry.io.&lt;/p&gt;
+&lt;p&gt;Login, lalu klik Add Site.
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/01.cara-setting-forestry-hugo_sites-forestry-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/01.cara-setting-forestry-hugo_sites-forestry-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;add site&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;add site&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+Belum ada website di Forestry.io&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pilih static site generator Hugo, dan pilih versi. Versi yang terpasang di laptop Hugo v0.56.3, sementara versi paling tinggi di Forestry.io v0.56.1, ini tidak ada masalah, bisa berjalan dengan baik.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/02.cara-setting-forestry-hugo_select-static-site-generator-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/02.cara-setting-forestry-hugo_select-static-site-generator-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pilih yang hugo&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pilih yang hugo&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Pilih di mana repository website Hugo berada, saya memakai GitLab.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/03.cara-setting-forestry-hugo_select-git-provider-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/03.cara-setting-forestry-hugo_select-git-provider-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pilih tempat host repo&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pilih tempat host repo&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Tampil pertanyaan untuk mengijinkan Forestry.io mengakses akun GitLab, klik Authorize.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/04.cara-setting-forestry-hugo_authorize-forestry-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/04.cara-setting-forestry-hugo_authorize-forestry-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Authorize&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Authorize&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Pilih nama repository tempat menyimpan website Hugo&lt;/p&gt;
+&lt;p&gt;Forestry.io mulai menjalankan importing site&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/06.cara-setting-forestry-hugo_importing-site-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/06.cara-setting-forestry-hugo_importing-site-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;import site&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;import site&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Untuk menyelesaikan proses setup, klik Mark as done untuk Set up sidebar, Import media, dan Setup preview commands. Lalu klik Complete setup.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/08.cara-setting-forestry-hugo_finish-setup-process-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/08.cara-setting-forestry-hugo_finish-setup-process-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar 1&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar 1&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/09.cara-setting-forestry-hugo_finish-setup-process-done-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/09.cara-setting-forestry-hugo_finish-setup-process-done-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;gambar 2&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;gambar 2&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Selanjutnya buka menu Front matter dan klik Add Template.
+Pada Create new template pilih Create based on existing document.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/10.cara-setting-forestry-hugo_create-new-template-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/10.cara-setting-forestry-hugo_create-new-template-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;buat template&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;buat template&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Beri nama template dan pilih salah satu post yang sudah ada. Lalu klik Create Template&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/11.cara-setting-forestry-hugo_add-template-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/11.cara-setting-forestry-hugo_add-template-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;beri nama&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;beri nama&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Hasil dari Create Template seperti di bawah ini.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/12.cara-setting-forestry-hugo_template-fields-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/12.cara-setting-forestry-hugo_template-fields-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;hasil&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;hasil&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Selanjutnya membuat Post, klik menu Post, Create new -&amp;gt; Post.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/13.cara-setting-forestry-hugo_posts-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/13.cara-setting-forestry-hugo_posts-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Post&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Post&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Masuk ke post editor, isi Title, Date, Tags, Categories, dan isi dari konten. Opsi Draft disamping tombol Save set Off jika ingin mempublikasi postingan yang dibuat.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/14.cara-setting-forestry-hugo_post-editor-min.jpg&#34; &gt;
+		&lt;img src=&#34;https://musaamin.web.id/wp-content/uploads/2019/08/14.cara-setting-forestry-hugo_post-editor-min.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;tulis artikel&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;tulis artikel&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Setelah beberapa menit commit atau status pipeline passed, browsing URL dari website Hugo untuk melihat hasilnya.&lt;/p&gt;
+&lt;p&gt;Selamat mencoba 😄👍&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
+        <title>Pejuang Hugo Themes</title>
+        <link>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</link>
+        <pubDate>Sat, 09 Oct 2021 11:37:31 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</guid>
+        <description>&lt;p&gt;Yo halo, welcome back 😄👋
+Kali ini saya mencoba tema Hugo baru nih yang saya beri nama &amp;ldquo;pejuang&amp;rdquo; ya pejuang sangat cocok buat kalian yang sedang berjuang di dunia blogging&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Lazy Bloggers Hugo themes</title>
         <link>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</link>
         <pubDate>Thu, 07 Oct 2021 04:26:53 +0000</pubDate>

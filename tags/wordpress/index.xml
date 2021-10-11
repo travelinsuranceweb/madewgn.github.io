@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 02 Oct 2021 02:23:34 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Migrasi WordPress Ke Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</link>
+      <link>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</link>
       <pubDate>Sat, 02 Oct 2021 02:23:34 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</guid>
       <description>cara migrasi WordPress ke Hugo Selamat datang lagi di blog madewgn dulu saya sudah pernah membahas bagaimana caranya migrasi blogger ke hugo tapi sekarang saya akan memberikan tutorial singkat bagaimana sih caranya migrasi dari wordpress ke hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama - tama silakan Install python terlebih dahulu
 sudo apt-get install python-yaml python-bs4 python-html2text Langkah kedua silakan clone dulu repository nya
 git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = window.</description>

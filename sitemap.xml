@@ -2,7 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</loc>
+    <loc>https://madewgn.github.io/cara-costom-domain-github-pages/</loc>
+    <lastmod>2021-10-11T08:45:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/tags/github/</loc>
+    <lastmod>2021-10-11T08:45:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/</loc>
+    <lastmod>2021-10-11T08:45:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/post/</loc>
+    <lastmod>2021-10-11T08:45:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/tags/</loc>
+    <lastmod>2021-10-11T08:45:16+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/cara-membuat-cms-hugo-dengan-forestry.io/</loc>
     <lastmod>2021-10-10T03:30:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -13,21 +38,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://madewgn.github.io/tags/hugo/</loc>
-    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/</loc>
-    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/post/</loc>
-    <lastmod>2021-10-10T03:30:39+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/tags/</loc>
     <lastmod>2021-10-10T03:30:39+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -57,17 +67,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-memasang-kode-adsense-di-hugo/</loc>
     <lastmod>2021-10-05T10:17:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</loc>
-    <lastmod>2021-10-04T22:28:20+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/tags/github/</loc>
+    <loc>https://madewgn.github.io/cara-deploy-hugo-ke-github/</loc>
     <lastmod>2021-10-04T22:28:20+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -77,7 +82,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-privacy-policy/</loc>
+    <loc>https://madewgn.github.io/cara-membuat-privacy-policy/</loc>
     <lastmod>2021-10-03T23:01:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -87,17 +92,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/konfigurasi-git/</loc>
+    <loc>https://madewgn.github.io/konfigurasi-git/</loc>
     <lastmod>2021-10-03T11:45:50+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</loc>
+    <loc>https://madewgn.github.io/cara-inatall-git-di-linux/</loc>
     <lastmod>2021-10-02T23:12:56+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-install-git-windows/</loc>
+    <loc>https://madewgn.github.io/cara-install-git-windows/</loc>
     <lastmod>2021-10-02T09:02:56+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -117,7 +122,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</loc>
     <lastmod>2021-10-02T02:23:34+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -127,12 +132,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-mendaftar-blog-ke-google-news/</loc>
+    <loc>https://madewgn.github.io/cara-mendaftar-blog-ke-google-news/</loc>
     <lastmod>2021-10-01T22:06:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -142,7 +147,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</loc>
+    <loc>https://madewgn.github.io/tutorial-hugo-lengkap/</loc>
     <lastmod>2021-10-01T11:20:11+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -152,22 +157,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</loc>
+    <loc>https://madewgn.github.io/panduan-menulis-mengunakan-markdowns/</loc>
     <lastmod>2021-10-01T10:46:30+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-membuat-blog-di-hugo/</loc>
     <lastmod>2021-10-01T10:22:48+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/persiapan-hugo/</loc>
+    <loc>https://madewgn.github.io/persiapan-hugo/</loc>
     <lastmod>2021-10-01T09:30:38+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</loc>
+    <loc>https://madewgn.github.io/cara-membuat-artikel-di-jekyll/</loc>
     <lastmod>2021-10-01T04:06:19+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -177,12 +182,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-inport-artikel-blogger-ke-hugo/</loc>
     <lastmod>2021-09-30T22:20:29+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-mudah-membuat-shortlink-dengan-heroku/</loc>
+    <loc>https://madewgn.github.io/cara-mudah-membuat-shortlink-dengan-heroku/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -192,27 +197,27 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</loc>
+    <loc>https://madewgn.github.io/cara-menambahkan-google-analytics-pada-hugo/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</loc>
+    <loc>https://madewgn.github.io/how-to-make-blog-with-jekyll/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</loc>
+    <loc>https://madewgn.github.io/cara-memasang-kode-adsense-di-jekyll/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</loc>
+    <loc>https://madewgn.github.io/cara-nge-blog-dengan-jekyll/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-install-railway-cli/</loc>
+    <loc>https://madewgn.github.io/cara-install-railway-cli/</loc>
     <lastmod>2021-09-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -222,7 +227,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-kompres-video-dengan-ffmpeg/</loc>
+    <loc>https://madewgn.github.io/cara-kompres-video-dengan-ffmpeg/</loc>
     <lastmod>2021-09-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -232,7 +237,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-embed-pesan-telegram-ke-website/</loc>
+    <loc>https://madewgn.github.io/cara-embed-pesan-telegram-ke-website/</loc>
     <lastmod>2021-09-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -247,7 +252,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</loc>
+    <loc>https://madewgn.github.io/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -257,7 +262,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</loc>
+    <loc>https://madewgn.github.io/cara-deploy-userge-di-termux/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -272,7 +277,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/</loc>
+    <loc>https://madewgn.github.io/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -287,7 +292,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/</loc>
+    <loc>https://madewgn.github.io/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -297,33 +302,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/template-blogger-amp-html-gratis-terbaik/</loc>
+    <loc>https://madewgn.github.io/template-blogger-amp-html-gratis-terbaik/</loc>
     <lastmod>2021-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/tags/css/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/tags/html/</loc>
-    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</loc>
+    <loc>https://madewgn.github.io/cara-membuat-teks-editor-dengan-html-dan-java-script/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</loc>
+    <loc>https://madewgn.github.io/tags/html/</loc>
+    <lastmod>2021-07-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/cara-membuat-bot-radio-di-telegram/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://madewgn.github.io/2021-07-16-cara-membuat-widget-covid-19-di-blog/</loc>
+    <lastmod>2020-10-11T07:19:45+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -332,7 +332,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://madewgn.github.io/artikel/flake-it-till-you-make-it/</loc>
+    <loc>https://madewgn.github.io/flake-it-till-you-make-it/</loc>
     <lastmod>2020-02-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

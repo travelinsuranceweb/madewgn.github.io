@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://madewgn.github.io/artikel/</link>
+      <link>https://madewgn.github.io/</link>
       <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/</guid>
+      <guid>https://madewgn.github.io/</guid>
       <description>PUNYA Radio Online Streaming alias Radio Internet di My Radio Stream? Mau pasang alias &amp;ldquo;tempel&amp;rdquo; (embed) playernya di blog blogspot Anda?
 Oh, blom punya? Bikin dong, gratis kok! Ini dia Cara Membuat Radio Online.
 Kalau sudah punya, untuk memasang playernya di blog, Anda tinggal COPY kode berikut ini dan PASTE di Halaman Statis atau di Sidebar (Widget).
@@ -22,33 +22,21 @@ Kalau sudah punya, untuk memasang playernya di blog, Anda tinggal COPY kode beri
     
     <item>
       <title></title>
-      <link>https://madewgn.github.io/artikel/</link>
+      <link>https://madewgn.github.io/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/</guid>
+      <guid>https://madewgn.github.io/</guid>
       <description>cara membuat TV online trans 7 di blog atau website Cara Mudah Memasang Script Streaming TV Online di Blog – Tutorial kali ini saya akan membagikan bagaimana cara memasang script streaning TV Online di blog.
 Sebenarnya cara memasangnya cukup mudah, yang perlu anda lakukan adalah mencari embed TV Online itu sendiri kemudian anda pasangkan di blog anda.
  Anda tidak perlu pusing untuk mencarinya, dibawah ini sudah saya sertakan script embednya, jadi anda tinggal memasangnya saja di Blog anda.</description>
     </item>
     
     <item>
-      <title>Cara membuat Widget Status COVID 19 Indonesia</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</guid>
-      <description>Cara pemasangannya cukup simple, saya coba menjelaskan cara pemasangan di wordpress dan blogspot.
-Pasang widget kawal corona di WordPress Untuk website yang dibangun dengan wordpress, kita dapat masuk ke halaman Tampilan, lalu masuk ke menu Widget.
-Setelah itu, kita tambahkan widget HTML Khusus kedalam sidebar. Lalu pada kolom isi di widget HTML Khusus kita tambahkan script dibawah ini
-Pasang widget kawal corona di Blogger / Blogspot Untuk memasang widget kawal corona di Blogger/Blogspot kalian dapat masuk ke halaman Tata Letak, lalu klik tombol &amp;ldquo;Tambahkan Widget&amp;rdquo;.</description>
-    </item>
-    
-    <item>
       <title>Cara membuat teks Editor dengan HTML dan java script</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</link>
+      <link>https://madewgn.github.io/cara-membuat-teks-editor-dengan-html-dan-java-script/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-teks-editor-dengan-html-dan-java-script/</guid>
       <description>Cara Memasukkan Teks Editor di HTML dengan Javascript
  Teks Editor merupakan sebuah form khusus yang memiliki fitur-fitur seperti membuat sebuah teks menjadi bold, italic, underline, dan lain-lain, secara sederhananya, ketika kamu membuat sebuah artikel baru di blogspot / wordpress, terdapat sebuah form khusus untuk menempatkan isi artikelnya, form itu merupakan sebuah Teks Editor.
  kode lengkap Demo </description>

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+
+
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
+Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
+Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
+Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).
+Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.'><title>Cara NgeBlog di HP dengan hugo</title>
+
+<link rel='canonical' href='https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/'>
+
+<link rel="stylesheet" href="/scss/style.min.css">
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<meta property='og:title' content='Cara NgeBlog di HP dengan hugo'>
+<meta property='og:description' content='Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
+Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
+Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
+Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).
+Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.'>
+<meta property='og:url' content='https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/'>
+<meta property='og:site_name' content='Made Wiguna Blogger'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2021-10-02T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-10-02T00:00:00&#43;00:00'/><meta property='og:image' content='https://telegra.ph/file/868c5fb52501b0b195240.jpg' />
+<meta name="twitter:title" content="Cara NgeBlog di HP dengan hugo">
+<meta name="twitter:description" content="Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
+Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
+Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
+Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).
+Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://telegra.ph/file/868c5fb52501b0b195240.jpg' />
+    <link rel="shortcut icon" href="/img/avatar.png" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R5MQJQPE57"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-R5MQJQPE57', { 'anonymize_ip': false });
+}
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="https://madewgn.github.io/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/cara-ngeblog-di-hp-dengan-hugo/">
+                
+                    <img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" loading="lazy" alt="Featured image of post Cara NgeBlog di HP dengan hugo" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="/cara-ngeblog-di-hp-dengan-hugo/">Cara NgeBlog di HP dengan hugo</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Oct 02, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <h2 id="memang-bisa-ngeblog-pakai-termux">Memang bisa ngeblog pakai Termux?</h2>
+<p>Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.</p>
+<p>Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.</p>
+<p>Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.</p>
+<p>Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).</p>
+<p>Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+Namun, sekarang sudah ada alat yang jauh lebih canggih untuk membangun website statis, salah satunya static site generator.</p>
+<p>Sehingga tidak perlu lagi mengedit satu per satu file HTML, CSS, dan JavaScrip untuk mengubah website.</p>
+<p>Cara kerja static site generator, yaitu dengan membuat file statis (HTML, CSS, dan JavaScript) dari template dan konten.</p>
+<p>Saat ini sudah ada banyak sekali static site generator, yaitu Jekyll, Hugo, Hexo, GatsbyJS, dsb.</p>
+<p>Dalam pembahasan kali ini, aku memakai Hugo.</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>##Instalasi Hugo di Termux</p>
+<p>Jalankan perintah ini untuk menginstal hugo dan git di Termux</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pkg install hugo git
+</code></pre></div><p>Setelah semuanya terinstal, mari mulai ngeblog dengan Hugo pakai Termux!</p>
+<p>Membuat blog dengan Hugo
+Pertama, buatlah blog dengan hugo seperti contoh berikut ini.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo new site namablog
+</code></pre></div><p>Kedua, masuk ke direktori namablog.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> namablog
+</code></pre></div><p>Selanjutnya, unduh tema dan pasang ke blog kalian.</p>
+<p>Temanya bisa kalian unduh dari Hugo Themes.</p>
+<p>Baca dulu dokumentasi temanya karena di sana ada konfigurasi yang harus diikuti supaya tema bisa digunakan.</p>
+<p>Sebagai contoh, aku menggunakan tema hugo-theme-terminal.</p>
+<p>Maka konfigurasi config.toml yang diperlukan seperti berikut ini.</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<pre tabindex="0"><code>
+baseurl = &quot;/&quot;
+languageCode = &quot;en-us&quot;
+theme = &quot;terminal&quot;
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = &quot;posts&quot;
+
+  # [&quot;orange&quot;, &quot;blue&quot;, &quot;red&quot;, &quot;green&quot;, &quot;pink&quot;]
+  themeColor = &quot;orange&quot;
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = &quot;favicon.ico&quot;
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
+
+[languages]
+  [languages.en]
+    languageName = &quot;English&quot;
+    title = &quot;Aditya Phra Blog&quot;
+    subtitle = &quot;Seorang penulis dan penggemar Linux&quot;
+    keywords = &quot;&quot;
+    copyright = &quot;&quot;
+    menuMore = &quot;Show more&quot;
+    readMore = &quot;Read more&quot;
+    readOtherPosts = &quot;Read other posts&quot;
+
+    [languages.en.params.logo]
+      logoText = &quot;Aditya Phra Blog&quot;
+      logoHomeLink = &quot;/&quot;
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = &quot;about&quot;
+        name = &quot;About&quot;
+        url = &quot;/about&quot;
+      [[languages.en.menu.main]]
+        identifier = &quot;showcase&quot;
+        name = &quot;Showcase&quot;
+        url = &quot;/showcase&quot;
+        
+        
+</code></pre><p>untuk mengubah config.toml kamu hanya perlu memberikan perintah
+<code>nano config.toml</code>
+dan ganti semua kode nya, untuk menyimpan takan crlt + x terus Y lalu enter</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>Kloning tema terminal ke direktori themes blog.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">git clone https://github.com/panr/hugo-theme-terminal themes/terminal
+</code></pre></div><p>Selanjutnya, uji coba blogmu dengan hugo server.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo server
+</code></pre></div><p>Terakhir, akses alamat blog (http://localhost:1313) melalui bbrowser</p>
+<p><figure 
+	>
+	<a href="https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg" >
+		<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="pic">
+	</a>
+	
+	<figcaption>pic</figcaption>
+	
+</figure></p>
+<h2 id="menulis-artikel-di-hugo">Menulis artikel di Hugo</h2>
+<p>Pertama, buatlah sebuah artikel.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo new posts/judul-artikel.md
+</code></pre></div><p>Setelah itu, edit artikel menggunakan teks editor.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">nano content/posts/judul-artikel.md
+</code></pre></div><p>Kalian bisa menggunakan markdown sebagai format penulisan artikel.</p>
+<p>Setelah mengeditnya, jalankan</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">hugo server
+</code></pre></div><p>untuk melihat artikel.</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p><figure 
+	>
+	<a href="https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg" >
+		<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg"
+			
+			
+			
+			loading="lazy"
+			alt="pic2">
+	</a>
+	
+	<figcaption>pic2</figcaption>
+	
+</figure></p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8239103031885616"
+     data-ad-slot="2079601027"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>Selamat Blog kamu dengan hugo sudah jadi !</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">hugo</a>
+        
+            <a href="/tags/blog/">blog</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed MIT</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Related contents</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/cara-migrasi-wordpress-ke-hugo/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://d33wubrfki0l68.cloudfront.net/a061f480415247b6d2d7f82c798dbf895670e7a5/85d79/assets/fromwordpresstohugo.png.webp" loading="lazy" data-key="" data-hash="https://d33wubrfki0l68.cloudfront.net/a061f480415247b6d2d7f82c798dbf895670e7a5/85d79/assets/fromwordpresstohugo.png.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cara Migrasi WordPress Ke Hugo</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/cara-membuat-blog-di-hugo/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" loading="lazy" data-key="" data-hash="https://telegra.ph/file/868c5fb52501b0b195240.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cara Membuat Blog Di Hugo</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/persiapan-hugo/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Persiapan Hugo</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/cara-inport-artikel-blogger-ke-hugo/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://1.bp.blogspot.com/-z2_QdrUKmfE/WHx5QoVkwRI/AAAAAAAADok/AtwB9HQYNV4cxVuOFLlwgYCch_gi41rjQCK4B/s1600/tulisartikel-blogger-dan-hugo.jpg" loading="lazy" data-key="" data-hash="https://1.bp.blogspot.com/-z2_QdrUKmfE/WHx5QoVkwRI/AAAAAAAADok/AtwB9HQYNV4cxVuOFLlwgYCch_gi41rjQCK4B/s1600/tulisartikel-blogger-dan-hugo.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cara Inport Artikel blogger Ke Hugo</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+    
+    
+    
+    
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "madekun" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Made Wiguna Blogger
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#memang-bisa-ngeblog-pakai-termux">Memang bisa ngeblog pakai Termux?</a></li>
+    <li><a href="#menulis-artikel-di-hugo">Menulis artikel di Hugo</a></li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

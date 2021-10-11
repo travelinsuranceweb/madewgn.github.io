@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+
+
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Panduan Termux untuk Pengguna Prasyarat  Aplikasi Termux Setidaknya penyimpanan perangkat 750MB  Pengaturan Cepat  Buka Termux dan jalankan bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh). Tunggu beberapa saat (hingga 10 menit) &amp;hellip; (beberapa kali mungkin meminta input). Ini akan mengarahkan ke config.env dan meminta untuk mengisi. Isi, simpan (ctrl&#43;s) dan tutup (ctrl&#43;x). Sekarang, Instalasi selesai dan waktu untuk menjalankan userge. Tapi pertama-tama lakukan termux-chroot untuk memperbaiki masalah DNS Resolver. Bagus, Sekarang Anda berada di root jadi cd Userge &amp;amp;&amp;amp; bash run.'><title>Cara deploy userge di termux</title>
+
+<link rel='canonical' href='https://madewgn.github.io/cara-deploy-userge-di-termux/'>
+
+<link rel="stylesheet" href="/scss/style.min.css">
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+<meta property='og:title' content='Cara deploy userge di termux'>
+<meta property='og:description' content='Panduan Termux untuk Pengguna Prasyarat  Aplikasi Termux Setidaknya penyimpanan perangkat 750MB  Pengaturan Cepat  Buka Termux dan jalankan bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh). Tunggu beberapa saat (hingga 10 menit) &amp;hellip; (beberapa kali mungkin meminta input). Ini akan mengarahkan ke config.env dan meminta untuk mengisi. Isi, simpan (ctrl&#43;s) dan tutup (ctrl&#43;x). Sekarang, Instalasi selesai dan waktu untuk menjalankan userge. Tapi pertama-tama lakukan termux-chroot untuk memperbaiki masalah DNS Resolver. Bagus, Sekarang Anda berada di root jadi cd Userge &amp;amp;&amp;amp; bash run.'>
+<meta property='og:url' content='https://madewgn.github.io/cara-deploy-userge-di-termux/'>
+<meta property='og:site_name' content='Made Wiguna Blogger'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Telegram' /><meta property='article:tag' content='userbot' /><meta property='article:tag' content='bot' /><meta property='article:published_time' content='2021-09-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-09-01T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Cara deploy userge di termux">
+<meta name="twitter:description" content="Panduan Termux untuk Pengguna Prasyarat  Aplikasi Termux Setidaknya penyimpanan perangkat 750MB  Pengaturan Cepat  Buka Termux dan jalankan bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh). Tunggu beberapa saat (hingga 10 menit) &amp;hellip; (beberapa kali mungkin meminta input). Ini akan mengarahkan ke config.env dan meminta untuk mengisi. Isi, simpan (ctrl&#43;s) dan tutup (ctrl&#43;x). Sekarang, Instalasi selesai dan waktu untuk menjalankan userge. Tapi pertama-tama lakukan termux-chroot untuk memperbaiki masalah DNS Resolver. Bagus, Sekarang Anda berada di root jadi cd Userge &amp;amp;&amp;amp; bash run.">
+    <link rel="shortcut icon" href="/img/avatar.png" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R5MQJQPE57"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-R5MQJQPE57', { 'anonymize_ip': false });
+}
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616"
+     crossorigin="anonymous"></script>
+
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "light");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="https://madewgn.github.io/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <h2 class="article-title">
+        <a href="/cara-deploy-userge-di-termux/">Cara deploy userge di termux</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 01, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <h1 id="panduan-termux-untuk-pengguna">Panduan Termux untuk Pengguna</h1>
+<!-- raw HTML omitted -->
+<h2 id="prasyarat">Prasyarat</h2>
+<ul>
+<li>Aplikasi <a class="link" href="https://play.google.com/store/apps/details?id=com.termux"  target="_blank" rel="noopener"
+    >Termux</a></li>
+<li>Setidaknya penyimpanan perangkat <strong>750MB</strong></li>
+</ul>
+<h2 id="pengaturan-cepat">Pengaturan Cepat</h2>
+<ul>
+<li>Buka Termux dan jalankan <code>bash &lt;(curl -s https://theuserge.github.io/termux.sh)</code>.</li>
+<li>Tunggu beberapa saat (<code>hingga 10 menit</code>) &hellip; (beberapa kali mungkin meminta input).</li>
+<li>Ini akan mengarahkan ke <code>config.env</code> dan meminta untuk mengisi.</li>
+<li>Isi, simpan (<code>ctrl+s</code>) dan tutup (<code>ctrl+x</code>).</li>
+<li>Sekarang, Instalasi selesai dan waktu untuk menjalankan userge.</li>
+<li>Tapi pertama-tama lakukan <code>termux-chroot</code> untuk memperbaiki masalah DNS Resolver.</li>
+<li>Bagus, Sekarang Anda berada di root jadi <code>cd Userge &amp;&amp; bash run</code>.</li>
+<li>Menikmati :)</li>
+</ul>
+<h2 id="selangkah-demi-selangkah">Selangkah demi selangkah:</h2>
+<p>Pertama-tama, Perbarui paket dan Instal Repositori root</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pembaruan pkg <span class="o">&amp;&amp;</span> peningkatan pkg
+pkg instal root-repo
+</code></pre></div><p>Instal Python dan paket yang diperlukan</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">pkg instal python
+pip install -U pip wheel setuptools
+pkg instal git jq proot resolv-conf libxml2 libxslt libjpeg-turbo
+</code></pre></div><p>Pasang Bantal</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&#34;-L/system/lib/&#34;</span> <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&#34;-I/data/data/com.termux/files/usr/include/&#34;</span> pip install Bantal
+</code></pre></div><p>Kemudian Klon <code>Pengguna</code> dan Buka direktori kloning</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git clone https://github.com/UsergeTeam/Userge Userge <span class="o">&amp;&amp;</span> <span class="nb">cd</span> Userge
+</code></pre></div><p>Persyaratan Instal</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&#34;-O0&#34;</span> pip install -r requirements.txt
+</code></pre></div><p>Hasilkan dan Isi <code>config.env</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">cp config.env.contoh config.env
+nano config.env
+</code></pre></div><p>Selesai. Sekarang jalankan Userge</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">termux-chroot
+<span class="nb">cd</span> pengguna
+lari bash
+</code></pre></div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/telegram/">Telegram</a>
+        
+            <a href="/tags/userbot/">userbot</a>
+        
+            <a href="/tags/bot/">Bot</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed MIT</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+    
+    
+    
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "madekun" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Made Wiguna Blogger
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#prasyarat">Prasyarat</a></li>
+    <li><a href="#pengaturan-cepat">Pengaturan Cepat</a></li>
+    <li><a href="#selangkah-demi-selangkah">Selangkah demi selangkah:</a></li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

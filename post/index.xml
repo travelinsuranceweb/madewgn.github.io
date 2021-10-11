@@ -6,23 +6,36 @@
     <description>Recent content in Posts on Made Wiguna Blogger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Oct 2021 03:30:39 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 08:45:16 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Costom Domain Github Pages</title>
+      <link>https://madewgn.github.io/cara-costom-domain-github-pages/</link>
+      <pubDate>Mon, 11 Oct 2021 08:45:16 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/cara-costom-domain-github-pages/</guid>
+      <description>Cara Custom Domain ke Halaman GitHub
+Untuk dapat melakukan custom domain, pastikan Anda sudah menyiapkan domain yang masih aktif. Jika belum memilikinya, Anda bisa membeli domain terlebih dahulu.    (adsbygoogle = window.adsbygoogle || []).push({}); 
+Selanjutnya, ikuti langkah berikut:
+ Mengakses GitHub  Masukkan username dan password Anda untuk masuk ke GitHub
+ login ke Github     (adsbygoogle = window.adsbygoogle || []).push({});  Jika sudah berhasil, Anda akan masuk ke halaman utama GitHub di mana semua repositori Anda tersimpan  beranda</description>
+    </item>
+    
     <item>
       <title>cara membuat CMS hugo dengan  Forestry.io</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</link>
+      <link>https://madewgn.github.io/cara-membuat-cms-hugo-dengan-forestry.io/</link>
       <pubDate>Sun, 10 Oct 2021 03:30:39 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
       <description>Cara Setting Forestry.io Sebagai Post Editor Hugo
    (adsbygoogle = window.adsbygoogle || []).push({});  Forestry.io adalah sebuah layanan software as a service (SaaS) yang berfungsi sebagai post editor untuk static site generator. Untuk menambah post (artikel) di static site generator hanya memakai text editor dan ditulis dalam syntax Markdown. Nah, dengan Forestry.io, menambah post tidak perlu lagi menggunakan text editor, melainkan editor dari Forestry.io atau biasa disebut dengan istilah WYSIWYG Editor.</description>
     </item>
     
     <item>
       <title>Cara Memasang Kode Adsense Di Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</link>
+      <link>https://madewgn.github.io/cara-memasang-kode-adsense-di-hugo/</link>
       <pubDate>Tue, 05 Oct 2021 10:17:25 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-memasang-kode-adsense-di-hugo/</guid>
       <description>ads 
 Halo selamat datang kembali di Made Wiguna Bloggers, kali ini saya akan memberikan tutorial singkat cara memasang kode AdSense di hugo, tapi sebelum itu pastikan kamu sudah mempunyai akun adsense nya dulu ya !! :D
 Btw ada 2 cara nih untuk menampilkan iklan AdSense di hugo
@@ -31,10 +44,10 @@ Btw ada 2 cara nih untuk menampilkan iklan AdSense di hugo
     
     <item>
       <title>Cara Deploy Hugo ke github</title>
-      <link>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</link>
+      <link>https://madewgn.github.io/cara-deploy-hugo-ke-github/</link>
       <pubDate>Mon, 04 Oct 2021 22:28:20 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</guid>
+      <guid>https://madewgn.github.io/cara-deploy-hugo-ke-github/</guid>
       <description>Melanjutkan tulisan sebelumnya mengenai cara membuat blog dengan Hugo, sekarang kita akan menghostingkan static site yang kita buat ke Github. Dengan fitur Github Pages yang disediakan oleh Github, kita bisa menghostingkan file-file yang digenerate oleh Hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama, buat terlebih dahulu sebuah repository di Github.
 Sebagai contoh, saya sudah membuat repository dengan alamat berikut:
 https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoogle || []).</description>
@@ -42,20 +55,20 @@ https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoog
     
     <item>
       <title>Cara Membuat Privacy Policy</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-privacy-policy/</link>
+      <link>https://madewgn.github.io/cara-membuat-privacy-policy/</link>
       <pubDate>Sun, 03 Oct 2021 23:01:51 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-privacy-policy/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-privacy-policy/</guid>
       <description>Apa Itu Privacy Policy? Privacy policy adalah halaman pernyataan terkait seberapa jauh kita menggunakan informasi yang terkumpul dari pengunjung.
 Baik secara sebagian maupun secara keseluruhan. Informasi yang biasa di ambil website biasanya berupa cookies yang saat ini digunakan sebagai salah satu data distribusi iklan.    (adsbygoogle = window.adsbygoogle || []).push({});  Keberadaan halaman privacy policy yang menjelaskan setiap persetujuan tentu sangat dibutuhkan sebagai salah satu syarat agar blog bisa di-approve oleh Google Adsense.</description>
     </item>
     
     <item>
       <title>Konfigurasi Git</title>
-      <link>https://madewgn.github.io/artikel/konfigurasi-git/</link>
+      <link>https://madewgn.github.io/konfigurasi-git/</link>
       <pubDate>Sun, 03 Oct 2021 11:45:50 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/konfigurasi-git/</guid>
+      <guid>https://madewgn.github.io/konfigurasi-git/</guid>
       <description>Konfigurasi Awal yang Harus Dilakukan Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email.
    (adsbygoogle = window.adsbygoogle || []).push({});  Silahkan lakukan konfigurasi dengan perintah berikut ini.
 git config --global user.name &amp;#34;MadeWgn&amp;#34; git config --global user.email contoh@madewgn.com Silakan ganti username dan email sesuai dengan yang kalian punya ya Kemudian periksa konfigurasinya dengan perintah:
@@ -64,10 +77,10 @@ git config --list    (adsbygoogle = window.adsbygoogle || []).</description>
     
     <item>
       <title>Cara Inatall Git Di Linux</title>
-      <link>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</link>
+      <link>https://madewgn.github.io/cara-inatall-git-di-linux/</link>
       <pubDate>Sat, 02 Oct 2021 23:12:56 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</guid>
+      <guid>https://madewgn.github.io/cara-inatall-git-di-linux/</guid>
       <description>Cara Install Git di Linux
 Instalasi Git pada Distro keluarga Debian dapat menggunakan perintah apt.
    (adsbygoogle = window.adsbygoogle || []).push({});  sudo apt install git atau
@@ -78,10 +91,10 @@ git --vers    (adsbygoogle = window.adsbygoogle || []).push({});  Selanjutnya : 
     
     <item>
       <title>Cara Install Git Windows</title>
-      <link>https://madewgn.github.io/artikel/cara-install-git-windows/</link>
+      <link>https://madewgn.github.io/cara-install-git-windows/</link>
       <pubDate>Sat, 02 Oct 2021 09:02:56 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-install-git-windows/</guid>
+      <guid>https://madewgn.github.io/cara-install-git-windows/</guid>
       <description>Cara Install Git di Windows Instalasi Git di Windows memang tidak seperti di Linux yang ketik perintah langsung terinstal.
 Kita harus men-download dulu, kemudian melakukan ritual next&amp;gt;next&amp;gt;finish.
 Tapi dalam ritual tersebut, ada pilihan yang harus diperhatikan agar perintah git dapat dikenali di CMD.
@@ -90,10 +103,10 @@ Download Git Silahkan buka website resminya Git ( git-scm.com). Kemudian unduh 
     
     <item>
       <title>Cara Migrasi WordPress Ke Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</link>
+      <link>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</link>
       <pubDate>Sat, 02 Oct 2021 02:23:34 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</guid>
       <description>cara migrasi WordPress ke Hugo Selamat datang lagi di blog madewgn dulu saya sudah pernah membahas bagaimana caranya migrasi blogger ke hugo tapi sekarang saya akan memberikan tutorial singkat bagaimana sih caranya migrasi dari wordpress ke hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama - tama silakan Install python terlebih dahulu
 sudo apt-get install python-yaml python-bs4 python-html2text Langkah kedua silakan clone dulu repository nya
 git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = window.</description>
@@ -101,10 +114,10 @@ git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = wind
     
     <item>
       <title>Cara NgeBlog di HP dengan hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</link>
+      <link>https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/</guid>
       <description>Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
 Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
 Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
@@ -114,10 +127,10 @@ Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CS
     
     <item>
       <title>Cara mendaftar blog ke Google News</title>
-      <link>https://madewgn.github.io/artikel/cara-mendaftar-blog-ke-google-news/</link>
+      <link>https://madewgn.github.io/cara-mendaftar-blog-ke-google-news/</link>
       <pubDate>Fri, 01 Oct 2021 22:06:46 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-mendaftar-blog-ke-google-news/</guid>
+      <guid>https://madewgn.github.io/cara-mendaftar-blog-ke-google-news/</guid>
       <description>(adsbygoogle = window.adsbygoogle || []).push({});  Daftar Google News untuk blog merupakan cara terbaik untuk mendatangkan pengunjung organik, dan membantu meningkatkan penghasilan adsense.
 Google News merupakan layanan dari Google yang memberikan informasi terkini dalam bentuk berita dari berbagai website di seluruh dunia, termasuk Indonesia.
 Google News tidak hanya bermanfaat bagi pembaca semata, tetapi juga menjadi andalan bagi pemilik website atau blog. Karena itulah setiap pemilik website menginginkan artikel mereka tampil di Google News.</description>
@@ -125,19 +138,19 @@ Google News tidak hanya bermanfaat bagi pembaca semata, tetapi juga menjadi anda
     
     <item>
       <title>Tutorial Hugo lengkap</title>
-      <link>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</link>
+      <link>https://madewgn.github.io/tutorial-hugo-lengkap/</link>
       <pubDate>Fri, 01 Oct 2021 11:20:11 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</guid>
+      <guid>https://madewgn.github.io/tutorial-hugo-lengkap/</guid>
       <description>(adsbygoogle = window.adsbygoogle || []).push({});  tutorial belajar hugo pemula  Persiapan hugo Membuat blog &amp;amp; membuat artikel baru di hugo panduan menulis mengunakan markdowns Cara deploy hugo di Github     (adsbygoogle = window.adsbygoogle || []).push({});  tutorial tingkat lanjutan  Cara Inport Artikel blogger Ke Hugo Cara migrasi WordPress ke hugo   sedang di buat ⚠️⚠️ Tutorial deploy / hosting hugo di netlify Cara costume domain hugo     (adsbygoogle = window.</description>
     </item>
     
     <item>
       <title>panduan menulis mengunakan markdowns</title>
-      <link>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</link>
+      <link>https://madewgn.github.io/panduan-menulis-mengunakan-markdowns/</link>
       <pubDate>Fri, 01 Oct 2021 10:46:30 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/panduan-menulis-mengunakan-markdowns/</guid>
+      <guid>https://madewgn.github.io/panduan-menulis-mengunakan-markdowns/</guid>
       <description>(adsbygoogle = window.adsbygoogle || []).push({});  Bagi yang sering bermain di Github dan web serupa, pasti sering melihat markdown. Biasanya markdown digunakan untuk menuliskan dokumentasi.
 Pada dasarnya markdown sama seperti HTML. Namun, lebih sederhana dan mudah dibaca.
 Saat ini markdown sudah digunakan untuk:
@@ -150,10 +163,10 @@ Saat ini markdown sudah digunakan untuk:
     
     <item>
       <title>Cara Membuat Blog Di Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</link>
+      <link>https://madewgn.github.io/cara-membuat-blog-di-hugo/</link>
       <pubDate>Fri, 01 Oct 2021 10:22:48 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-blog-di-hugo/</guid>
       <description>Sebelumnya sudah saya buat persiapan ngeblog di hugo sekarang akan saya buatkan tutorial cara membuat blog di hugo lengkap dengan cara membuat artikelnya
    (adsbygoogle = window.adsbygoogle || []).push({});  Membuat blog dengan Hugo Pertama, buatlah blog dengan hugo seperti contoh berikut ini.
 hugo new site namablog Kedua, masuk ke direktori namablog.
@@ -163,10 +176,10 @@ Temanya bisa kalian unduh dari Hugo Themes.</description>
     
     <item>
       <title>Persiapan Hugo</title>
-      <link>https://madewgn.github.io/artikel/persiapan-hugo/</link>
+      <link>https://madewgn.github.io/persiapan-hugo/</link>
       <pubDate>Fri, 01 Oct 2021 09:30:38 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/persiapan-hugo/</guid>
+      <guid>https://madewgn.github.io/persiapan-hugo/</guid>
       <description>Saya punya blog nih
 CMS-nya menggunakan Blogger
 tapi tidak pernah terurus.
@@ -178,10 +191,10 @@ Maklum tinggal di desa, sinyalnya tidak stabil 😄.
     
     <item>
       <title>Cara Membuat Artikel Di Jekyll</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</link>
+      <link>https://madewgn.github.io/cara-membuat-artikel-di-jekyll/</link>
       <pubDate>Fri, 01 Oct 2021 04:06:19 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-artikel-di-jekyll/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-artikel-di-jekyll/</guid>
       <description>Halo selamat datang kembali di Made Wiguna project disini saya akan membahas bagaimana sih caranya membuat artikel jekyll
    (adsbygoogle = window.adsbygoogle || []).push({});  Buat yang belum tahu cara membuat blog dengan jekyll bisa di baca di sini ya https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/
 Btw ada dua cara nih untuk menulis di jekyll, yang pertama menulis langsung dari github / gitlab yang kedua menulis secara offline di text editor. Sekarang saya akan membahas dua-duanya nih, tapi yang pertama akan saya bahas adalah cara menulis artikel langsung dari github</description>
@@ -189,10 +202,10 @@ Btw ada dua cara nih untuk menulis di jekyll, yang pertama menulis langsung dari
     
     <item>
       <title>Cara Inport Artikel blogger Ke Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</link>
+      <link>https://madewgn.github.io/cara-inport-artikel-blogger-ke-hugo/</link>
       <pubDate>Thu, 30 Sep 2021 22:20:29 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-inport-artikel-blogger-ke-hugo/</guid>
       <description>Dalam rangka migrasi blog saya yang sebelumnya di blogspot ke hugo, saya harus melakukan impor artikel dari Blogger ke Hugo.
 Untungnya Hugo sudah menyediakan skrip untuk impor konten dari blogger ke Hugo.
 Proses impor ini memakan waktu cukup cepat. Saya kira, tidak sampai 15 menit.
@@ -204,10 +217,10 @@ sudo apt install git golang Kemudian lakukan langkah-langkah berikut ini.</descr
     
     <item>
       <title>cara mudah membuat shortlink dengan heroku</title>
-      <link>https://madewgn.github.io/artikel/cara-mudah-membuat-shortlink-dengan-heroku/</link>
+      <link>https://madewgn.github.io/cara-mudah-membuat-shortlink-dengan-heroku/</link>
       <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-mudah-membuat-shortlink-dengan-heroku/</guid>
+      <guid>https://madewgn.github.io/cara-mudah-membuat-shortlink-dengan-heroku/</guid>
       <description>demo 
 Baru-baru ini banyak sekali situs-situs Shorten URL yang memberikan layanan untuk memperpendek URL, dari situs yang tidak memberikan apa-apa untuk kita sampai ada yang memberikan feedback seperti uang kepada kita untuk setiap URL yang dikunjungi oleh pengunjung.
 Dari banyaknya situs untuk memperpendek URL, situs mana yang pernah kamu coba? apakah adf.ly? shorte.st? de.tk? atau mungkin situs milik saya pendk.tk? :D. Dari situs-situs tersebut mungkin ada kekurangan dan kelebihannya masing-masing ya.</description>
@@ -215,30 +228,30 @@ Dari banyaknya situs untuk memperpendek URL, situs mana yang pernah kamu coba? a
     
     <item>
       <title>Cara Menambahkan Google Analytics Pada Hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</link>
+      <link>https://madewgn.github.io/cara-menambahkan-google-analytics-pada-hugo/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-menambahkan-google-analytics-pada-hugo/</guid>
+      <guid>https://madewgn.github.io/cara-menambahkan-google-analytics-pada-hugo/</guid>
       <description>Ketika kita mengelola sebuah website baik itu website pribadi, kantor, event, dll., pastinya kita ingin bisa memantau traffic dari website tersebut. Salah satu layanan gratis dari Google yang dapat membantu kita melakukan hal tersebut adalah Google Analytics.
 Dengan Google Analytics, kita bisa mendapatkan informasi dari mulai halaman mana yang dikunjungi visitor, negara asal visitor, sumber dan kata kunci yang merujuk ke website kita, hingga pembuatan report tentang traffic dari website kita.</description>
     </item>
     
     <item>
       <title>how to make blog with jekyll</title>
-      <link>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</link>
+      <link>https://madewgn.github.io/how-to-make-blog-with-jekyll/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/how-to-make-blog-with-jekyll/</guid>
+      <guid>https://madewgn.github.io/how-to-make-blog-with-jekyll/</guid>
       <description>Creating a Blog on GitHub Using Jekyll Jekyll is a website generator designed to create static blogs to host on GitHub Pages. Tom Preston-Werner created Jekyll to allow people to blog using a simple static HTML site, with all content hosted and version-controlled on GitHub. The goal is to remove the hassle of blogging platforms by creating workflows that enable blogging in a simpler way.
 How Does Jekyll Work? Quoted from its official website, Jekyll allows us to create blogs easily and without using a database.</description>
     </item>
     
     <item>
       <title>cara memasang kode adsense di jekyll</title>
-      <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</link>
+      <link>https://madewgn.github.io/cara-memasang-kode-adsense-di-jekyll/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-jekyll/</guid>
+      <guid>https://madewgn.github.io/cara-memasang-kode-adsense-di-jekyll/</guid>
       <description>gambar 
 bagai mana cara memasang kode google adsense di jekyll? sebebar nya memasang kode ads di jekyll itu mudah karena hanya perlu menaruh kode nya di dalam _includes tanpa basabasi lagi langsung saja kita ke tutorial nya&amp;hellip;
 tambahkan situs baru di Adsense  gambar1 
@@ -248,20 +261,20 @@ kemudian kamu akan mendapat kan kode sepeti ini</description>
     
     <item>
       <title>cara nge blog dengan jekyll</title>
-      <link>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</link>
+      <link>https://madewgn.github.io/cara-nge-blog-dengan-jekyll/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-nge-blog-dengan-jekyll/</guid>
+      <guid>https://madewgn.github.io/cara-nge-blog-dengan-jekyll/</guid>
       <description>Membuat Blog di GitHub Menggunakan Jekyll Jekyll adalah generator situs web yang dirancang untuk membuat blog statis untuk di-hosting di Halaman GitHub. Tom Preston-Werner menciptakan Jekyll untuk memungkinkan orang untuk blog menggunakan situs HTML statis sederhana, dengan semua konten yang di-host dan dikendalikan oleh versi di GitHub. Tujuannya adalah untuk menghilangkan kerumitan platform blog dengan membuat alur kerja yang memungkinkan blogging dengan cara yang lebih sederhana.
 Bagaimana Cara Kerja Jekyll? Dikutip dari situs resmi nya, Jekyll memungkinkan kita untuk membuat blog dengan mudah dan tanpa menggunakan database.</description>
     </item>
     
     <item>
       <title>cara install railway cli</title>
-      <link>https://madewgn.github.io/artikel/cara-install-railway-cli/</link>
+      <link>https://madewgn.github.io/cara-install-railway-cli/</link>
       <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-install-railway-cli/</guid>
+      <guid>https://madewgn.github.io/cara-install-railway-cli/</guid>
       <description>Cara Install Railway Cli Install railway Cli railway sangat bagus untuk mendeploy aplikasi buatan sobat, agar nantinya aplikasi buatan sobat dapat di akses secara online, dan cara install nya juga cukup mudahapt updatebtw ada 3 cara nih untuk install railway cli nya, dengan curl, npm dan juga :)
 Brew brew tap railwayapp/railway brew install railway
 NPM npm i -g @railway/cli
@@ -271,20 +284,20 @@ sekian tutorial install railway cli nya ~</description>
     
     <item>
       <title>Cara kompres video dengan ffmpeg</title>
-      <link>https://madewgn.github.io/artikel/cara-kompres-video-dengan-ffmpeg/</link>
+      <link>https://madewgn.github.io/cara-kompres-video-dengan-ffmpeg/</link>
       <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-kompres-video-dengan-ffmpeg/</guid>
+      <guid>https://madewgn.github.io/cara-kompres-video-dengan-ffmpeg/</guid>
       <description>Tutorial Compress Video Dengan FFMPEG Pada kesempatan kali ini saya akan memberikan tutorial compress video menggunakan ffmpeg, ffmpeg ini biasanya program yang digunakan aplikasi untuk compress video, salah satunya handbrake. Tutorial ini bisa dipakai di sistem operasi Linux dan Windows (disini saya menggunakan Linux, tetapi perintah nya sama saja mau Linux ataupun Windows)
 Kalian install ffmpeg terlebih dahulu Untuk Windows kalian bisa download di gyan.dev untuk sistem operasi Linux saya sarankan menginstall ffmpeg dari snap, karena sudah support Hardware Accelerated, tetapi jika GPU kalian belum support NVENC kalian bisa menggunakan perintah</description>
     </item>
     
     <item>
       <title>cara embed pesan Telegram ke website</title>
-      <link>https://madewgn.github.io/artikel/cara-embed-pesan-telegram-ke-website/</link>
+      <link>https://madewgn.github.io/cara-embed-pesan-telegram-ke-website/</link>
       <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-embed-pesan-telegram-ke-website/</guid>
+      <guid>https://madewgn.github.io/cara-embed-pesan-telegram-ke-website/</guid>
       <description>kini Telegram kian berkembang. Tidak lagi semata menjadi sarana perpesanan teks, namun juga banyak kegunaan lain. Misalnya saja, kini Telegram bisa digunakan untuk penyimpan atau berbagi berkas, pemutar musik, panggilan suara dan banyak lagi.
 Dan di antara banyak pembaruan pada rilis Telegram teranyar, mereka menyuguhkan fitur yang sungguh sama sekali tidak pernah saya duga; kini kita bisa melekatkan (embed) pesan dari kanal atau grup publik ke situs web. Wow&amp;hellip;.
 Artinya kini siapapun, walau tanpa memiliki akun telegram, bisa membaca pesan yang kita kirim ke kanal atau grup publik cukup dengan memasukkan tautan dari pesan Telegram ke bilah alamat (address bar) peramban web.</description>
@@ -292,10 +305,10 @@ Artinya kini siapapun, walau tanpa memiliki akun telegram, bisa membaca pesan ya
     
     <item>
       <title>Cara mendapatkan thumbnail YouTube dengan bot Telegram</title>
-      <link>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</link>
+      <link>https://madewgn.github.io/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</guid>
+      <guid>https://madewgn.github.io/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</guid>
       <description>Pertama Pastikan kamu sudah punya Telegram selanjutnya buka Telegram
   cari di pencarian @YT_Thumbnail_generator_bot atau bida langsung kamu klik di @YT_Thumbnail_generator_bot
   langsung berikan link
@@ -306,19 +319,19 @@ Artinya kini siapapun, walau tanpa memiliki akun telegram, bisa membaca pesan ya
     
     <item>
       <title>Cara deploy userge di termux</title>
-      <link>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</link>
+      <link>https://madewgn.github.io/cara-deploy-userge-di-termux/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</guid>
+      <guid>https://madewgn.github.io/cara-deploy-userge-di-termux/</guid>
       <description>Panduan Termux untuk Pengguna Prasyarat  Aplikasi Termux Setidaknya penyimpanan perangkat 750MB  Pengaturan Cepat  Buka Termux dan jalankan bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh). Tunggu beberapa saat (hingga 10 menit) &amp;hellip; (beberapa kali mungkin meminta input). Ini akan mengarahkan ke config.env dan meminta untuk mengisi. Isi, simpan (ctrl+s) dan tutup (ctrl+x). Sekarang, Instalasi selesai dan waktu untuk menjalankan userge. Tapi pertama-tama lakukan termux-chroot untuk memperbaiki masalah DNS Resolver. Bagus, Sekarang Anda berada di root jadi cd Userge &amp;amp;&amp;amp; bash run.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://madewgn.github.io/artikel/</link>
+      <link>https://madewgn.github.io/</link>
       <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/</guid>
+      <guid>https://madewgn.github.io/</guid>
       <description>PUNYA Radio Online Streaming alias Radio Internet di My Radio Stream? Mau pasang alias &amp;ldquo;tempel&amp;rdquo; (embed) playernya di blog blogspot Anda?
 Oh, blom punya? Bikin dong, gratis kok! Ini dia Cara Membuat Radio Online.
 Kalau sudah punya, untuk memasang playernya di blog, Anda tinggal COPY kode berikut ini dan PASTE di Halaman Statis atau di Sidebar (Widget).
@@ -328,10 +341,10 @@ Kalau sudah punya, untuk memasang playernya di blog, Anda tinggal COPY kode beri
     
     <item>
       <title></title>
-      <link>https://madewgn.github.io/artikel/</link>
+      <link>https://madewgn.github.io/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/</guid>
+      <guid>https://madewgn.github.io/</guid>
       <description>cara membuat TV online trans 7 di blog atau website Cara Mudah Memasang Script Streaming TV Online di Blog – Tutorial kali ini saya akan membagikan bagaimana cara memasang script streaning TV Online di blog.
 Sebenarnya cara memasangnya cukup mudah, yang perlu anda lakukan adalah mencari embed TV Online itu sendiri kemudian anda pasangkan di blog anda.
  Anda tidak perlu pusing untuk mencarinya, dibawah ini sudah saya sertakan script embednya, jadi anda tinggal memasangnya saja di Blog anda.</description>
@@ -339,10 +352,10 @@ Sebenarnya cara memasangnya cukup mudah, yang perlu anda lakukan adalah mencari 
     
     <item>
       <title>Template Blogger AMP HTML Gratis Terbaik</title>
-      <link>https://madewgn.github.io/artikel/template-blogger-amp-html-gratis-terbaik/</link>
+      <link>https://madewgn.github.io/template-blogger-amp-html-gratis-terbaik/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/template-blogger-amp-html-gratis-terbaik/</guid>
+      <guid>https://madewgn.github.io/template-blogger-amp-html-gratis-terbaik/</guid>
       <description>Apa itu AMP ? AMP (Accelerated Mobile Pages) atau sering disebut dengan AMP HTML merupakan salah satu project yang dikembangkan oleh Google.
 AMP HTML memiliki struktur yang meminimalisir penggunaan JavaScript, CSS, HTML. Jadi ada aturan tertentu dalam penulisan tag atau baris kode pada website AMP HTML.
 Tujuan dari AMP HTML yaitu untuk meningkatkan kecepatan akses sebuah website, khususnya akses website dari device smartphone.
@@ -350,23 +363,11 @@ Jadi untuk teman-teman yang mungkin pengunjung situsnya kebanyakan dari smartpho
     </item>
     
     <item>
-      <title>Cara membuat Widget Status COVID 19 Indonesia</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://madewgn.github.io/artikel/cara-membuat-widget-status-covid-19-indonesia/</guid>
-      <description>Cara pemasangannya cukup simple, saya coba menjelaskan cara pemasangan di wordpress dan blogspot.
-Pasang widget kawal corona di WordPress Untuk website yang dibangun dengan wordpress, kita dapat masuk ke halaman Tampilan, lalu masuk ke menu Widget.
-Setelah itu, kita tambahkan widget HTML Khusus kedalam sidebar. Lalu pada kolom isi di widget HTML Khusus kita tambahkan script dibawah ini
-Pasang widget kawal corona di Blogger / Blogspot Untuk memasang widget kawal corona di Blogger/Blogspot kalian dapat masuk ke halaman Tata Letak, lalu klik tombol &amp;ldquo;Tambahkan Widget&amp;rdquo;.</description>
-    </item>
-    
-    <item>
       <title>Cara membuat teks Editor dengan HTML dan java script</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</link>
+      <link>https://madewgn.github.io/cara-membuat-teks-editor-dengan-html-dan-java-script/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-teks-editor-dengan-html-dan-java-script/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-teks-editor-dengan-html-dan-java-script/</guid>
       <description>Cara Memasukkan Teks Editor di HTML dengan Javascript
  Teks Editor merupakan sebuah form khusus yang memiliki fitur-fitur seperti membuat sebuah teks menjadi bold, italic, underline, dan lain-lain, secara sederhananya, ketika kamu membuat sebuah artikel baru di blogspot / wordpress, terdapat sebuah form khusus untuk menempatkan isi artikelnya, form itu merupakan sebuah Teks Editor.
  kode lengkap Demo </description>
@@ -374,21 +375,30 @@ Pasang widget kawal corona di Blogger / Blogspot Untuk memasang widget kawal cor
     
     <item>
       <title>Cara membuat Bot Radio di Telegram</title>
-      <link>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</link>
+      <link>https://madewgn.github.io/cara-membuat-bot-radio-di-telegram/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</guid>
+      <guid>https://madewgn.github.io/cara-membuat-bot-radio-di-telegram/</guid>
       <description>Pemutar Radio Telegram V3 Bot Telegram untuk Memutar Radio/Musik/YouTube Live di Saluran atau Obrolan Suara Grup.
 Ini juga merupakan kode sumber bot yang digunakan untuk bermain Radio di AsmSafone Saluran &amp;amp; Musik di Grup SafoTheBot.
 Fitur spesial  Daftar putar, antrean, aliran radio 24x7 Mendukung streaming langsung dari youtube Mulai Radio setelah jika tidak ada lagu dalam daftar putar Pemutaran otomatis bahkan jika heroku dimulai ulang Tampilkan posisi pemutaran audio saat ini Kontrol dengan tombol dan perintah Unduh lagu dari youtube sebagai audio Secara otomatis mengunduh audio untuk dua trek pertama dalam daftar putar untuk memastikan pemutaran yang lancar  Terapkan ke Heroku (Cara Mudah)  Deploy  CATATAN: Pastikan Anda Telah Memulai Obrolan Suara Di Saluran/Grup Anda Sebelum Menyebarkan!</description>
     </item>
     
     <item>
+      <title>2021 07 16 Cara Membuat Widget Covid 19 Di Blog</title>
+      <link>https://madewgn.github.io/2021-07-16-cara-membuat-widget-covid-19-di-blog/</link>
+      <pubDate>Sun, 11 Oct 2020 07:19:45 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/2021-07-16-cara-membuat-widget-covid-19-di-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flake it till you make it</title>
-      <link>https://madewgn.github.io/artikel/flake-it-till-you-make-it/</link>
+      <link>https://madewgn.github.io/flake-it-till-you-make-it/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/artikel/flake-it-till-you-make-it/</guid>
+      <guid>https://madewgn.github.io/flake-it-till-you-make-it/</guid>
       <description>Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?</description>
     </item>
     

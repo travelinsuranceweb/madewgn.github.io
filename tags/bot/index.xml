@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 03 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/bot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara mendapatkan thumbnail YouTube dengan bot Telegram</title>
-      <link>https://madewgn.github.io/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</link>
+      <link>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</link>
       <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-mendapatkan-thumbnail-youtube-dengan-bot-telegram/</guid>
       <description>Pertama Pastikan kamu sudah punya Telegram selanjutnya buka Telegram
   cari di pencarian @YT_Thumbnail_generator_bot atau bida langsung kamu klik di @YT_Thumbnail_generator_bot
   langsung berikan link
@@ -23,19 +23,19 @@
     
     <item>
       <title>Cara deploy userge di termux</title>
-      <link>https://madewgn.github.io/cara-deploy-userge-di-termux/</link>
+      <link>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-deploy-userge-di-termux/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</guid>
       <description>Panduan Termux untuk Pengguna Prasyarat  Aplikasi Termux Setidaknya penyimpanan perangkat 750MB  Pengaturan Cepat  Buka Termux dan jalankan bash &amp;lt;(curl -s https://theuserge.github.io/termux.sh). Tunggu beberapa saat (hingga 10 menit) &amp;hellip; (beberapa kali mungkin meminta input). Ini akan mengarahkan ke config.env dan meminta untuk mengisi. Isi, simpan (ctrl+s) dan tutup (ctrl+x). Sekarang, Instalasi selesai dan waktu untuk menjalankan userge. Tapi pertama-tama lakukan termux-chroot untuk memperbaiki masalah DNS Resolver. Bagus, Sekarang Anda berada di root jadi cd Userge &amp;amp;&amp;amp; bash run.</description>
     </item>
     
     <item>
       <title>Cara membuat Bot Radio di Telegram</title>
-      <link>https://madewgn.github.io/cara-membuat-bot-radio-di-telegram/</link>
+      <link>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-membuat-bot-radio-di-telegram/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-radio-di-telegram/</guid>
       <description>Pemutar Radio Telegram V3 Bot Telegram untuk Memutar Radio/Musik/YouTube Live di Saluran atau Obrolan Suara Grup.
 Ini juga merupakan kode sumber bot yang digunakan untuk bermain Radio di AsmSafone Saluran &amp;amp; Musik di Grup SafoTheBot.
 Fitur spesial  Daftar putar, antrean, aliran radio 24x7 Mendukung streaming langsung dari youtube Mulai Radio setelah jika tidak ada lagu dalam daftar putar Pemutaran otomatis bahkan jika heroku dimulai ulang Tampilkan posisi pemutaran audio saat ini Kontrol dengan tombol dan perintah Unduh lagu dari youtube sebagai audio Secara otomatis mengunduh audio untuk dua trek pertama dalam daftar putar untuk memastikan pemutaran yang lancar  Terapkan ke Heroku (Cara Mudah)  Deploy  CATATAN: Pastikan Anda Telah Memulai Obrolan Suara Di Saluran/Grup Anda Sebelum Menyebarkan!</description>

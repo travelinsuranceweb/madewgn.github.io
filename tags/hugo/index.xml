@@ -9,20 +9,20 @@
     <lastBuildDate>Sun, 10 Oct 2021 03:30:39 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cara membuat CMS hugo dengan  Forestry.io</title>
-      <link>https://madewgn.github.io/cara-membuat-cms-hugo-dengan-forestry.io/</link>
+      <link>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</link>
       <pubDate>Sun, 10 Oct 2021 03:30:39 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
       <description>Cara Setting Forestry.io Sebagai Post Editor Hugo
    (adsbygoogle = window.adsbygoogle || []).push({});  Forestry.io adalah sebuah layanan software as a service (SaaS) yang berfungsi sebagai post editor untuk static site generator. Untuk menambah post (artikel) di static site generator hanya memakai text editor dan ditulis dalam syntax Markdown. Nah, dengan Forestry.io, menambah post tidak perlu lagi menggunakan text editor, melainkan editor dari Forestry.io atau biasa disebut dengan istilah WYSIWYG Editor.</description>
     </item>
     
     <item>
       <title>Cara Memasang Kode Adsense Di Hugo</title>
-      <link>https://madewgn.github.io/cara-memasang-kode-adsense-di-hugo/</link>
+      <link>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</link>
       <pubDate>Tue, 05 Oct 2021 10:17:25 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-memasang-kode-adsense-di-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-memasang-kode-adsense-di-hugo/</guid>
       <description>ads 
 Halo selamat datang kembali di Made Wiguna Bloggers, kali ini saya akan memberikan tutorial singkat cara memasang kode AdSense di hugo, tapi sebelum itu pastikan kamu sudah mempunyai akun adsense nya dulu ya !! :D
 Btw ada 2 cara nih untuk menampilkan iklan AdSense di hugo
@@ -31,10 +31,10 @@ Btw ada 2 cara nih untuk menampilkan iklan AdSense di hugo
     
     <item>
       <title>Cara Deploy Hugo ke github</title>
-      <link>https://madewgn.github.io/cara-deploy-hugo-ke-github/</link>
+      <link>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</link>
       <pubDate>Mon, 04 Oct 2021 22:28:20 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-deploy-hugo-ke-github/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</guid>
       <description>Melanjutkan tulisan sebelumnya mengenai cara membuat blog dengan Hugo, sekarang kita akan menghostingkan static site yang kita buat ke Github. Dengan fitur Github Pages yang disediakan oleh Github, kita bisa menghostingkan file-file yang digenerate oleh Hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama, buat terlebih dahulu sebuah repository di Github.
 Sebagai contoh, saya sudah membuat repository dengan alamat berikut:
 https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoogle || []).</description>
@@ -42,10 +42,10 @@ https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoog
     
     <item>
       <title>Cara Migrasi WordPress Ke Hugo</title>
-      <link>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</link>
+      <link>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</link>
       <pubDate>Sat, 02 Oct 2021 02:23:34 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-migrasi-wordpress-ke-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</guid>
       <description>cara migrasi WordPress ke Hugo Selamat datang lagi di blog madewgn dulu saya sudah pernah membahas bagaimana caranya migrasi blogger ke hugo tapi sekarang saya akan memberikan tutorial singkat bagaimana sih caranya migrasi dari wordpress ke hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama - tama silakan Install python terlebih dahulu
 sudo apt-get install python-yaml python-bs4 python-html2text Langkah kedua silakan clone dulu repository nya
 git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = window.</description>
@@ -53,10 +53,10 @@ git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = wind
     
     <item>
       <title>Cara NgeBlog di HP dengan hugo</title>
-      <link>https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/</link>
+      <link>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-ngeblog-di-hp-dengan-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</guid>
       <description>Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
 Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
 Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
@@ -66,19 +66,19 @@ Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CS
     
     <item>
       <title>Tutorial Hugo lengkap</title>
-      <link>https://madewgn.github.io/tutorial-hugo-lengkap/</link>
+      <link>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</link>
       <pubDate>Fri, 01 Oct 2021 11:20:11 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/tutorial-hugo-lengkap/</guid>
+      <guid>https://madewgn.github.io/artikel/tutorial-hugo-lengkap/</guid>
       <description>(adsbygoogle = window.adsbygoogle || []).push({});  tutorial belajar hugo pemula  Persiapan hugo Membuat blog &amp;amp; membuat artikel baru di hugo panduan menulis mengunakan markdowns Cara deploy hugo di Github     (adsbygoogle = window.adsbygoogle || []).push({});  tutorial tingkat lanjutan  Cara Inport Artikel blogger Ke Hugo Cara migrasi WordPress ke hugo   sedang di buat ⚠️⚠️ Tutorial deploy / hosting hugo di netlify Cara costume domain hugo     (adsbygoogle = window.</description>
     </item>
     
     <item>
       <title>Cara Membuat Blog Di Hugo</title>
-      <link>https://madewgn.github.io/cara-membuat-blog-di-hugo/</link>
+      <link>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</link>
       <pubDate>Fri, 01 Oct 2021 10:22:48 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-membuat-blog-di-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-membuat-blog-di-hugo/</guid>
       <description>Sebelumnya sudah saya buat persiapan ngeblog di hugo sekarang akan saya buatkan tutorial cara membuat blog di hugo lengkap dengan cara membuat artikelnya
    (adsbygoogle = window.adsbygoogle || []).push({});  Membuat blog dengan Hugo Pertama, buatlah blog dengan hugo seperti contoh berikut ini.
 hugo new site namablog Kedua, masuk ke direktori namablog.
@@ -88,10 +88,10 @@ Temanya bisa kalian unduh dari Hugo Themes.</description>
     
     <item>
       <title>Persiapan Hugo</title>
-      <link>https://madewgn.github.io/persiapan-hugo/</link>
+      <link>https://madewgn.github.io/artikel/persiapan-hugo/</link>
       <pubDate>Fri, 01 Oct 2021 09:30:38 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/persiapan-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/persiapan-hugo/</guid>
       <description>Saya punya blog nih
 CMS-nya menggunakan Blogger
 tapi tidak pernah terurus.
@@ -103,10 +103,10 @@ Maklum tinggal di desa, sinyalnya tidak stabil 😄.
     
     <item>
       <title>Cara Inport Artikel blogger Ke Hugo</title>
-      <link>https://madewgn.github.io/cara-inport-artikel-blogger-ke-hugo/</link>
+      <link>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</link>
       <pubDate>Thu, 30 Sep 2021 22:20:29 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-inport-artikel-blogger-ke-hugo/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-inport-artikel-blogger-ke-hugo/</guid>
       <description>Dalam rangka migrasi blog saya yang sebelumnya di blogspot ke hugo, saya harus melakukan impor artikel dari Blogger ke Hugo.
 Untungnya Hugo sudah menyediakan skrip untuk impor konten dari blogger ke Hugo.
 Proses impor ini memakan waktu cukup cepat. Saya kira, tidak sampai 15 menit.

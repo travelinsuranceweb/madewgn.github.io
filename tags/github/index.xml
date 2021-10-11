@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 11 Oct 2021 08:45:16 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Costom Domain Github Pages</title>
-      <link>https://madewgn.github.io/cara-costom-domain-github-pages/</link>
+      <link>https://madewgn.github.io/artikel/cara-costom-domain-github-pages/</link>
       <pubDate>Mon, 11 Oct 2021 08:45:16 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-costom-domain-github-pages/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-costom-domain-github-pages/</guid>
       <description>Cara Custom Domain ke Halaman GitHub
 Untuk dapat melakukan custom domain, pastikan Anda sudah menyiapkan domain yang masih aktif. Jika belum memilikinya, Anda bisa membeli domain terlebih dahulu.    (adsbygoogle = window.adsbygoogle || []).push({}); 
 Selanjutnya, ikuti langkah berikut:
@@ -22,10 +22,10 @@ Selanjutnya, ikuti langkah berikut:
     
     <item>
       <title>Cara Deploy Hugo ke github</title>
-      <link>https://madewgn.github.io/cara-deploy-hugo-ke-github/</link>
+      <link>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</link>
       <pubDate>Mon, 04 Oct 2021 22:28:20 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-deploy-hugo-ke-github/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-deploy-hugo-ke-github/</guid>
       <description>Melanjutkan tulisan sebelumnya mengenai cara membuat blog dengan Hugo, sekarang kita akan menghostingkan static site yang kita buat ke Github. Dengan fitur Github Pages yang disediakan oleh Github, kita bisa menghostingkan file-file yang digenerate oleh Hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama, buat terlebih dahulu sebuah repository di Github.
 Sebagai contoh, saya sudah membuat repository dengan alamat berikut:
 https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoogle || []).</description>

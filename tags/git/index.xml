@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 03 Oct 2021 11:45:50 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Konfigurasi Git</title>
-      <link>https://madewgn.github.io/konfigurasi-git/</link>
+      <link>https://madewgn.github.io/artikel/konfigurasi-git/</link>
       <pubDate>Sun, 03 Oct 2021 11:45:50 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/konfigurasi-git/</guid>
+      <guid>https://madewgn.github.io/artikel/konfigurasi-git/</guid>
       <description>Konfigurasi Awal yang Harus Dilakukan Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email.
    (adsbygoogle = window.adsbygoogle || []).push({});  Silahkan lakukan konfigurasi dengan perintah berikut ini.
 git config --global user.name &amp;#34;MadeWgn&amp;#34; git config --global user.email contoh@madewgn.com Silakan ganti username dan email sesuai dengan yang kalian punya ya Kemudian periksa konfigurasinya dengan perintah:
@@ -21,10 +21,10 @@ git config --list    (adsbygoogle = window.adsbygoogle || []).</description>
     
     <item>
       <title>Cara Inatall Git Di Linux</title>
-      <link>https://madewgn.github.io/cara-inatall-git-di-linux/</link>
+      <link>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</link>
       <pubDate>Sat, 02 Oct 2021 23:12:56 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-inatall-git-di-linux/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-inatall-git-di-linux/</guid>
       <description>Cara Install Git di Linux
 Instalasi Git pada Distro keluarga Debian dapat menggunakan perintah apt.
    (adsbygoogle = window.adsbygoogle || []).push({});  sudo apt install git atau
@@ -35,10 +35,10 @@ git --vers    (adsbygoogle = window.adsbygoogle || []).push({});  Selanjutnya : 
     
     <item>
       <title>Cara Install Git Windows</title>
-      <link>https://madewgn.github.io/cara-install-git-windows/</link>
+      <link>https://madewgn.github.io/artikel/cara-install-git-windows/</link>
       <pubDate>Sat, 02 Oct 2021 09:02:56 +0000</pubDate>
       
-      <guid>https://madewgn.github.io/cara-install-git-windows/</guid>
+      <guid>https://madewgn.github.io/artikel/cara-install-git-windows/</guid>
       <description>Cara Install Git di Windows Instalasi Git di Windows memang tidak seperti di Linux yang ketik perintah langsung terinstal.
 Kita harus men-download dulu, kemudian melakukan ritual next&amp;gt;next&amp;gt;finish.
 Tapi dalam ritual tersebut, ada pilihan yang harus diperhatikan agar perintah git dapat dikenali di CMD.

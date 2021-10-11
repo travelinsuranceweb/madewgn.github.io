@@ -6,7 +6,24 @@
     <description>Recent content in Posts on Made Wiguna Blogger</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 08:45:16 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 13:22:17 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Mengaktifkan Ads.txt Di Blogger Blogspot</title>
+      <link>https://madewgn.github.io/artikel/cara-mengaktifkan-ads.txt-di-blogger-blogspot/</link>
+      <pubDate>Mon, 11 Oct 2021 13:22:17 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-mengaktifkan-ads.txt-di-blogger-blogspot/</guid>
+      <description>Cara Mengaktifkan Ads.txt di Blogger / Blogspot
+Untuk menghindari permasalahan iklan AdSense tidak muncul di blog dan juga memperbaiki notifikasi error ads.txt di akun AdSense, sobat perlu mengaktifkan fitur ads.txt kustom di blogger.
+Caranya silakan ikut langkah-langkah di bawah ini :
+Login ke “Blogger” &amp;gt; “Setelan” &amp;gt; “Monetisasi”
+Aktifkan ads.txt kustom
+Pada bagian “ads.txt kustom” isi dengan kode ads.txt berikut:
+google.com, pub-0000000000000, DIRECT, f08c47fec0942fa0 Ganti yang
+ pub-0000000000000
+dengan ID Akun AdSense milik sobat</description>
+    </item>
+    
     <item>
       <title>Cara Costom Domain Github Pages</title>
       <link>https://madewgn.github.io/artikel/cara-costom-domain-github-pages/</link>

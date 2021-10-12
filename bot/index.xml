@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bots on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/bot/</link>
+    <description>Recent content in Bots on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 12 Oct 2021 08:11:05 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/bot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Bot Musik Discord Dengan Node.js</title>
+      <link>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</link>
+      <pubDate>Tue, 12 Oct 2021 08:11:05 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</guid>
+      <description>Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,
+Pertama-tama yang perlu agan siapkan adalah node JS, git , YouTube api dan juga bot token nya
+Pertama-tama yang harus kamu lakukan untuk membuat melodis adalah clone dulu repo nya
+git clone https://github.com/eritislami/evobot.git &amp;amp;&amp;amp; cd evobot Setelah itu silahkan buat bot discord baru    (adsbygoogle = window.</description>
+    </item>
+    
+  </channel>
+</rss>

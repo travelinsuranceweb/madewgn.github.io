@@ -7,7 +7,222 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-        <lastBuildDate>Mon, 11 Oct 2021 13:22:17 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Oct 2021 08:11:05 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cara Membuat Bot Musik Discord Dengan Node.js</title>
+        <link>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</link>
+        <pubDate>Tue, 12 Oct 2021 08:11:05 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</guid>
+        <description>&lt;img src="https://telegra.ph/file/033b99b4120975ac70fbc.png" alt="Featured image of post Cara Membuat Bot Musik Discord Dengan Node.js" /&gt;&lt;p&gt;Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,&lt;/p&gt;
+&lt;p&gt;Pertama-tama yang perlu agan siapkan adalah node JS, git , YouTube api dan juga bot token nya&lt;/p&gt;
+&lt;p&gt;Pertama-tama yang harus kamu lakukan untuk membuat melodis adalah clone dulu repo  nya&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/eritislami/evobot.git &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt;  evobot 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu silahkan buat bot discord baru
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Pertama tama buatlah aplikasi Bot Discord dengan memasuki link berikut ini &lt;a class=&#34;link&#34; href=&#34;https://discordapp.com/developers/applications/me&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://discordapp.com/developers/applications/me&lt;/a&gt; . Kemudian klik New Application – masukan nama bot kamu – klik Create .&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-1.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-1.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buka link nya&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buka link nya&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Pilih nama yang tepat untuk aplikasi
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buat bot Discord musik Anda sendiri GRATIS&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buat bot Discord musik Anda sendiri GRATIS&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Setelah itu, kita perlu memilih tab bot dan klik tambahkan bot dan &lt;strong&gt;copy token&lt;/strong&gt; dan simpan, kita akan membutuhkannya nanti.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2,5.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2,5.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buat bot Discord musik Anda sendiri GRATIS&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buat bot Discord musik Anda sendiri GRATIS&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2,6.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-2,6.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buat bot Discord musik Anda sendiri secara GRATIS&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buat bot Discord musik Anda sendiri secara GRATIS&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Sekarang setelah aplikasi dan bot dibuat, kamu harus mengaitkan bot ke server kami&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-3.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-3.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buat bot Discord musik Anda sendiri secara GRATIS&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buat bot Discord musik Anda sendiri secara GRATIS&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://madewgn.github.io/img/cd/discord-tutorial-4.png&#34; &gt;
+		&lt;img src=&#34;https://madewgn.github.io/img/cd/discord-tutorial-4.png&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;Buat bot Discord musik Anda sendiri secara GRATIS&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Buat bot Discord musik Anda sendiri secara GRATIS&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Untuk cara mendapatkan YouTube api silakan baca di sini &lt;a class=&#34;link&#34; href=&#34;https://developers.google.com/youtube/v3/getting-started&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developers.google.com/youtube/v3/getting-started&lt;/a&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Jika bahan bahan sudah di sediakan Sekarang tinggal membuat &lt;code&gt;config.json&lt;/code&gt; nya aja&lt;/p&gt;
+&lt;p&gt;Silakan Jalankan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mv config.json.example config.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Jika sudah silakan buka teks Editor dan edit config.json nya&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;TOKEN&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;YOUTUBE_API_KEY&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;SOUNDCLOUD_CLIENT_ID&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;MAX_PLAYLIST_SIZE&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;PREFIX&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;PRUNING&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;LOCALE&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;DEFAULT_VOLUME&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+  &lt;span class=&#34;nt&#34;&gt;&amp;#34;STAY_TIME&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;30&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Jika sudah di edit langsung jalankan perintah&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dan&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;node index.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selamat bot anda telah jadi😄🥳&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;📝 Features &amp;amp; Commands
+Note: The default prefix is &amp;#39;/&amp;#39;
+
+🎶 Play music from YouTube via url
+/play https://www.youtube.com/watch?v=GLvohMXgcBo
+
+🔎 Play music from YouTube via search query
+/play under the bridge red hot chili peppers
+
+🎶 Play music from Soundcloud via url
+/play https://soundcloud.com/blackhorsebrigade/pearl-jam-alive
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;akhir-kata&#34;&gt;akhir kata&lt;/h2&gt;
+&lt;p&gt;Sekian cara membuat bot musik di discord dengan node.js semoga bermanfaat&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cara Mengaktifkan Ads.txt Di Blogger Blogspot</title>
         <link>https://madewgn.github.io/artikel/cara-mengaktifkan-ads.txt-di-blogger-blogspot/</link>
         <pubDate>Mon, 11 Oct 2021 13:22:17 +0000</pubDate>

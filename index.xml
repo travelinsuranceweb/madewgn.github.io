@@ -13,7 +13,35 @@
         <pubDate>Tue, 12 Oct 2021 08:11:05 +0000</pubDate>
         
         <guid>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</guid>
-        <description>&lt;img src="https://telegra.ph/file/033b99b4120975ac70fbc.png" alt="Featured image of post Cara Membuat Bot Musik Discord Dengan Node.js" /&gt;&lt;p&gt;Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,&lt;/p&gt;
+        <description>&lt;img src="https://telegra.ph/file/033b99b4120975ac70fbc.png" alt="Featured image of post Cara Membuat Bot Musik Discord Dengan Node.js" /&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;720p&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;480p&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;google.com&#34; &gt;Google drive &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,&lt;/p&gt;
 &lt;p&gt;Pertama-tama yang perlu agan siapkan adalah node JS, git , YouTube api dan juga bot token nya&lt;/p&gt;
 &lt;p&gt;Pertama-tama yang harus kamu lakukan untuk membuat melodis adalah clone dulu repo  nya&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/eritislami/evobot.git &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt;  evobot 

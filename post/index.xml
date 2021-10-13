@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 11 Oct 2021 13:22:17 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 12:53:20 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Menghilangkan Kode ?m=1 Dan ?m=0 Di Blogger</title>
+      <link>https://madewgn.github.io/artikel/cara-menghilangkan-kode-m1-dan-m0-di-blogger/</link>
+      <pubDate>Wed, 13 Oct 2021 12:53:20 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-menghilangkan-kode-m1-dan-m0-di-blogger/</guid>
+      <description>Buat kamu pengguna CMS Blogger, pasti sudah tahu bahwa Blogger memberikan struktur kode tertentu yang akan ditampilkan pada versi halaman selular dengan menambahkan ?m=1 dan ?m=0    (adsbygoogle = window.adsbygoogle || []).push({});  Nah, di artikel kali ini saya akan memberikan satu artikel yang berjudul Cara Menghilangkan Kode ?m=1 dan ?m=0 pada Akhir URL Blog. Tahu kah kamu, mengapa kode-kode tersebut harus dihilangkan? Jik a belum tahu, saya akan memberikan informasinya.</description>
+    </item>
+    
     <item>
       <title>Cara Mengaktifkan Ads.txt Di Blogger Blogspot</title>
       <link>https://madewgn.github.io/artikel/cara-mengaktifkan-ads.txt-di-blogger-blogspot/</link>

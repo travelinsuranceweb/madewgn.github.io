@@ -13,9 +13,31 @@
         <pubDate>Thu, 14 Oct 2021 03:52:28 +0000</pubDate>
         
         <guid>https://madewgn.github.io/artikel/cara-membuat-box-download-seperti-situs-anime/</guid>
-        <description>&lt;img src="https://telegra.ph/file/f03f38a9ee963186d455e.jpg" alt="Featured image of post Cara Membuat Box Download Seperti Situs Anime" /&gt;&lt;p&gt;Kali ini saya akan membagikan tutorial Cara Membuat dan Memasang Tombol Download Box Responsive di Blogger Seperti Situs Anime. Tombol Download Box seperti ini sebetulnya hampir mirip dengan situs-situs download anime / fansub seperti samehadaku, meownime, jadi jika anda membuat blog dengan niche download anime mungkin akan cocok membuat tombol download seperti situs anime / fansub ini.&lt;/p&gt;
-&lt;p&gt;Cara memasang tombol download seperti di situs anime samehadaku maupun meownime tidaklah terlalu sulit, karena anda bisa melakukan Inspect Element tema yang dipakai situs tersebut dan nantinya anda akan melihat semua kode-kode tersebut.&lt;/p&gt;
-&lt;p&gt;Namun, karena anda sudah mengunjungi postingan ini, jadi tidak perlu repot-repot meng-Inspect Element tema yang dipakai situs itu. Nanti anda tinggal ikuti tutorialnya dibawah.&lt;/p&gt;
+        <description>&lt;img src="https://telegra.ph/file/f03f38a9ee963186d455e.jpg" alt="Featured image of post Cara Membuat Box Download Seperti Situs Anime" /&gt;&lt;p&gt;Kali ini saya akan membagikan tutorial Cara Membuat dan Memasang Tombol Download Box Responsive di Blogger Seperti Situs Anime. Tombol Download Box seperti ini sebetulnya hampir mirip dengan situs-situs download anime / fansub seperti samehadaku, meownime, jadi jika anda membuat blog dengan niche download anime mungkin akan cocok membuat tombol download seperti situs anime / fansub ini.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Cara memasang tombol download seperti di situs anime samehadaku maupun meownime tidaklah terlalu sulit, karena anda bisa melakukan Inspect Element tema yang dipakai situs tersebut dan nantinya anda akan melihat semua kode-kode tersebut.&lt;/p&gt;
+&lt;p&gt;Namun, karena anda sudah mengunjungi postingan ini, jadi tidak perlu repot-repot meng-Inspect Element tema yang dipakai situs itu. Nanti anda tinggal ikuti tutorialnya dibawah.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cara-memasang-tombol-download-responsive-mirip-situs-anime&#34;&gt;Cara Memasang Tombol Download Responsive Mirip Situs Anime&lt;/h2&gt;
 &lt;p&gt;Pertama, buka Blogger &amp;raquo; Tema &amp;raquo; Edit HTML.&lt;/p&gt;
 &lt;p&gt;Kemudian, letakkan kode CSS berikut sebelum kode &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
@@ -25,8 +47,19 @@
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;anime-box&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;ul&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;none&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;repeat&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;scroll&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#E4E4E4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;margin-bottom&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;line-height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;26&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;font-size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;anime-box&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;ul&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;li&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;strong&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mh&#34;&gt;#1b80e3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;border-right&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;solid&lt;/span&gt; &lt;span class=&#34;mh&#34;&gt;#F5F5F5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;block&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;float&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;margin-left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;-5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;margin-right&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mh&#34;&gt;#FFF&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;text-align&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lalu Simpan Tema.&lt;/p&gt;
-&lt;p&gt;Langkah selanjutnya yaitu menerapkannya dalam postingan anda.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lalu Simpan Tema.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Langkah selanjutnya yaitu menerapkannya dalam postingan anda.&lt;/p&gt;
 &lt;p&gt;Cara Penerapan Tombol Download di Postingan Blog
 Pertama, buat Postingan Baru &amp;raquo; kemudian letakkan kode ini pada menu tab HTML (bukan Compose).&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;anime-box&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
@@ -66,12 +99,45 @@ Pertama, buat Postingan Baru &amp;raquo; kemudian letakkan kode ini pada menu ta
    &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ul&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kemudian jika telah selesai semua, tinggal Publikasikan.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Kemudian jika telah selesai semua, tinggal Publikasikan.&lt;/p&gt;
 &lt;p&gt;Untuk melihat hasilnya seperti apa, bisa di cek dibawah:&lt;/p&gt;
 &lt;h2 id=&#34;live-demohttpsfile-wibunetlifyappanimegetsuyoubi-no-tawawa-s2-subtitle-indonesia&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://file-wibu.netlify.app/anime/getsuyoubi-no-tawawa-s2-subtitle-indonesia/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;LIVE DEMO&lt;/a&gt;&lt;/h2&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 &lt;h2 id=&#34;akhir-kata&#34;&gt;akhir kata&lt;/h2&gt;
-&lt;p&gt;Sekian Tutorial membuat box download aniem, semoga bermanfaat&lt;/p&gt;
+&lt;p&gt;Sekian Tutorial membuat box download aniem, semoga bermanfaat
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

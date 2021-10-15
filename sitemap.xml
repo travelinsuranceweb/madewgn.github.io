@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
+     <loc>https://madewgn.github.io/safelink/</loc>
+     <lastmod>2021-10-14T22:07:21+00:00</lastmod>
+     <changefreq>monthly</changefreq>
+     <priority>0.5</priority></url>
+ <url>
      <loc>https://madewgn.github.io/artikel/cara-membuat-box-download-seperti-situs-anime/</loc>
      <lastmod>2021-10-14T03:52:28+00:00</lastmod>
      <changefreq>monthly</changefreq>

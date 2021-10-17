@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 10 Oct 2021 03:30:39 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 23:32:57 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengenal Shortcodes Di Hugo</title>
+      <link>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</link>
+      <pubDate>Sat, 16 Oct 2021 23:32:57 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</guid>
+      <description>Mengenal shortcodes di Hugo Kita menulis konten di static site seperti Hugo menggunakan markdown. Dengan syntax markdown ini, kita bisa lebih fokus ke konten dibanding harus selalu melihat tag HTML yang dibuat. Tapi tentu ada yang kurang, ada beberapa tag html yang sulit diimplementasikan di markdown, sebut saja seperti iframe. Untuk itu, Hugo memperkenalkan Shortcodes!
+   (adsbygoogle = window.adsbygoogle || []).push({});  Apa itu Shortcodes Shortcodes adalah syntax singkat yang dibuat oleh Hugo untuk merender berbagai kebutuhan tag HTML tambahan yang tidak tersedia oleh format markdown.</description>
+    </item>
+    
     <item>
       <title>cara membuat CMS hugo dengan  Forestry.io</title>
       <link>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</link>

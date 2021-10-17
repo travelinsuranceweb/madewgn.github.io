@@ -7,7 +7,188 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-        <lastBuildDate>Fri, 15 Oct 2021 12:45:31 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 16 Oct 2021 23:32:57 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mengenal Shortcodes Di Hugo</title>
+        <link>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</link>
+        <pubDate>Sat, 16 Oct 2021 23:32:57 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</guid>
+        <description>&lt;img src="https://telegra.ph/file/98c762e2a2e37e6e3e0c2.jpg" alt="Featured image of post Mengenal Shortcodes Di Hugo" /&gt;&lt;p&gt;Mengenal shortcodes di Hugo
+Kita menulis konten di static site seperti Hugo menggunakan markdown. Dengan syntax markdown ini, kita bisa lebih fokus ke konten dibanding harus selalu melihat tag HTML yang dibuat. Tapi tentu ada yang kurang, ada beberapa tag html yang sulit diimplementasikan di markdown, sebut saja seperti iframe. Untuk itu, Hugo memperkenalkan Shortcodes!&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Apa itu Shortcodes
+Shortcodes adalah syntax singkat yang dibuat oleh Hugo untuk merender berbagai kebutuhan tag HTML tambahan yang tidak tersedia oleh format markdown.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Sebagai contoh untuk menggunakan tag figure di HTML&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;link-gambar.jpg&amp;quot; title=&amp;quot;judul gambar&amp;quot; &amp;gt;}}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Ini akan menghasilkan&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;figure&amp;gt;
+  &amp;lt;img src=&amp;quot;link-gambar.jpg&amp;quot;  /&amp;gt;
+  &amp;lt;figcaption&amp;gt;
+      &amp;lt;h4&amp;gt;judul gambar&amp;lt;/h4&amp;gt;
+  &amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Atau contoh untuk memberi highlight pada kode&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; highlight html &amp;gt;}}
+&amp;lt;h1&amp;gt; Halo &amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt; Sekolah Koding &amp;lt;/h2&amp;gt;
+{{&amp;lt; /highlight &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Saat menampilkan hasilnya, kamu akan melihat syntax HTML tersebut sudah dalam format highlight.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;h2 id=&#34;shortcode-hugo-untuk-media-sosial&#34;&gt;Shortcode Hugo untuk media sosial&lt;/h2&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Tidak hanya itu, fungsi kekinian seperti menampilkan tweet atau instsagram bisa juga dengan shotcode dari Hugo
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Menampilkan atau embed foto Instagram di Hugo&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; instagram [ID NYA] &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Menampilkan atau embed Twitter di Hugos&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; tweet [ID NYA] &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Menampilkan atau embed Video Youtube di Hugo&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; youtube [ID NYA] &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Contoh :
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/7NklALHKGos&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;akhir-kata&#34;&gt;Akhir kata&lt;/h2&gt;
+&lt;p&gt;Sekian pengenalan Shortcode hugo, semoga bermanfaat&lt;/p&gt;
+&lt;p&gt;Apa selanjutnya? Selanjutnya adalah belajar membuat shortcode sendiri 😁&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+</description>
+        </item>
+        <item>
         <title>Cara Membuat Halaman Word Counter Penghitung Kata Di Blogger</title>
         <link>https://madewgn.github.io/artikel/cara-membuat-halaman-word-counter-penghitung-kata-di-blogger/</link>
         <pubDate>Fri, 15 Oct 2021 12:45:31 +0000</pubDate>
@@ -663,10 +844,10 @@ Dilihat dari manapun, URL di atas terlihat sama, hanya saja pada akhir url nya a
         </item>
         <item>
         <title>Cara Membuat Bot Musik Discord Dengan Node.js</title>
-        <link>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</link>
+        <link>https://madewgn.github.io/artikel/cara-membuat-bot-musik-discord-dengan-node.js/</link>
         <pubDate>Tue, 12 Oct 2021 08:11:05 +0000</pubDate>
         
-        <guid>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</guid>
+        <guid>https://madewgn.github.io/artikel/cara-membuat-bot-musik-discord-dengan-node.js/</guid>
         <description>&lt;img src="https://telegra.ph/file/033b99b4120975ac70fbc.png" alt="Featured image of post Cara Membuat Bot Musik Discord Dengan Node.js" /&gt;&lt;p&gt;Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,&lt;/p&gt;
 &lt;p&gt;Pertama-tama yang perlu agan siapkan adalah node JS, git , YouTube api dan juga bot token nya&lt;/p&gt;
 &lt;p&gt;Pertama-tama yang harus kamu lakukan untuk membuat melodis adalah clone dulu repo  nya&lt;/p&gt;
@@ -1434,10 +1615,10 @@ Masuk ke post editor, isi Title, Date, Tags, Categories, dan isi dari konten. Op
         </item>
         <item>
         <title>Pejuang Hugo Themes</title>
-        <link>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</link>
+        <link>https://madewgn.github.io/artikel/pejuang-hugo-themes/</link>
         <pubDate>Sat, 09 Oct 2021 11:37:31 +0000</pubDate>
         
-        <guid>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</guid>
+        <guid>https://madewgn.github.io/artikel/pejuang-hugo-themes/</guid>
         <description>&lt;img src="https://telegra.ph/file/92fc86006b35daf828bd1.jpg" alt="Featured image of post Pejuang Hugo Themes" /&gt;&lt;p&gt;Yo halo, welcome back 😄👋
 Kali ini saya mencoba tema Hugo baru nih yang saya beri nama &amp;ldquo;pejuang&amp;rdquo; ya pejuang sangat cocok buat kalian yang sedang berjuang di dunia blogging&amp;hellip;
 &lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
@@ -1560,10 +1741,10 @@ jika kamu suka konten yang saya buat bantu doa kan agar saya sehat selalu dan ti
         </item>
         <item>
         <title>Lazy Bloggers Hugo themes</title>
-        <link>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</link>
+        <link>https://madewgn.github.io/artikel/lazy-bloggers-hugo-themes/</link>
         <pubDate>Thu, 07 Oct 2021 04:26:53 +0000</pubDate>
         
-        <guid>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</guid>
+        <guid>https://madewgn.github.io/artikel/lazy-bloggers-hugo-themes/</guid>
         <description>&lt;img src="https://telegra.ph/file/eb406a9ab6f0ab494813b.jpg" alt="Featured image of post Lazy Bloggers Hugo themes" /&gt;&lt;p&gt;Halo kawan - kawan, selamat datang di blog saya, kali ini saya akan memberikan sebuah &lt;strong&gt;tema Hugo&lt;/strong&gt; buatan saya sendiri 😂&lt;/p&gt;
 &lt;h2 id=&#34;demohttpsmade-wigunawebapp&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://made-wiguna.web.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DEMO&lt;/a&gt;&lt;/h2&gt;
@@ -2275,10 +2456,10 @@ Kemudian periksa konfigurasinya dengan perintah:&lt;/p&gt;
         </item>
         <item>
         <title>Pasang Kamera Di Toilet Siswi Guru Sd Di Metropolis Tokyo Ditangkap</title>
-        <link>https://madewgn.github.io/berita/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</link>
+        <link>https://madewgn.github.io/artikel/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</link>
         <pubDate>Sat, 02 Oct 2021 05:27:20 +0000</pubDate>
         
-        <guid>https://madewgn.github.io/berita/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</guid>
+        <guid>https://madewgn.github.io/artikel/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</guid>
         <description>&lt;img src="https://telegra.ph/file/b1518bddb0cb2a7ffcb4e.jpg" alt="Featured image of post Pasang Kamera Di Toilet Siswi Guru Sd Di Metropolis Tokyo Ditangkap" /&gt;&lt;p&gt;Seorang guru SD berusia 33 tahun ditangkap Kepolisian Distrik Adachi, Metropolitan Tokyo atas dugaan tindakan voyeurism menggunakan kamera. Tempat kejadian berada di toilet perempuan di Sekolah Dasar yang juga menjadi tempat pria ini mengajar. Pria berinisial KN ini diancam dengan pasal pelanggaran pornografi anak.&lt;/p&gt;
 &lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
      crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;

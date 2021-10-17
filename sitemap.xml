@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
+     <loc>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</loc>
+     <lastmod>2021-10-16T23:32:57+00:00</lastmod>
+     <changefreq>monthly</changefreq>
+     <priority>0.5</priority></url>
+ <url>
      <loc>https://madewgn.github.io/artikel/cara-membuat-halaman-word-counter-penghitung-kata-di-blogger/</loc>
      <lastmod>2021-10-15T12:45:31+00:00</lastmod>
      <changefreq>monthly</changefreq>
@@ -21,7 +26,7 @@
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
  <url>
-     <loc>https://madewgn.github.io/bot/cara-membuat-bot-musik-discord-dengan-nodejs/</loc>
+     <loc>https://madewgn.github.io/artikel/cara-membuat-bot-musik-discord-dengan-node.js/</loc>
      <lastmod>2021-10-12T08:11:05+00:00</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
@@ -41,12 +46,12 @@
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
  <url>
-     <loc>https://madewgn.github.io/dokumentasi/pejuang-hugo-themes/</loc>
+     <loc>https://madewgn.github.io/artikel/pejuang-hugo-themes/</loc>
      <lastmod>2021-10-09T11:37:31+00:00</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
  <url>
-     <loc>https://madewgn.github.io/dokumentasi/lazy-bloggers-hugo-themes/</loc>
+     <loc>https://madewgn.github.io/artikel/lazy-bloggers-hugo-themes/</loc>
      <lastmod>2021-10-07T04:26:53+00:00</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
@@ -81,7 +86,7 @@
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>
  <url>
-     <loc>https://madewgn.github.io/berita/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</loc>
+     <loc>https://madewgn.github.io/artikel/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</loc>
      <lastmod>2021-10-02T05:27:20+00:00</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority></url>

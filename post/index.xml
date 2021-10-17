@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 15 Oct 2021 12:45:31 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Oct 2021 23:32:57 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengenal Shortcodes Di Hugo</title>
+      <link>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</link>
+      <pubDate>Sat, 16 Oct 2021 23:32:57 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</guid>
+      <description>Mengenal shortcodes di Hugo Kita menulis konten di static site seperti Hugo menggunakan markdown. Dengan syntax markdown ini, kita bisa lebih fokus ke konten dibanding harus selalu melihat tag HTML yang dibuat. Tapi tentu ada yang kurang, ada beberapa tag html yang sulit diimplementasikan di markdown, sebut saja seperti iframe. Untuk itu, Hugo memperkenalkan Shortcodes!
+   (adsbygoogle = window.adsbygoogle || []).push({});  Apa itu Shortcodes Shortcodes adalah syntax singkat yang dibuat oleh Hugo untuk merender berbagai kebutuhan tag HTML tambahan yang tidak tersedia oleh format markdown.</description>
+    </item>
+    
     <item>
       <title>Cara Membuat Halaman Word Counter Penghitung Kata Di Blogger</title>
       <link>https://madewgn.github.io/artikel/cara-membuat-halaman-word-counter-penghitung-kata-di-blogger/</link>
@@ -33,6 +43,18 @@
       
       <guid>https://madewgn.github.io/artikel/cara-menghilangkan-kode-m1-dan-m0-di-blogger/</guid>
       <description>Buat kamu pengguna CMS Blogger, pasti sudah tahu bahwa Blogger memberikan struktur kode tertentu yang akan ditampilkan pada versi halaman selular dengan menambahkan ?m=1 dan ?m=0    (adsbygoogle = window.adsbygoogle || []).push({});  Nah, di artikel kali ini saya akan memberikan satu artikel yang berjudul Cara Menghilangkan Kode ?m=1 dan ?m=0 pada Akhir URL Blog. Tahu kah kamu, mengapa kode-kode tersebut harus dihilangkan? Jik a belum tahu, saya akan memberikan informasinya.</description>
+    </item>
+    
+    <item>
+      <title>Cara Membuat Bot Musik Discord Dengan Node.js</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-bot-musik-discord-dengan-node.js/</link>
+      <pubDate>Tue, 12 Oct 2021 08:11:05 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-musik-discord-dengan-node.js/</guid>
+      <description>Halo bro selamat datang kembali di blog Made WGM kali ini saya akan membahas bagaimana caranya membuat bot discord musik dengan menggunakan node.js,
+Pertama-tama yang perlu agan siapkan adalah node JS, git , YouTube api dan juga bot token nya
+Pertama-tama yang harus kamu lakukan untuk membuat melodis adalah clone dulu repo nya
+git clone https://github.com/eritislami/evobot.git &amp;amp;&amp;amp; cd evobot Setelah itu silahkan buat bot discord baru    (adsbygoogle = window.</description>
     </item>
     
     <item>
@@ -73,6 +95,28 @@ Selanjutnya, ikuti langkah berikut:
       <guid>https://madewgn.github.io/artikel/cara-membuat-cms-hugo-dengan-forestry.io/</guid>
       <description>Cara Setting Forestry.io Sebagai Post Editor Hugo
    (adsbygoogle = window.adsbygoogle || []).push({});  Forestry.io adalah sebuah layanan software as a service (SaaS) yang berfungsi sebagai post editor untuk static site generator. Untuk menambah post (artikel) di static site generator hanya memakai text editor dan ditulis dalam syntax Markdown. Nah, dengan Forestry.io, menambah post tidak perlu lagi menggunakan text editor, melainkan editor dari Forestry.io atau biasa disebut dengan istilah WYSIWYG Editor.</description>
+    </item>
+    
+    <item>
+      <title>Pejuang Hugo Themes</title>
+      <link>https://madewgn.github.io/artikel/pejuang-hugo-themes/</link>
+      <pubDate>Sat, 09 Oct 2021 11:37:31 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/pejuang-hugo-themes/</guid>
+      <description>Yo halo, welcome back 😄👋 Kali ini saya mencoba tema Hugo baru nih yang saya beri nama &amp;ldquo;pejuang&amp;rdquo; ya pejuang sangat cocok buat kalian yang sedang berjuang di dunia blogging&amp;hellip;    (adsbygoogle = window.adsbygoogle || []).push({});  Tema cocok bua kalian yang suka blog dengan tampilan sederhana, btw tema hugo satu ini sangat muda untuk di modif, jadi sangat mudah jika kamu ingin nambahin beberapa kode di tema ini    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>Lazy Bloggers Hugo themes</title>
+      <link>https://madewgn.github.io/artikel/lazy-bloggers-hugo-themes/</link>
+      <pubDate>Thu, 07 Oct 2021 04:26:53 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/lazy-bloggers-hugo-themes/</guid>
+      <description>Halo kawan - kawan, selamat datang di blog saya, kali ini saya akan memberikan sebuah tema Hugo buatan saya sendiri 😂
+DEMO    (adsbygoogle = window.adsbygoogle || []).push({});  Saya memberikan nama &amp;ldquo;Lazy-bloggers&amp;rdquo; Karena saya bukan seorang yang rajin:v
+Tanpa basa-basi lagi langsung saya di pemasangan tema nya
+Pertama silahkan buat dulu blog baru Hugo
+hugo new site [nama web] -f yml cd [nama web] git clone https://github.com/MADEWGN/Lazy-bloggers themes/Lazy-bloggers    (adsbygoogle = window.</description>
     </item>
     
     <item>
@@ -144,6 +188,16 @@ git --vers    (adsbygoogle = window.adsbygoogle || []).push({});  Selanjutnya : 
 Kita harus men-download dulu, kemudian melakukan ritual next&amp;gt;next&amp;gt;finish.
 Tapi dalam ritual tersebut, ada pilihan yang harus diperhatikan agar perintah git dapat dikenali di CMD.
 Download Git Silahkan buka website resminya Git ( git-scm.com). Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.</description>
+    </item>
+    
+    <item>
+      <title>Pasang Kamera Di Toilet Siswi Guru Sd Di Metropolis Tokyo Ditangkap</title>
+      <link>https://madewgn.github.io/artikel/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</link>
+      <pubDate>Sat, 02 Oct 2021 05:27:20 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/pasang-kamera-di-toilet-siswi-guru-sd-di-metropolis-tokyo-ditangkap/</guid>
+      <description>Seorang guru SD berusia 33 tahun ditangkap Kepolisian Distrik Adachi, Metropolitan Tokyo atas dugaan tindakan voyeurism menggunakan kamera. Tempat kejadian berada di toilet perempuan di Sekolah Dasar yang juga menjadi tempat pria ini mengajar. Pria berinisial KN ini diancam dengan pasal pelanggaran pornografi anak.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Menurut penuturan dari pihak kepolisian, guru SD ini memasang kamera di bagian lantai toilet siswi perempuan di sekolah tempatnya mengajar.</description>
     </item>
     
     <item>

@@ -40,6 +40,8 @@ Shortcodes adalah syntax singkat yang dibuat oleh Hugo untuk merender berbagai k
      (adsbygoogle = window.adsbygoogle || []).push({});
 &lt;/script&gt;
 &lt;p&gt;Sebagai contoh untuk menggunakan tag figure di HTML&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;baca juga&lt;/strong&gt; : &lt;a class=&#34;link&#34; href=&#34;https://sulistio.xyz/download-animestream-wordpress-gratis/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Download Animestream WordPress Gratis&lt;/a&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;quot;link-gambar.jpg&amp;quot; title=&amp;quot;judul gambar&amp;quot; &amp;gt;}}
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;

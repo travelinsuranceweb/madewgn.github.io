@@ -7,7 +7,58 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-        <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Oct 2021 11:19:56 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cara Membuat Sitemap</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-sitemap/</link>
+        <pubDate>Wed, 20 Oct 2021 11:19:56 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-sitemap/</guid>
+        <description>&lt;p&gt;Apa itu Sitemap?&lt;/p&gt;
+&lt;p&gt;Sitemap adalah file yang berisi daftar semua halaman penting dari sebuah website. Alasan menyimpan semuanya dalam satu file “XML Sitemap” adalah karena ini membantu crawler menemukan semua halaman di satu tempat, dibandingkan menemukannya melalui link internal.&lt;/p&gt;
+&lt;p&gt;Sitemap di Hugo
+Hugo sudah menyediakan template XML sitemap secara default, Namun template XML sitemap yang disediakan secara default akan me-list seluruh URL yang terkait dengan situs termasuk taxonomy seperti tag, series, dan category. URL direktori content lainnya juga ikut dalam sitemap seperti direktori blog sehingga pada sitemap URL &lt;a class=&#34;link&#34; href=&#34;http://www.example.com/blog/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.example.com/blog/&lt;/a&gt; juga ikut terdaftar pada sitemap. URL tersebut tidak dikehendaki untuk berada pada sitemap Google Search Console sehingga menyebabkan error saat submit sitemap.&lt;/p&gt;
+&lt;p&gt;Membuat Custom Sitemap di Hugo #
+Buat file sitemap.xml letakan dalam di folder layout, isi file sitemap.xml dengan kode di bawah ini&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;{{ printf &amp;#34;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=\&amp;#34;1.0\&amp;#34; encoding=\&amp;#34;utf-8\&amp;#34; standalone=\&amp;#34;yes\&amp;#34; ?&amp;gt;&lt;/span&gt;&amp;#34; | safeHTML }}
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;urlset&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.sitemaps.org/schemas/sitemap/0.9&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns:xhtml=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://www.w3.org/1999/xhtml&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+{{ range .Site.RegularPages -}}
+{{ if not .Params.robotsdisallow -}}
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;url&amp;gt;&lt;/span&gt;
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;loc&amp;gt;&lt;/span&gt;{{ .Permalink }}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/loc&amp;gt;&lt;/span&gt;{{ if not .Lastmod.IsZero }}
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;lastmod&amp;gt;&lt;/span&gt;{{ safeHTML ( .Lastmod.Format &amp;#34;2006-01-02T15:04:05-07:00&amp;#34; ) }}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/lastmod&amp;gt;&lt;/span&gt;{{ end }}{{ with .Sitemap.ChangeFreq }}
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;changefreq&amp;gt;&lt;/span&gt;{{ . }}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/changefreq&amp;gt;&lt;/span&gt;{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;priority&amp;gt;&lt;/span&gt;{{ .Sitemap.Priority }}&lt;span class=&#34;nt&#34;&gt;&amp;lt;/priority&amp;gt;&lt;/span&gt;{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;xhtml:link&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;alternate&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;hreflang=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .Lang }}&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;{{ end -}}
+     &lt;span class=&#34;nt&#34;&gt;&amp;lt;xhtml:link&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;rel=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;alternate&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;hreflang=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .Lang }}&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;na&#34;&gt;href=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span&gt;
+         &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;{{ end -}}
+ &lt;span class=&#34;nt&#34;&gt;&amp;lt;/url&amp;gt;&lt;/span&gt;
+ {{ end -}}
+ {{ end -}}
+ &lt;span class=&#34;nt&#34;&gt;&amp;lt;/urlset&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Letakan kode meta berikut dalam tag &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;{{ with .Params.robotsdisallow }}
+&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;meta&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;robots&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;content&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;noindex, nofollow, noarchive&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tambahkan parameter &lt;code&gt;robotsdisallow: true&lt;/code&gt; pada halaman yang tidak ingin muncul di sitemap.xml. Contoh, saya tidak ingin menampilkan halaman /blog/contoh1/. Caranya sebagai berikut:&lt;/p&gt;
+&lt;p&gt;Pada halaman content/blog/contoh1/index.md,
+Tambahkan robotsdisallow: true pada file index.md seperti berikut:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;+++
+title = Contoh1
+robotsdisallow: true
++++
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Simpan dan submit ke Google.&lt;/p&gt;
+&lt;p&gt;Sekian tutorial dari saya, semoga bermanfaat dan selamat mencoba…!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cara Membuat Blog hugo dengan Termux</title>
         <link>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</link>
         <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>

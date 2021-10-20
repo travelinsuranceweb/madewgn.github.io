@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 11:19:56 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Sitemap</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-sitemap/</link>
+      <pubDate>Wed, 20 Oct 2021 11:19:56 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-sitemap/</guid>
+      <description>Apa itu Sitemap?
+Sitemap adalah file yang berisi daftar semua halaman penting dari sebuah website. Alasan menyimpan semuanya dalam satu file “XML Sitemap” adalah karena ini membantu crawler menemukan semua halaman di satu tempat, dibandingkan menemukannya melalui link internal.
+Sitemap di Hugo Hugo sudah menyediakan template XML sitemap secara default, Namun template XML sitemap yang disediakan secara default akan me-list seluruh URL yang terkait dengan situs termasuk taxonomy seperti tag, series, dan category.</description>
+    </item>
+    
     <item>
       <title>Cara Membuat Blog hugo dengan Termux</title>
       <link>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</link>

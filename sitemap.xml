@@ -3,28 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
    
   <url>
-    <loc>https://madewgn.github.io/artikel/cara-mengetahui-tema-wordpress-orang-lain/</loc>
-    <lastmod>2021-10-19T10:48:14+00:00</lastmod>
+    <loc>https://madewgn.github.io/tags/blog/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/tags/hugo/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
     <loc>https://madewgn.github.io/</loc>
-    <lastmod>2021-10-19T10:48:14+00:00</lastmod>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
     <loc>https://madewgn.github.io/post/</loc>
-    <lastmod>2021-10-19T10:48:14+00:00</lastmod>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
     <loc>https://madewgn.github.io/tags/</loc>
+    <lastmod>2021-10-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/artikel/cara-deploy-hugo-di-netlify/</loc>
+    <lastmod>2021-10-19T11:43:56+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/artikel/cara-mengetahui-tema-wordpress-orang-lain/</loc>
     <lastmod>2021-10-19T10:48:14+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,22 +66,8 @@
   </url>
     
   <url>
-    <loc>https://madewgn.github.io/tags/hugo/</loc>
-    <lastmod>2021-10-16T23:32:57+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
     <loc>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</loc>
     <lastmod>2021-10-16T23:32:57+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/tags/blog/</loc>
-    <lastmod>2021-10-15T12:45:31+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -229,13 +243,6 @@
   <url>
     <loc>https://madewgn.github.io/artikel/cara-migrasi-wordpress-ke-hugo/</loc>
     <lastmod>2021-10-02T02:23:34+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</loc>
-    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

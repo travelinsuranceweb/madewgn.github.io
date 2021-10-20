@@ -7,7 +7,219 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-        <lastBuildDate>Tue, 19 Oct 2021 10:48:14 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cara Membuat Blog hugo dengan Termux</title>
+        <link>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</link>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</guid>
+        <description>&lt;img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" alt="Featured image of post Cara Membuat Blog hugo dengan Termux" /&gt;&lt;h2 id=&#34;memang-bisa-ngeblog-pakai-termux&#34;&gt;Memang bisa ngeblog pakai Termux?&lt;/h2&gt;
+&lt;p&gt;Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.&lt;/p&gt;
+&lt;p&gt;Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.&lt;/p&gt;
+&lt;p&gt;Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.&lt;/p&gt;
+&lt;p&gt;Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).&lt;/p&gt;
+&lt;p&gt;Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Namun, sekarang sudah ada alat yang jauh lebih canggih untuk membangun website statis, salah satunya static site generator.&lt;/p&gt;
+&lt;p&gt;Sehingga tidak perlu lagi mengedit satu per satu file HTML, CSS, dan JavaScrip untuk mengubah website.&lt;/p&gt;
+&lt;p&gt;Cara kerja static site generator, yaitu dengan membuat file statis (HTML, CSS, dan JavaScript) dari template dan konten.&lt;/p&gt;
+&lt;p&gt;Saat ini sudah ada banyak sekali static site generator, yaitu Jekyll, Hugo, Hexo, GatsbyJS, dsb.&lt;/p&gt;
+&lt;p&gt;Dalam pembahasan kali ini, aku memakai Hugo.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;##Instalasi Hugo di Termux&lt;/p&gt;
+&lt;p&gt;Jalankan perintah ini untuk menginstal hugo dan git di Termux&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;pkg install hugo git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah semuanya terinstal, mari mulai ngeblog dengan Hugo pakai Termux!&lt;/p&gt;
+&lt;p&gt;Membuat blog dengan Hugo
+Pertama, buatlah blog dengan hugo seperti contoh berikut ini.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kedua, masuk ke direktori namablog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; namablog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, unduh tema dan pasang ke blog kalian.&lt;/p&gt;
+&lt;p&gt;Temanya bisa kalian unduh dari Hugo Themes.&lt;/p&gt;
+&lt;p&gt;Baca dulu dokumentasi temanya karena di sana ada konfigurasi yang harus diikuti supaya tema bisa digunakan.&lt;/p&gt;
+&lt;p&gt;Sebagai contoh, aku menggunakan tema hugo-theme-terminal.&lt;/p&gt;
+&lt;p&gt;Maka konfigurasi config.toml yang diperlukan seperti berikut ini.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+baseurl = &amp;quot;/&amp;quot;
+languageCode = &amp;quot;en-us&amp;quot;
+theme = &amp;quot;terminal&amp;quot;
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = &amp;quot;posts&amp;quot;
+
+  # [&amp;quot;orange&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;, &amp;quot;pink&amp;quot;]
+  themeColor = &amp;quot;orange&amp;quot;
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = &amp;quot;favicon.ico&amp;quot;
+
+  # set all headings to their default size (depending on browser settings)
+  # it&#39;s set to `true` by default
+  # oneHeadingSize = false
+
+[languages]
+  [languages.en]
+    languageName = &amp;quot;English&amp;quot;
+    title = &amp;quot;Aditya Phra Blog&amp;quot;
+    subtitle = &amp;quot;Seorang penulis dan penggemar Linux&amp;quot;
+    keywords = &amp;quot;&amp;quot;
+    copyright = &amp;quot;&amp;quot;
+    menuMore = &amp;quot;Show more&amp;quot;
+    readMore = &amp;quot;Read more&amp;quot;
+    readOtherPosts = &amp;quot;Read other posts&amp;quot;
+
+    [languages.en.params.logo]
+      logoText = &amp;quot;Aditya Phra Blog&amp;quot;
+      logoHomeLink = &amp;quot;/&amp;quot;
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = &amp;quot;about&amp;quot;
+        name = &amp;quot;About&amp;quot;
+        url = &amp;quot;/about&amp;quot;
+      [[languages.en.menu.main]]
+        identifier = &amp;quot;showcase&amp;quot;
+        name = &amp;quot;Showcase&amp;quot;
+        url = &amp;quot;/showcase&amp;quot;
+        
+        
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;untuk mengubah config.toml kamu hanya perlu memberikan perintah
+&lt;code&gt;nano config.toml&lt;/code&gt;
+dan ganti semua kode nya, untuk menyimpan takan crlt + x terus Y lalu enter&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Kloning tema terminal ke direktori themes blog.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/panr/hugo-theme-terminal themes/terminal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, uji coba blogmu dengan hugo server.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Terakhir, akses alamat blog (http://localhost:1313) melalui bbrowser&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pic&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pic&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;menulis-artikel-di-hugo&#34;&gt;Menulis artikel di Hugo&lt;/h2&gt;
+&lt;p&gt;Pertama, buatlah sebuah artikel.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new posts/judul-artikel.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, edit artikel menggunakan teks editor.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nano content/posts/judul-artikel.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kalian bisa menggunakan markdown sebagai format penulisan artikel.&lt;/p&gt;
+&lt;p&gt;Setelah mengeditnya, jalankan&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;untuk melihat artikel.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;figure 
+	&gt;
+	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34; &gt;
+		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34;
+			
+			
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;pic2&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;pic2&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Selamat Blog kamu dengan hugo sudah jadi !&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cara Deploy Hugo Di Netlify</title>
+        <link>https://madewgn.github.io/artikel/cara-deploy-hugo-di-netlify/</link>
+        <pubDate>Tue, 19 Oct 2021 11:43:56 +0000</pubDate>
+        
+        <guid>https://madewgn.github.io/artikel/cara-deploy-hugo-di-netlify/</guid>
+        <description>&lt;p&gt;Tes deploy&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cara Mengetahui Tema Wordpress Orang Lain</title>
         <link>https://madewgn.github.io/artikel/cara-mengetahui-tema-wordpress-orang-lain/</link>
         <pubDate>Tue, 19 Oct 2021 10:48:14 +0000</pubDate>
@@ -2669,209 +2881,6 @@ Silakan taruh file &lt;code&gt;.xml&lt;/code&gt; wordpress nya di dalam direktor
 &lt;script&gt;
      (adsbygoogle = window.adsbygoogle || []).push({});
 &lt;/script&gt;
-</description>
-        </item>
-        <item>
-        <title>Cara NgeBlog di HP dengan hugo</title>
-        <link>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</link>
-        <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</guid>
-        <description>&lt;img src="https://telegra.ph/file/868c5fb52501b0b195240.jpg" alt="Featured image of post Cara NgeBlog di HP dengan hugo" /&gt;&lt;h2 id=&#34;memang-bisa-ngeblog-pakai-termux&#34;&gt;Memang bisa ngeblog pakai Termux?&lt;/h2&gt;
-&lt;p&gt;Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.&lt;/p&gt;
-&lt;p&gt;Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.&lt;/p&gt;
-&lt;p&gt;Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.&lt;/p&gt;
-&lt;p&gt;Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).&lt;/p&gt;
-&lt;p&gt;Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-Namun, sekarang sudah ada alat yang jauh lebih canggih untuk membangun website statis, salah satunya static site generator.&lt;/p&gt;
-&lt;p&gt;Sehingga tidak perlu lagi mengedit satu per satu file HTML, CSS, dan JavaScrip untuk mengubah website.&lt;/p&gt;
-&lt;p&gt;Cara kerja static site generator, yaitu dengan membuat file statis (HTML, CSS, dan JavaScript) dari template dan konten.&lt;/p&gt;
-&lt;p&gt;Saat ini sudah ada banyak sekali static site generator, yaitu Jekyll, Hugo, Hexo, GatsbyJS, dsb.&lt;/p&gt;
-&lt;p&gt;Dalam pembahasan kali ini, aku memakai Hugo.&lt;/p&gt;
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;p&gt;##Instalasi Hugo di Termux&lt;/p&gt;
-&lt;p&gt;Jalankan perintah ini untuk menginstal hugo dan git di Termux&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;pkg install hugo git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah semuanya terinstal, mari mulai ngeblog dengan Hugo pakai Termux!&lt;/p&gt;
-&lt;p&gt;Membuat blog dengan Hugo
-Pertama, buatlah blog dengan hugo seperti contoh berikut ini.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new site namablog
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kedua, masuk ke direktori namablog.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; namablog
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, unduh tema dan pasang ke blog kalian.&lt;/p&gt;
-&lt;p&gt;Temanya bisa kalian unduh dari Hugo Themes.&lt;/p&gt;
-&lt;p&gt;Baca dulu dokumentasi temanya karena di sana ada konfigurasi yang harus diikuti supaya tema bisa digunakan.&lt;/p&gt;
-&lt;p&gt;Sebagai contoh, aku menggunakan tema hugo-theme-terminal.&lt;/p&gt;
-&lt;p&gt;Maka konfigurasi config.toml yang diperlukan seperti berikut ini.&lt;/p&gt;
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-baseurl = &amp;quot;/&amp;quot;
-languageCode = &amp;quot;en-us&amp;quot;
-theme = &amp;quot;terminal&amp;quot;
-paginate = 5
-
-[params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = &amp;quot;posts&amp;quot;
-
-  # [&amp;quot;orange&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;, &amp;quot;pink&amp;quot;]
-  themeColor = &amp;quot;orange&amp;quot;
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-
-  # show selector to switch language
-  showLanguageSelector = false
-
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = false
-
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = &amp;quot;favicon.ico&amp;quot;
-
-  # set all headings to their default size (depending on browser settings)
-  # it&#39;s set to `true` by default
-  # oneHeadingSize = false
-
-[languages]
-  [languages.en]
-    languageName = &amp;quot;English&amp;quot;
-    title = &amp;quot;Aditya Phra Blog&amp;quot;
-    subtitle = &amp;quot;Seorang penulis dan penggemar Linux&amp;quot;
-    keywords = &amp;quot;&amp;quot;
-    copyright = &amp;quot;&amp;quot;
-    menuMore = &amp;quot;Show more&amp;quot;
-    readMore = &amp;quot;Read more&amp;quot;
-    readOtherPosts = &amp;quot;Read other posts&amp;quot;
-
-    [languages.en.params.logo]
-      logoText = &amp;quot;Aditya Phra Blog&amp;quot;
-      logoHomeLink = &amp;quot;/&amp;quot;
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = &amp;quot;about&amp;quot;
-        name = &amp;quot;About&amp;quot;
-        url = &amp;quot;/about&amp;quot;
-      [[languages.en.menu.main]]
-        identifier = &amp;quot;showcase&amp;quot;
-        name = &amp;quot;Showcase&amp;quot;
-        url = &amp;quot;/showcase&amp;quot;
-        
-        
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;untuk mengubah config.toml kamu hanya perlu memberikan perintah
-&lt;code&gt;nano config.toml&lt;/code&gt;
-dan ganti semua kode nya, untuk menyimpan takan crlt + x terus Y lalu enter&lt;/p&gt;
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;p&gt;Kloning tema terminal ke direktori themes blog.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;git clone https://github.com/panr/hugo-theme-terminal themes/terminal
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya, uji coba blogmu dengan hugo server.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Terakhir, akses alamat blog (http://localhost:1313) melalui bbrowser&lt;/p&gt;
-&lt;p&gt;&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34; &gt;
-		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--yyLdc3MQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/0s4okm8z8whiojeex4ba.jpg&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;pic&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;pic&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
-&lt;h2 id=&#34;menulis-artikel-di-hugo&#34;&gt;Menulis artikel di Hugo&lt;/h2&gt;
-&lt;p&gt;Pertama, buatlah sebuah artikel.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo new posts/judul-artikel.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu, edit artikel menggunakan teks editor.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nano content/posts/judul-artikel.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kalian bisa menggunakan markdown sebagai format penulisan artikel.&lt;/p&gt;
-&lt;p&gt;Setelah mengeditnya, jalankan&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;untuk melihat artikel.&lt;/p&gt;
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;p&gt;&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34; &gt;
-		&lt;img src=&#34;https://res.cloudinary.com/practicaldev/image/fetch/s--NIRLAMWv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/gj58su7z23lozsv3llk5.jpg&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;pic2&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;pic2&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
-&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
-     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;ins class=&#34;adsbygoogle&#34;
-     style=&#34;display:block; text-align:center;&#34;
-     data-ad-layout=&#34;in-article&#34;
-     data-ad-format=&#34;fluid&#34;
-     data-ad-client=&#34;ca-pub-8239103031885616&#34;
-     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
-&lt;script&gt;
-     (adsbygoogle = window.adsbygoogle || []).push({});
-&lt;/script&gt;
-&lt;p&gt;Selamat Blog kamu dengan hugo sudah jadi !&lt;/p&gt;
 </description>
         </item>
         <item>

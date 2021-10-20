@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 16 Oct 2021 23:32:57 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Blog hugo dengan Termux</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-blog-hugo-dengan-termux/</guid>
+      <description>Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
+Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
+Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
+Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).
+Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.</description>
+    </item>
+    
     <item>
       <title>Mengenal Shortcodes Di Hugo</title>
       <link>https://madewgn.github.io/artikel/mengenal-shortcodes-di-hugo/</link>
@@ -60,19 +73,6 @@ https://github.com/madewgn/madewgn.github.io/    (adsbygoogle = window.adsbygoog
       <description>cara migrasi WordPress ke Hugo Selamat datang lagi di blog madewgn dulu saya sudah pernah membahas bagaimana caranya migrasi blogger ke hugo tapi sekarang saya akan memberikan tutorial singkat bagaimana sih caranya migrasi dari wordpress ke hugo.    (adsbygoogle = window.adsbygoogle || []).push({});  Pertama - tama silakan Install python terlebih dahulu
 sudo apt-get install python-yaml python-bs4 python-html2text Langkah kedua silakan clone dulu repository nya
 git clone https://github.com/wooni005/exitwp-for-hugo.git    (adsbygoogle = window.</description>
-    </item>
-    
-    <item>
-      <title>Cara NgeBlog di HP dengan hugo</title>
-      <link>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</link>
-      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://madewgn.github.io/artikel/cara-ngeblog-di-hp-dengan-hugo/</guid>
-      <description>Memang bisa ngeblog pakai Termux? Tentu saja bisa dong, membahas Termux tidak melulu tentang hacking dan sebagainya.
-Banyak hal yang bisa kalian manfaatkan dari Termux ini, salah satunya untuk ngeblog.
-Supaya bisa ngeblog di Termux, kalian bisa menggunakan static site generator, alat yang berfungsi untuk membangun website statis.
-Website statis sudah aja sejak dulu, sebelum adanya CMS (WordPress, Joomla, Drupal, dll).
-Dulu untuk membangun situs web statis, perlu membuat satu per satu file HTML, CSS, dan JavaScript.</description>
     </item>
     
     <item>

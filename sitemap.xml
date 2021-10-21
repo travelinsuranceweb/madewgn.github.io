@@ -3,6 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
    
   <url>
+    <loc>https://madewgn.github.io/tags/bot/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/artikel/cara-membuat-bot-telegram/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/post/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/tags/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>https://madewgn.github.io/tags/telegram/</loc>
+    <lastmod>2021-10-21T05:10:31+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
     <loc>https://madewgn.github.io/artikel/cara-membuat-sitemap-di-hugo/</loc>
     <lastmod>2021-10-20T11:19:56+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -11,27 +53,6 @@
     
   <url>
     <loc>https://madewgn.github.io/tags/hugo/</loc>
-    <lastmod>2021-10-20T11:19:56+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/</loc>
-    <lastmod>2021-10-20T11:19:56+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/post/</loc>
-    <lastmod>2021-10-20T11:19:56+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/tags/</loc>
     <lastmod>2021-10-20T11:19:56+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -103,13 +124,6 @@
   <url>
     <loc>https://madewgn.github.io/artikel/cara-menghilangkan-kode-m1-dan-m0-di-blogger/</loc>
     <lastmod>2021-10-13T12:53:20+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/tags/bot/</loc>
-    <lastmod>2021-10-12T08:11:05+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -424,13 +438,6 @@
     
   <url>
     <loc>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</loc>
-    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>https://madewgn.github.io/tags/telegram/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

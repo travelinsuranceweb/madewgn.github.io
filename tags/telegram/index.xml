@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Oct 2021 05:10:31 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Bot Telegram</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-bot-telegram/</link>
+      <pubDate>Thu, 21 Oct 2021 05:10:31 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-telegram/</guid>
+      <description>cara membuat bot Telegram Pertama-tama silahkan buka bot father  botfather 
+Selanjutnya kita chat dia dan kita ketikkan Start atau Mulai.
+ mulai 
+Kita diminta untuk memasukkan nickname untuk bot yang ingin kita buat, kita juga dibebaskan untuk memberikan nama bot sesuka hati kalian
+ buat nama bot 
+Selanjutnya kita diminta untuk menentukan username bot, kita tidak boleh asal menuliskan username bot tersebut karena username harus diakhiri oleh kata bot, disini saya memilih username ucup_si_bot.</description>
+    </item>
+    
     <item>
       <title>Cara deploy userge di termux</title>
       <link>https://madewgn.github.io/artikel/cara-deploy-userge-di-termux/</link>

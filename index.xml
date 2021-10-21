@@ -85,11 +85,33 @@
         <guid>https://madewgn.github.io/artikel/cara-membuat-bot-telegram-sederhana-dengan-python/</guid>
         <description>&lt;img src="https://telegra.ph/file/182226fcb10045dba2eb2.jpg" alt="Featured image of post Cara Membuat Bot Telegram Sederhana dengan python" /&gt;&lt;p&gt;Selamat datang kembali di blog saya ini, kali ini saya akan membahas bagaimana caranya membuat bot Telegram sederhana menggunakan python.&lt;/p&gt;
 &lt;h2 id=&#34;syarat-untuk-membuat-bot&#34;&gt;Syarat Untuk Membuat Bot&lt;/h2&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 &lt;p&gt;Ada beberapa syarat untuk membuat bot telegram, berikut ini adalah daftar syarat yang mesti kita penuhi :&lt;/p&gt;
 &lt;p&gt;Untuk membuat bot telegram pastinya kita harus memiliki akun telegram.
 Selanjutnya kita harus memiliki Token Bot Telegram, kita akan membuat ini bersama - sama pada tahap pembuatan bot.
 Text editor
 dan tentunya kalian harus menginstall python terlebih dahulu di perangkat kalian&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 &lt;ol&gt;
 &lt;li&gt;Untuk cara membuat bot Telegram silakan baca &lt;a class=&#34;link&#34; href=&#34;https://madewgn.github.io/artikel/cara-membuat-bot-telegram/&#34; &gt;di sini &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Python&lt;/li&gt;
@@ -99,20 +121,64 @@ dan tentunya kalian harus menginstall python terlebih dahulu di perangkat kalian
 &lt;p&gt;Jika belum menginstal python silakan install dulu dengan perintah&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install python
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Langkah ke 2 silakan Install &lt;code&gt;pyTelegramBotAPI&lt;/code&gt; agar bot nya bisa di gunakan&lt;/p&gt;
-&lt;p&gt;Kita akan menginstall dulu package tersebut dengan cara masuk kedalam terminal favorit kalian, disini saya mengunakan Command Prompt atau CMD. Lalu ketikkan perintah berikut :&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Kita akan menginstall dulu package tersebut dengan cara masuk kedalam terminal favorit kalian, disini saya mengunakan Command Prompt atau CMD. Lalu ketikkan perintah berikut :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;pip install pyTelegramBotAPI
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sekarang buat folder baru bernama &lt;code&gt;bot&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;mkdir bot &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; bot
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lalu buat file dengan nama bebas dengan extensi &lt;code&gt;.py&lt;/code&gt; (jangan gunakan &lt;code&gt;telebot.py&lt;/code&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;Lalu buat file dengan nama bebas dengan extensi &lt;code&gt;.py&lt;/code&gt; (jangan gunakan &lt;code&gt;telebot.py&lt;/code&gt;)
 Tapi saya akan menggunakan nama
 &lt;code&gt;main.py&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;touch main.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya kita import dulu package yang sudah kita install seperti ini :&lt;/p&gt;
-&lt;p&gt;import telebot
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+import telebot
 Setelah itu kita inisialisasi token yang telah kita buat dengan cara seperti ini :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;n&#34;&gt;bot&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;telebot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TeleBot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TOKENKALIAN&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ubah &lt;code&gt;TOKENKALIAN&lt;/code&gt; jadi token bot yang diberikan oleh BotFather&lt;/p&gt;
-&lt;p&gt;Contoh&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Contoh&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;n&#34;&gt;bot&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;telebot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;TeleBot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;1959551799:AAHwLGNx7kzhXN7XXXXXXXXXXXXXXX&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya kita akan menghandle atau mengatasi pesan yang masuk dibot, misalnya ada yang mengirim &lt;code&gt;/start&lt;/code&gt; pada bot kita, selanjutnya bot akan membalas &lt;code&gt;Halo bro, ada apa?.&lt;/code&gt; Kita tuliskan kode ini dibawah kode sebelumnya :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Menghandle Pesan /start&lt;/span&gt;
@@ -121,7 +187,18 @@ Setelah itu kita inisialisasi token yang telah kita buat dengan cara seperti ini
     &lt;span class=&#34;c1&#34;&gt;# membalas pesan&lt;/span&gt;
     &lt;span class=&#34;n&#34;&gt;bot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reply_to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;message&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Halo bro, ada apa?&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selanjutnya kita akan melooping agar script bot kita mengirim tanggapan terus menerus sampai kita berhentikan nantinya, jika kalian masih bingung, kalian tambahkan saja kode ini dibawah kode sebelumnya&lt;/p&gt;
-&lt;p&gt;Selanjutnya kita akan melooping agar script bot kita mengirim tanggapan terus menerus sampai kita berhentikan nantinya, jika kalian masih bingung, kalian tambahkan saja kode ini dibawah kode sebelumnya :&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Selanjutnya kita akan melooping agar script bot kita mengirim tanggapan terus menerus sampai kita berhentikan nantinya, jika kalian masih bingung, kalian tambahkan saja kode ini dibawah kode sebelumnya :&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
         &lt;span class=&#34;n&#34;&gt;bot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;polling&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
@@ -147,7 +224,18 @@ Setelah itu kita inisialisasi token yang telah kita buat dengan cara seperti ini
         &lt;span class=&#34;k&#34;&gt;pass&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Setelah itu kita jalankan diterminal atau di CMD dengan mengetikan :&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; python namafile.py
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Karena saya menggunakan nama &lt;code&gt;main.py&lt;/code&gt; jadi nya&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+Karena saya menggunakan nama &lt;code&gt;main.py&lt;/code&gt; jadi nya&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt; python main.py
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Jika sudah, kalian kunjungi bot kalian, dengan cara search di pencarian telegram dengan kata kunci username bot kalian atau ketik &lt;code&gt;t.me/usernamebot&lt;/code&gt; di browser kalian. Jika sudah hasilnya akan seperti berikut ini&lt;/p&gt;
 &lt;p&gt;&lt;figure 
@@ -166,6 +254,17 @@ Setelah itu kita inisialisasi token yang telah kita buat dengan cara seperti ini
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;untuk memberhentikan script botnya klik &lt;code&gt;CTRL&lt;/code&gt; +&lt;code&gt; C&lt;/code&gt; atau close aja terminalnya :D&lt;/p&gt;
 &lt;p&gt;Selamat mencoba 😄👋&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8239103031885616&#34;
+     crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-8239103031885616&#34;
+     data-ad-slot=&#34;2079601027&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
 </description>
         </item>
         <item>

@@ -23,6 +23,17 @@ Selanjutnya kita diminta untuk menentukan username bot, kita tidak boleh asal me
     </item>
     
     <item>
+      <title>Cara Membuat Bot Telegram Sederhana dengan python</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-bot-telegram-sederhana-dengan-python/</link>
+      <pubDate>Thu, 21 Oct 2021 05:06:47 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-telegram-sederhana-dengan-python/</guid>
+      <description>Selamat datang kembali di blog saya ini, kali ini saya akan membahas bagaimana caranya membuat bot Telegram sederhana menggunakan python.
+Syarat Untuk Membuat Bot Ada beberapa syarat untuk membuat bot telegram, berikut ini adalah daftar syarat yang mesti kita penuhi :
+Untuk membuat bot telegram pastinya kita harus memiliki akun telegram. Selanjutnya kita harus memiliki Token Bot Telegram, kita akan membuat ini bersama - sama pada tahap pembuatan bot. Text editor dan tentunya kalian harus menginstall python terlebih dahulu di perangkat kalian</description>
+    </item>
+    
+    <item>
       <title>Cara Membuat Sitemap di hugo</title>
       <link>https://madewgn.github.io/artikel/cara-membuat-sitemap-di-hugo/</link>
       <pubDate>Wed, 20 Oct 2021 11:19:56 +0000</pubDate>

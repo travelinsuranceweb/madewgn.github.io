@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Made Wiguna Blogger</title>
+    <link>https://madewgn.github.io/tags/python/</link>
+    <description>Recent content in python on Made Wiguna Blogger</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 21 Oct 2021 05:06:47 +0000</lastBuildDate><atom:link href="https://madewgn.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Membuat Bot Telegram Sederhana dengan python</title>
+      <link>https://madewgn.github.io/artikel/cara-membuat-bot-telegram-sederhana-dengan-python/</link>
+      <pubDate>Thu, 21 Oct 2021 05:06:47 +0000</pubDate>
+      
+      <guid>https://madewgn.github.io/artikel/cara-membuat-bot-telegram-sederhana-dengan-python/</guid>
+      <description>Selamat datang kembali di blog saya ini, kali ini saya akan membahas bagaimana caranya membuat bot Telegram sederhana menggunakan python.
+Syarat Untuk Membuat Bot Ada beberapa syarat untuk membuat bot telegram, berikut ini adalah daftar syarat yang mesti kita penuhi :
+Untuk membuat bot telegram pastinya kita harus memiliki akun telegram. Selanjutnya kita harus memiliki Token Bot Telegram, kita akan membuat ini bersama - sama pada tahap pembuatan bot. Text editor dan tentunya kalian harus menginstall python terlebih dahulu di perangkat kalian</description>
+    </item>
+    
+  </channel>
+</rss>
